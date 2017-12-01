@@ -9,7 +9,7 @@
       }
       h1 {
           padding: 33px 0px 24px;
-          font-family: latoLight;
+          font-family: 'latoLight';
           width: 288px;
           font-size: 28px;
           font-weight: 300;
@@ -18,7 +18,7 @@
           margin: 0 auto;
         }
         h2{
-          font-family: latoRegular;
+          font-family: 'latoRegular';
           font-size: 24px;
           font-weight: 500;
           text-align: left;
@@ -26,14 +26,14 @@
           margin: 21px 0px;
         }
         h3{
-          font-family: latoBold;
+          font-family: 'latoBold';
           font-size: 18px;
           font-weight: 600;
           text-align: left;
           color: #4a4a4a;
         }
         p{
-          font-family: latoRegular;
+          font-family: 'latoRegular';
           font-size: 12px;
           line-height: 1.5;
           text-align: left;
@@ -52,7 +52,7 @@
           width: 104px;
           height: 39px;
           padding: 9px;
-          font-family: latoRegular;
+          font-family: 'latoRegular';
           font-size: 14px;
           text-align: center;
           color: #4a4a4a;
@@ -313,9 +313,11 @@
     }
     h2{
       font-size: 48px;
+      padding: 12px 0px 0px 0px;
     }
     h3{
       font-size: 24px;
+      margin: 14px 0px;
     }
     p{
       font-size: 16px;
@@ -334,7 +336,7 @@
       background-color: #f79a3d;
       padding: 29px 34px 40px 20px;
       height: 105px;
-      margin: 0 -4px;
+      margin: 0 -4px 117px 0px;
       position: relative;
       border: none;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
@@ -374,6 +376,8 @@
         width: 354px;
         height: 57px;
         margin-right:317px;
+        font-size: 24px;
+        margin-bottom: 38px;
     }
   }
   }

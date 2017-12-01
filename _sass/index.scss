@@ -55,14 +55,14 @@
             padding: 0px;
         }
         h1{
-            font-size: 32px;
+            font-size: 28px;
             text-align: left;
             color: #2faaba;
             margin: 0px;
             font-weight: 400;
         }
         p{
-            font-size: 16px;
+            font-size: 12px;
             line-height: 1.44;
             text-align: left;
             color: #4a4a4a;
@@ -104,7 +104,7 @@
                 margin: 0px;
             }
             h2{
-                font-size: 16px;
+                font-size: 18px;
                 font-family: 'latoBold';
                 font-weight: bold;
                 text-align: left;
@@ -112,7 +112,7 @@
                 margin: 16px 0px;
             }
             p{
-                font-size: 16px;
+                font-size: 12px;
                 line-height: 1.5;
                 text-align: left;
                 color: #95989a;
@@ -137,21 +137,21 @@
                 width: 286px;
                 margin: 0 auto;
                 h2{
-                    font-size: 16px;
+                    font-size: 18px;
                     text-align: left;
                     color: #4a4a4a;
                     font-weight: 400;
                     margin: 15px 0px;
                 }
                 h1{
-                    font-size: 36px;
+                    font-size: 28px;
                     font-weight: 500;
                     text-align: left;
                     color: #4a4a4a;
                     margin: 0px;
                 }
                 p{
-                    font-size: 16px;
+                    font-size: 18px;
                     line-height: 1.5;
                     text-align: left;
                     color: #4a4a4a;
@@ -184,7 +184,7 @@
                 margin: 0px;
             }
             p{
-                font-size: 16px;
+                font-size: 18px;
                 line-height: 1.5;
                 text-align: left;
                 color: #4a4a4a;
@@ -203,7 +203,7 @@
     .homepage__companies{
         background-color: #2faaba;
         h1{
-            font-size: 36px;
+            font-size:28px;
             font-weight: 500;
             text-align: left;
             color: #ffffff;
@@ -246,7 +246,7 @@
                     margin: 0 auto;
                 }
                 p{
-                    font-size: 24px;
+                    font-size:32px;
                     width: 447px;
                     margin: 16px auto 28px;
                 }
@@ -261,6 +261,10 @@
         .homepage__analytics{
             p{
                 margin: 30px 0px 0px;
+                font-size: 14px;
+            }
+            h1{
+                font-size: 32px;
             }
             &__plus{
                 display: flex;
@@ -290,6 +294,10 @@
                 }
                 h2{
                     margin: 25px 0px 16px;
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 14px;
                 }
             }
         }
@@ -311,8 +319,11 @@
                     h2{
                         margin: 0px 0px 8px;
                     }
+                    p{
+                        font-size: 20px;
+                    }
                     h1{
-                        font-size: 48px;
+                        font-size: 32px;
                     }
                 }    
             }
@@ -328,6 +339,9 @@
                 }
                 h1{
                     font-size: 48px;
+                }
+                p{
+                    font-size: 20px;
                 }
             }
         }
@@ -360,7 +374,7 @@
 @media screen and (min-width:1025px){ 
     .groome__homepage{
         .row{
-            width: 931px;
+            width: 1168px;
         }
         .homepage__hire{
             &__text{
@@ -388,6 +402,7 @@
         .homepage__analytics{
             p{
                 margin: 30px 0px 0px;
+                font-size: 16px;
             }
             &__plus{
                 h1{
@@ -420,6 +435,10 @@
                 }
                 h2{
                     margin: 25px 0px 16px;
+                    font-size: 24px;
+                }
+                p {
+                    font-size: 16px;
                 }
             }
         }
@@ -440,6 +459,9 @@
                     h1{
                         font-size: 48px;
                     }
+                    p{
+                        font-size: 24px;
+                    }
                 }    
             }
         }
@@ -450,6 +472,113 @@
             &__text{
                 p{
                     width: 350px;
+                    font-size: 24px;
+                }
+            }
+        }
+        .homepage__companies{
+            h1{
+                font-size: 48px;
+                margin: 0 0 22px;
+            }
+        }
+    }    
+}
+
+@media screen and (min-width:1367px){ 
+    .groome__homepage{
+        .row{
+            width: 1168px;
+        }
+        .homepage__hire{
+            &__text{
+                h1{
+                    font-size: 64px;
+                    text-align: left;
+                    width: 598px;
+                }
+                p{
+                    font-size: 48px;
+                    text-align: left;
+                    width: 620px;
+                }
+            }
+            &__image{
+                position: relative;
+                img{
+                    width: 434px;
+                    height: 875px;
+                    position: absolute;
+                    left: 134px;
+                }
+            }
+        }
+        .homepage__analytics{
+           
+            h1{
+                font-size: 48px;
+                width: 374px;
+            }
+            
+            &__plus{
+                h1{
+                    font-size: 48px;
+                }
+            } 
+        }
+        .homepage__senario{
+            &__text{
+                .row{
+                    width: 100%;
+                    div{
+                        &:nth-child(even){
+                            padding-right: 20px;
+                        }
+                    }
+                }
+                h1{
+                    font-size: 48px;
+                }
+                h2{
+                    margin: 25px 0px 16px;
+                    font-size: 24px;
+                }
+            }
+        }
+        .homepage__offering{
+            &__image{
+                height: 309px;
+            }
+            &__text{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                &__inner{
+                    width: 450px;
+                    margin: 0px;
+                    h2{
+                        margin: 0px 0px 8px;
+                    }
+                    h1{
+                        font-size: 56px;
+                    }
+                    p{
+                        font-size: 24px;
+                    }
+                }    
+            }
+        }
+        .homepage__product{
+            &__image{
+                height: 321px;
+            }
+            &__text{
+                p{
+                    width: 350px;
+                    font-size: 24px;
+                }
+                h1{
+                    font-size: 56px;
                 }
             }
         }

@@ -148,13 +148,13 @@ footer {
     .groome__homepage .homepage__analytics__da {
       padding: 0px; }
     .groome__homepage .homepage__analytics h1 {
-      font-size: 32px;
+      font-size: 28px;
       text-align: left;
       color: #2faaba;
       margin: 0px;
       font-weight: 400; }
     .groome__homepage .homepage__analytics p {
-      font-size: 16px;
+      font-size: 12px;
       line-height: 1.44;
       text-align: left;
       color: #4a4a4a;
@@ -185,14 +185,14 @@ footer {
       font-weight: 400;
       margin: 0px; }
     .groome__homepage .homepage__senario__text h2 {
-      font-size: 16px;
+      font-size: 18px;
       font-family: 'latoBold';
       font-weight: bold;
       text-align: left;
       color: #4a4a4a;
       margin: 16px 0px; }
     .groome__homepage .homepage__senario__text p {
-      font-size: 16px;
+      font-size: 12px;
       line-height: 1.5;
       text-align: left;
       color: #95989a;
@@ -212,19 +212,19 @@ footer {
       width: 286px;
       margin: 0 auto; }
       .groome__homepage .homepage__offering__text__inner h2 {
-        font-size: 16px;
+        font-size: 18px;
         text-align: left;
         color: #4a4a4a;
         font-weight: 400;
         margin: 15px 0px; }
       .groome__homepage .homepage__offering__text__inner h1 {
-        font-size: 36px;
+        font-size: 28px;
         font-weight: 500;
         text-align: left;
         color: #4a4a4a;
         margin: 0px; }
       .groome__homepage .homepage__offering__text__inner p {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 1.5;
         text-align: left;
         color: #4a4a4a;
@@ -248,7 +248,7 @@ footer {
     color: #4a4a4a;
     margin: 0px; }
   .groome__homepage .homepage__product__text p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     text-align: left;
     color: #4a4a4a;
@@ -263,7 +263,7 @@ footer {
   .groome__homepage .homepage__companies {
     background-color: #2faaba; }
     .groome__homepage .homepage__companies h1 {
-      font-size: 36px;
+      font-size: 28px;
       font-weight: 500;
       text-align: left;
       color: #ffffff;
@@ -291,14 +291,17 @@ footer {
     width: 447px;
     margin: 0 auto; }
   .groome__homepage .homepage__hire__text p {
-    font-size: 24px;
+    font-size: 32px;
     width: 447px;
     margin: 16px auto 28px; }
   .groome__homepage .homepage__hire__image img {
     width: 414px;
     height: 781px; }
   .groome__homepage .homepage__analytics p {
-    margin: 30px 0px 0px; }
+    margin: 30px 0px 0px;
+    font-size: 14px; }
+  .groome__homepage .homepage__analytics h1 {
+    font-size: 32px; }
   .groome__homepage .homepage__analytics__plus {
     display: flex;
     align-items: center;
@@ -315,7 +318,10 @@ footer {
     .groome__homepage .homepage__senario__text h1 {
       font-size: 32px; }
     .groome__homepage .homepage__senario__text h2 {
-      margin: 25px 0px 16px; }
+      margin: 25px 0px 16px;
+      font-size: 20px; }
+    .groome__homepage .homepage__senario__text p {
+      font-size: 14px; }
   .groome__homepage .homepage__offering {
     padding-bottom: 0px;
     height: 400px; }
@@ -332,8 +338,10 @@ footer {
         margin: 0px; }
         .groome__homepage .homepage__offering__text__inner h2 {
           margin: 0px 0px 8px; }
+        .groome__homepage .homepage__offering__text__inner p {
+          font-size: 20px; }
         .groome__homepage .homepage__offering__text__inner h1 {
-          font-size: 48px; }
+          font-size: 32px; }
   .groome__homepage .homepage__product__image {
     background-position: right; }
   .groome__homepage .homepage__product__text {
@@ -342,6 +350,8 @@ footer {
       margin: 11px 0px 8px; }
     .groome__homepage .homepage__product__text h1 {
       font-size: 48px; }
+    .groome__homepage .homepage__product__text p {
+      font-size: 20px; }
   .groome__homepage .homepage__companies h1 {
     margin: 0 0 16px; }
   .groome__homepage .homepage__companies__image {
@@ -360,7 +370,7 @@ footer {
       height: 64px; } }
 @media screen and (min-width: 1025px) {
   .groome__homepage .row {
-    width: 931px; }
+    width: 1168px; }
   .groome__homepage .homepage__hire__text {
     height: 600px;
     padding-top: 140px; }
@@ -378,7 +388,8 @@ footer {
       position: absolute;
       left: 40px; }
   .groome__homepage .homepage__analytics p {
-    margin: 30px 0px 0px; }
+    margin: 30px 0px 0px;
+    font-size: 16px; }
   .groome__homepage .homepage__analytics__plus h1 {
     font-size: 48px; }
   .groome__homepage .homepage__analytics__equal {
@@ -395,7 +406,10 @@ footer {
   .groome__homepage .homepage__senario__text h1 {
     font-size: 32px; }
   .groome__homepage .homepage__senario__text h2 {
-    margin: 25px 0px 16px; }
+    margin: 25px 0px 16px;
+    font-size: 24px; }
+  .groome__homepage .homepage__senario__text p {
+    font-size: 16px; }
   .groome__homepage .homepage__offering__image {
     height: 309px; }
   .groome__homepage .homepage__offering__text {
@@ -409,10 +423,70 @@ footer {
         margin: 0px 0px 8px; }
       .groome__homepage .homepage__offering__text__inner h1 {
         font-size: 48px; }
+      .groome__homepage .homepage__offering__text__inner p {
+        font-size: 24px; }
   .groome__homepage .homepage__product__image {
     height: 321px; }
   .groome__homepage .homepage__product__text p {
-    width: 350px; }
+    width: 350px;
+    font-size: 24px; }
+  .groome__homepage .homepage__companies h1 {
+    font-size: 48px;
+    margin: 0 0 22px; } }
+@media screen and (min-width: 1367px) {
+  .groome__homepage .row {
+    width: 1168px; }
+  .groome__homepage .homepage__hire__text h1 {
+    font-size: 64px;
+    text-align: left;
+    width: 598px; }
+  .groome__homepage .homepage__hire__text p {
+    font-size: 48px;
+    text-align: left;
+    width: 620px; }
+  .groome__homepage .homepage__hire__image {
+    position: relative; }
+    .groome__homepage .homepage__hire__image img {
+      width: 434px;
+      height: 875px;
+      position: absolute;
+      left: 134px; }
+  .groome__homepage .homepage__analytics h1 {
+    font-size: 48px;
+    width: 374px; }
+  .groome__homepage .homepage__analytics__plus h1 {
+    font-size: 48px; }
+  .groome__homepage .homepage__senario__text .row {
+    width: 100%; }
+    .groome__homepage .homepage__senario__text .row div:nth-child(even) {
+      padding-right: 20px; }
+  .groome__homepage .homepage__senario__text h1 {
+    font-size: 48px; }
+  .groome__homepage .homepage__senario__text h2 {
+    margin: 25px 0px 16px;
+    font-size: 24px; }
+  .groome__homepage .homepage__offering__image {
+    height: 309px; }
+  .groome__homepage .homepage__offering__text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .groome__homepage .homepage__offering__text__inner {
+      width: 450px;
+      margin: 0px; }
+      .groome__homepage .homepage__offering__text__inner h2 {
+        margin: 0px 0px 8px; }
+      .groome__homepage .homepage__offering__text__inner h1 {
+        font-size: 56px; }
+      .groome__homepage .homepage__offering__text__inner p {
+        font-size: 24px; }
+  .groome__homepage .homepage__product__image {
+    height: 321px; }
+  .groome__homepage .homepage__product__text p {
+    width: 350px;
+    font-size: 24px; }
+  .groome__homepage .homepage__product__text h1 {
+    font-size: 56px; }
   .groome__homepage .homepage__companies h1 {
     font-size: 48px;
     margin: 0 0 22px; } }
@@ -741,7 +815,7 @@ footer {
       margin: 0 auto; }
     .groome__product h1 {
       padding: 33px 0px 24px;
-      font-family: latoLight;
+      font-family: 'latoLight';
       width: 288px;
       font-size: 28px;
       font-weight: 300;
@@ -749,20 +823,20 @@ footer {
       color: #2faaba;
       margin: 0 auto; }
     .groome__product h2 {
-      font-family: latoRegular;
+      font-family: 'latoRegular';
       font-size: 24px;
       font-weight: 500;
       text-align: left;
       color: #2faaba;
       margin: 21px 0px; }
     .groome__product h3 {
-      font-family: latoBold;
+      font-family: 'latoBold';
       font-size: 18px;
       font-weight: 600;
       text-align: left;
       color: #4a4a4a; }
     .groome__product p {
-      font-family: latoRegular;
+      font-family: 'latoRegular';
       font-size: 12px;
       line-height: 1.5;
       text-align: left;
@@ -778,7 +852,7 @@ footer {
       width: 104px;
       height: 39px;
       padding: 9px;
-      font-family: latoRegular;
+      font-family: 'latoRegular';
       font-size: 14px;
       text-align: center;
       color: #4a4a4a;
@@ -962,9 +1036,11 @@ footer {
     width: 100%;
     padding: 30px 0px 40px; }
   .groome__product h2 {
-    font-size: 48px; }
+    font-size: 48px;
+    padding: 12px 0px 0px 0px; }
   .groome__product h3 {
-    font-size: 24px; }
+    font-size: 24px;
+    margin: 14px 0px; }
   .groome__product p {
     font-size: 16px; }
   .groome__product label {
@@ -980,7 +1056,7 @@ footer {
     background-color: #f79a3d;
     padding: 29px 34px 40px 20px;
     height: 105px;
-    margin: 0 -4px;
+    margin: 0 -4px 117px 0px;
     position: relative;
     border: none;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
@@ -1005,4 +1081,6 @@ footer {
   .groome__product button {
     width: 354px;
     height: 57px;
-    margin-right: 317px; } }
+    margin-right: 317px;
+    font-size: 24px;
+    margin-bottom: 38px; } }
