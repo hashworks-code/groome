@@ -55,14 +55,14 @@
             padding: 0px;
         }
         h1{
-            font-size: 28px;
+            font-size:32px;
             text-align: left;
             color: #2faaba;
             margin: 0px;
             font-weight: 400;
         }
         p{
-            font-size: 12px;
+            font-size: 16px;
             line-height: 1.44;
             text-align: left;
             color: #4a4a4a;
@@ -104,7 +104,7 @@
                 margin: 0px;
             }
             h2{
-                font-size: 18px;
+                font-size: 16px;
                 font-family: 'latoBold';
                 font-weight: bold;
                 text-align: left;
@@ -112,7 +112,7 @@
                 margin: 16px 0px;
             }
             p{
-                font-size: 12px;
+                font-size: 16px;
                 line-height: 1.5;
                 text-align: left;
                 color: #95989a;
@@ -137,21 +137,21 @@
                 width: 286px;
                 margin: 0 auto;
                 h2{
-                    font-size: 18px;
+                    font-size: 16px;
                     text-align: left;
                     color: #4a4a4a;
                     font-weight: 400;
                     margin: 15px 0px;
                 }
                 h1{
-                    font-size: 28px;
+                    font-size: 36px;
                     font-weight: 500;
                     text-align: left;
                     color: #4a4a4a;
                     margin: 0px;
                 }
                 p{
-                    font-size: 18px;
+                    font-size: 16px;
                     line-height: 1.5;
                     text-align: left;
                     color: #4a4a4a;
@@ -184,7 +184,7 @@
                 margin: 0px;
             }
             p{
-                font-size: 18px;
+                font-size: 16px;
                 line-height: 1.5;
                 text-align: left;
                 color: #4a4a4a;
@@ -203,7 +203,7 @@
     .homepage__companies{
         background-color: #2faaba;
         h1{
-            font-size:28px;
+            font-size:36px;
             font-weight: 500;
             text-align: left;
             color: #ffffff;
@@ -246,7 +246,7 @@
                     margin: 0 auto;
                 }
                 p{
-                    font-size:32px;
+                    font-size:24px;
                     width: 447px;
                     margin: 16px auto 28px;
                 }
@@ -261,7 +261,7 @@
         .homepage__analytics{
             p{
                 margin: 30px 0px 0px;
-                font-size: 14px;
+                font-size: 16px;
             }
             h1{
                 font-size: 32px;
@@ -294,10 +294,10 @@
                 }
                 h2{
                     margin: 25px 0px 16px;
-                    font-size: 20px;
+                    font-size: 16px;
                 }
                 p{
-                    font-size: 14px;
+                    font-size: 16px;
                 }
             }
         }
@@ -320,10 +320,10 @@
                         margin: 0px 0px 8px;
                     }
                     p{
-                        font-size: 20px;
+                        font-size: 16px;
                     }
                     h1{
-                        font-size: 32px;
+                        font-size: 48px;
                     }
                 }    
             }
@@ -341,7 +341,7 @@
                     font-size: 48px;
                 }
                 p{
-                    font-size: 20px;
+                    font-size: 16px;
                 }
             }
         }
@@ -374,7 +374,7 @@
 @media screen and (min-width:1025px){ 
     .groome__homepage{
         .row{
-            width: 1168px;
+            width: 928px;
         }
         .homepage__hire{
             &__text{
@@ -435,7 +435,7 @@
                 }
                 h2{
                     margin: 25px 0px 16px;
-                    font-size: 24px;
+                    font-size: 16px;
                 }
                 p {
                     font-size: 16px;
@@ -460,7 +460,7 @@
                         font-size: 48px;
                     }
                     p{
-                        font-size: 24px;
+                        font-size: 16px;
                     }
                 }    
             }
@@ -472,7 +472,7 @@
             &__text{
                 p{
                     width: 350px;
-                    font-size: 24px;
+                    font-size:16px;
                 }
             }
         }
@@ -493,12 +493,12 @@
         .homepage__hire{
             &__text{
                 h1{
-                    font-size: 64px;
+                    font-size:56px;
                     text-align: left;
                     width: 598px;
                 }
                 p{
-                    font-size: 48px;
+                    font-size:32px;
                     text-align: left;
                     width: 620px;
                 }
@@ -516,7 +516,7 @@
         .homepage__analytics{
            
             h1{
-                font-size: 48px;
+                font-size:32px;
                 width: 374px;
             }
             
@@ -560,10 +560,10 @@
                         margin: 0px 0px 8px;
                     }
                     h1{
-                        font-size: 56px;
+                        font-size:48px;
                     }
                     p{
-                        font-size: 24px;
+                        font-size:16px;
                     }
                 }    
             }
@@ -575,10 +575,10 @@
             &__text{
                 p{
                     width: 350px;
-                    font-size: 24px;
+                    font-size: 16px;
                 }
                 h1{
-                    font-size: 56px;
+                    font-size: 48px;
                 }
             }
         }

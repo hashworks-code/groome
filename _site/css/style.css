@@ -148,13 +148,13 @@ footer {
     .groome__homepage .homepage__analytics__da {
       padding: 0px; }
     .groome__homepage .homepage__analytics h1 {
-      font-size: 28px;
+      font-size: 32px;
       text-align: left;
       color: #2faaba;
       margin: 0px;
       font-weight: 400; }
     .groome__homepage .homepage__analytics p {
-      font-size: 12px;
+      font-size: 16px;
       line-height: 1.44;
       text-align: left;
       color: #4a4a4a;
@@ -185,14 +185,14 @@ footer {
       font-weight: 400;
       margin: 0px; }
     .groome__homepage .homepage__senario__text h2 {
-      font-size: 18px;
+      font-size: 16px;
       font-family: 'latoBold';
       font-weight: bold;
       text-align: left;
       color: #4a4a4a;
       margin: 16px 0px; }
     .groome__homepage .homepage__senario__text p {
-      font-size: 12px;
+      font-size: 16px;
       line-height: 1.5;
       text-align: left;
       color: #95989a;
@@ -212,19 +212,19 @@ footer {
       width: 286px;
       margin: 0 auto; }
       .groome__homepage .homepage__offering__text__inner h2 {
-        font-size: 18px;
+        font-size: 16px;
         text-align: left;
         color: #4a4a4a;
         font-weight: 400;
         margin: 15px 0px; }
       .groome__homepage .homepage__offering__text__inner h1 {
-        font-size: 28px;
+        font-size: 36px;
         font-weight: 500;
         text-align: left;
         color: #4a4a4a;
         margin: 0px; }
       .groome__homepage .homepage__offering__text__inner p {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 1.5;
         text-align: left;
         color: #4a4a4a;
@@ -248,7 +248,7 @@ footer {
     color: #4a4a4a;
     margin: 0px; }
   .groome__homepage .homepage__product__text p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     text-align: left;
     color: #4a4a4a;
@@ -263,7 +263,7 @@ footer {
   .groome__homepage .homepage__companies {
     background-color: #2faaba; }
     .groome__homepage .homepage__companies h1 {
-      font-size: 28px;
+      font-size: 36px;
       font-weight: 500;
       text-align: left;
       color: #ffffff;
@@ -291,7 +291,7 @@ footer {
     width: 447px;
     margin: 0 auto; }
   .groome__homepage .homepage__hire__text p {
-    font-size: 32px;
+    font-size: 24px;
     width: 447px;
     margin: 16px auto 28px; }
   .groome__homepage .homepage__hire__image img {
@@ -299,7 +299,7 @@ footer {
     height: 781px; }
   .groome__homepage .homepage__analytics p {
     margin: 30px 0px 0px;
-    font-size: 14px; }
+    font-size: 16px; }
   .groome__homepage .homepage__analytics h1 {
     font-size: 32px; }
   .groome__homepage .homepage__analytics__plus {
@@ -319,9 +319,9 @@ footer {
       font-size: 32px; }
     .groome__homepage .homepage__senario__text h2 {
       margin: 25px 0px 16px;
-      font-size: 20px; }
+      font-size: 16px; }
     .groome__homepage .homepage__senario__text p {
-      font-size: 14px; }
+      font-size: 16px; }
   .groome__homepage .homepage__offering {
     padding-bottom: 0px;
     height: 400px; }
@@ -339,9 +339,9 @@ footer {
         .groome__homepage .homepage__offering__text__inner h2 {
           margin: 0px 0px 8px; }
         .groome__homepage .homepage__offering__text__inner p {
-          font-size: 20px; }
+          font-size: 16px; }
         .groome__homepage .homepage__offering__text__inner h1 {
-          font-size: 32px; }
+          font-size: 48px; }
   .groome__homepage .homepage__product__image {
     background-position: right; }
   .groome__homepage .homepage__product__text {
@@ -351,7 +351,7 @@ footer {
     .groome__homepage .homepage__product__text h1 {
       font-size: 48px; }
     .groome__homepage .homepage__product__text p {
-      font-size: 20px; }
+      font-size: 16px; }
   .groome__homepage .homepage__companies h1 {
     margin: 0 0 16px; }
   .groome__homepage .homepage__companies__image {
@@ -370,7 +370,7 @@ footer {
       height: 64px; } }
 @media screen and (min-width: 1025px) {
   .groome__homepage .row {
-    width: 1168px; }
+    width: 928px; }
   .groome__homepage .homepage__hire__text {
     height: 600px;
     padding-top: 140px; }
@@ -407,7 +407,7 @@ footer {
     font-size: 32px; }
   .groome__homepage .homepage__senario__text h2 {
     margin: 25px 0px 16px;
-    font-size: 24px; }
+    font-size: 16px; }
   .groome__homepage .homepage__senario__text p {
     font-size: 16px; }
   .groome__homepage .homepage__offering__image {
@@ -424,12 +424,12 @@ footer {
       .groome__homepage .homepage__offering__text__inner h1 {
         font-size: 48px; }
       .groome__homepage .homepage__offering__text__inner p {
-        font-size: 24px; }
+        font-size: 16px; }
   .groome__homepage .homepage__product__image {
     height: 321px; }
   .groome__homepage .homepage__product__text p {
     width: 350px;
-    font-size: 24px; }
+    font-size: 16px; }
   .groome__homepage .homepage__companies h1 {
     font-size: 48px;
     margin: 0 0 22px; } }
@@ -437,11 +437,11 @@ footer {
   .groome__homepage .row {
     width: 1168px; }
   .groome__homepage .homepage__hire__text h1 {
-    font-size: 64px;
+    font-size: 56px;
     text-align: left;
     width: 598px; }
   .groome__homepage .homepage__hire__text p {
-    font-size: 48px;
+    font-size: 32px;
     text-align: left;
     width: 620px; }
   .groome__homepage .homepage__hire__image {
@@ -452,7 +452,7 @@ footer {
       position: absolute;
       left: 134px; }
   .groome__homepage .homepage__analytics h1 {
-    font-size: 48px;
+    font-size: 32px;
     width: 374px; }
   .groome__homepage .homepage__analytics__plus h1 {
     font-size: 48px; }
@@ -477,16 +477,16 @@ footer {
       .groome__homepage .homepage__offering__text__inner h2 {
         margin: 0px 0px 8px; }
       .groome__homepage .homepage__offering__text__inner h1 {
-        font-size: 56px; }
+        font-size: 48px; }
       .groome__homepage .homepage__offering__text__inner p {
-        font-size: 24px; }
+        font-size: 16px; }
   .groome__homepage .homepage__product__image {
     height: 321px; }
   .groome__homepage .homepage__product__text p {
     width: 350px;
-    font-size: 24px; }
+    font-size: 16px; }
   .groome__homepage .homepage__product__text h1 {
-    font-size: 56px; }
+    font-size: 48px; }
   .groome__homepage .homepage__companies h1 {
     font-size: 48px;
     margin: 0 0 22px; } }
