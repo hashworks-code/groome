@@ -1,147 +1,183 @@
 @media screen and (min-width:320px){ 
-.groome__homepage{
-    .row{
-        width: 286px;
-        margin: 0px auto;
-        padding: 30px 0px 25px;
-    }
-    button{
-        font-size: 16px;
-        text-align: center;
-        color: #ffffff;
-        padding: 15px 60px;
-        border-radius: 4px;
-        background-color: #f79a3d;
-        cursor: pointer;
-        border: none;
-        outline: none;
-    }
-    .homepage__hire{
-        &__text{
-            padding: 0px;
-            h1{
-                font-family: 'latoLight';
-                color:#f79a3d;
-                font-size: 28px;
-                font-weight: 300;
-                line-height: 1.36;
-                text-align: center;
-                margin: 0px;
-            }
-            p{
-                font-family: 'latoLight';
-                font-size: 18px;
-                font-weight: 300;
-                line-height: 1.39;
-                text-align: center;
-                color: #01363c;
-                margin: 12px 0px 48px;
-            }
+    .groome__homepage{
+        .row{
+            width: 286px;
+            margin: 0px auto;
+            padding: 30px 0px 25px;
         }
-        &__image{
-            text-align: center;
-            img{
-                width: 209px;
-                height: 393px;
-            }
-        }
-    }
-    .homepage__analytics{
-        background-color: #f3f3f3;
-        &__talent{
-            padding: 0px;
-        }
-        &__da{
-            padding: 0px;
-        }
-        h1{
-            font-size:32px;
-            text-align: left;
-            color: #2faaba;
-            margin: 0px;
-            font-weight: 400;
-        }
-        p{
+        button{
             font-size: 16px;
-            line-height: 1.44;
-            text-align: left;
-            color: #4a4a4a;
-            margin: 16px 0px 0px;
-            font-weight: 400;
+            text-align: center;
+            color: #ffffff;
+            padding: 15px 60px;
+            border-radius: 4px;
+            background-color: #f79a3d;
+            cursor: pointer;
+            border: none;
+            outline: none;
         }
-        &__plus{
-            h1{
-                text-align: center;
-                margin: 15px 0px;
-            }
-        }
-        &__equal{
-            display: none;
-        }
-    }
-    .homepage__senario{
-        &__image{
-            width: 100%;
-            height: 345px;
-            background-image: url("../assets/images/homepage/group-22.svg");
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: center;
-        }
-        &__text{
-            padding:54px 0px 0px;
-            .row{
+        .homepage__hire{
+            &__text{
                 padding: 0px;
-                div{
-                    padding: 0px;
+                h1{
+                    font-family: 'latoLight';
+                    color:#f79a3d;
+                    font-size: 28px;
+                    font-weight: 300;
+                    line-height: 1.36;
+                    text-align: center;
+                    margin: 4px 0px;
+                }
+                p{
+                    font-family: 'latoLight';
+                    font-size: 18px;
+                    font-weight: 300;
+                    line-height: 1.39;
+                    text-align: center;
+                    color: #01363c;
+                    margin: 8px 0px 48px;
                 }
             }
+            &__image{
+                text-align: center;
+                img{
+                    width: 209px;
+                    height: 393px;
+                }
+            }
+        }
+        .homepage__analytics{
+            background-color: #f3f3f3;
+            &__talent{
+                padding: 0px;
+            }
+            &__da{
+                padding: 0px;
+                margin-bottom: 18px;
+            }
             h1{
-                font-size: 24px;
+                font-size:32px;
                 text-align: left;
                 color: #2faaba;
-                font-weight: 400;
                 margin: 0px;
-            }
-            h2{
-                font-size: 16px;
-                font-family: 'latoBold';
-                font-weight: bold;
-                text-align: left;
-                color: #4a4a4a;
-                margin: 16px 0px;
+                font-weight: 400;
             }
             p{
                 font-size: 16px;
-                line-height: 1.5;
+                line-height: 1.44;
                 text-align: left;
-                color: #95989a;
+                color: #4a4a4a;
+                margin: 16px 0px 0px;
                 font-weight: 400;
-                margin: 0px;
+            }
+            &__plus{
+                h1{
+                    text-align: center;
+                    margin: 15px 0px;
+                }
+            }
+            &__equal{
+                display: none;
             }
         }
-    }
-    .homepage__offering{
-        width: 100% !important;
-        background-color:#f3f3f3;
-        &__image{
-            width: 100%;
-            height: 205px;
-            background-image: url("../assets/images/homepage/people.png");
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: 50% 50%;
+        .homepage__senario{
+            &__image{
+                width: 100%;
+                height: 345px;
+                background-image: url("../assets/images/homepage/group-22.svg");
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                margin: 17px 0px 3px 0px;
+            }
+            &__text{
+                padding:54px 0px 0px;
+                .row{
+                    padding: 0px;
+                    div{
+                        padding: 0px;
+                    }
+                }
+                h1{
+                    font-size: 24px;
+                    text-align: left;
+                    color: #2faaba;
+                    font-weight: 400;
+                    margin: 0px;
+                }
+                h2{
+                    font-size: 16px;
+                    font-family: 'latoBold';
+                    font-weight: bold;
+                    text-align: left;
+                    color: #4a4a4a;
+                    margin: 16px 0px;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 1.5;
+                    text-align: left;
+                    color: #95989a;
+                    font-weight: 400;
+                    margin: 0px;
+                }
+            }
         }
-        &__text{
-            &__inner{
-                width: 286px;
-                margin: 0 auto;
+        .homepage__offering{
+            width: 100% !important;
+            background-color:#f3f3f3;
+            &__image{
+                width: 100%;
+                height: 205px;
+                background-image: url("../assets/images/homepage/people.png");
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: 50% 50%;
+            }
+            &__text{
+                &__inner{
+                    width: 286px;
+                    margin: 0 auto;
+                    h2{
+                        font-size: 16px;
+                        text-align: left;
+                        color: #4a4a4a;
+                        font-weight: 400;
+                        margin: 12px 0px 16px 0px;
+                    }
+                    h1{
+                        font-size: 36px;
+                        font-weight: 500;
+                        text-align: left;
+                        color: #4a4a4a;
+                        margin: 0px;
+                    }
+                    p{
+                        font-size: 16px;
+                        line-height: 1.5;
+                        text-align: left;
+                        color: #4a4a4a;
+                        margin: 16px 0px;
+                    }
+                }    
+            }
+        }
+        .homepage__product{
+            &__image{
+                width: 100%;
+                height: 260px;
+                background-image: url("../assets/images/homepage/product-mock@3x.png");
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin: 4px 0px 34px 0px;
+            }
+            &__text{
                 h2{
                     font-size: 16px;
                     text-align: left;
                     color: #4a4a4a;
                     font-weight: 400;
-                    margin: 15px 0px;
+                    margin: 11px 0px 16px 0px;
                 }
                 h1{
                     font-size: 36px;
@@ -155,306 +191,158 @@
                     line-height: 1.5;
                     text-align: left;
                     color: #4a4a4a;
-                    margin: 15px 0px;
+                    margin: 16px 0px;
                 }
-            }    
-        }
-    }
-    .homepage__product{
-        &__image{
-            width: 100%;
-            height: 260px;
-            background-image: url("../assets/images/homepage/product-mock@3x.png");
-            background-repeat: no-repeat;
-            background-size: contain;
-        }
-        &__text{
-            h2{
-                font-size: 16px;
-                text-align: left;
-                color: #4a4a4a;
-                font-weight: 400;
-                margin: 15px 0px;
+                .comming-soon{
+                    font-size: 16px;
+                    text-align: center;
+                    color: #37b8ae;
+                    padding: 5px 14px;
+                    background-color: rgba(55, 184, 174, 0.3);
+                    cursor: default;
+                }
             }
+        }
+        .homepage__companies{
+            background-color: #2faaba;
+            height: 301px;
             h1{
-                font-size: 36px;
+                font-size:36px;
                 font-weight: 500;
                 text-align: left;
-                color: #4a4a4a;
-                margin: 0px;
-            }
-            p{
-                font-size: 16px;
-                line-height: 1.5;
-                text-align: left;
-                color: #4a4a4a;
-                margin: 15px 0px;
-            }
-            .comming-soon{
-                font-size: 16px;
-                text-align: center;
-                color: #37b8ae;
-                padding: 5px 14px;
-                background-color: rgba(55, 184, 174, 0.3);
-                cursor: default;
-            }
-        }
-    }
-    .homepage__companies{
-        background-color: #2faaba;
-        h1{
-            font-size:36px;
-            font-weight: 500;
-            text-align: left;
-            color: #ffffff;
-            margin: 0 0 50px;
-            width: 100%;
-        }
-        &__image{
-            padding-bottom: 22px;
-            &--1{
-                width: 124px;
-                height: 16px;
-            }
-            &--2{
-                width: 115px;
-                height: 37px;
-            }
-            &--3{
-                width: 90px;
-                height: 18px;
-            }
-            &--4{
-                width: 108px;
-                height: 39px;
-            }
-        }
-        
-    }
-}
-}
-@media screen and (min-width:768px){ 
-    .groome__homepage{
-        .row{
-            width: 710px;
-        }
-        .homepage__hire{
-            &__text{
-                h1{
-                    font-size: 36px;
-                    width: 447px;
-                    margin: 0 auto;
-                }
-                p{
-                    font-size:24px;
-                    width: 447px;
-                    margin: 16px auto 28px;
-                }
+                color: #ffffff;
+                margin: 6px 0 50px;
+                width: 100%;
             }
             &__image{
-                img{
-                    width: 414px;
-                    height: 781px;
-                }
-            }
-        }
-        .homepage__analytics{
-            p{
-                margin: 30px 0px 0px;
-                font-size: 16px;
-            }
-            h1{
-                font-size: 32px;
-            }
-            &__plus{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                h1{
-                    text-align: center;
-                    margin: 15px 0px;
-                }
-            }
-        }
-        .homepage__senario{
-            &__image{
-                height: 573px;
-            }
-            &__text{
-                padding:30px 0px 0px;
-                .row{
-                    div{
-                        &:nth-child(odd){
-                            padding-right: 20px;
-                        }
-                    }
-                }
-                h1{
-                    font-size: 32px;
-                }
-                h2{
-                    margin: 25px 0px 16px;
-                    font-size: 16px;
-                }
-                p{
-                    font-size: 16px;
-                }
-            }
-        }
-        .homepage__offering{
-            padding-bottom: 0px;
-            height: 400px;
-            &__image{
-                height: 250px;
-                background-position: 0px;
-                align-self: flex-end;
-            }
-            &__text{
-                display: flex;
-                justify-content: flex-end;
-                align-items: center;
-                &__inner{
-                    width: 342px;
-                    margin: 0px;
-                    h2{
-                        margin: 0px 0px 8px;
-                    }
-                    p{
-                        font-size: 16px;
-                    }
-                    h1{
-                        font-size: 48px;
-                    }
-                }    
-            }
-        }
-        .homepage__product{
-            &__image{
-                background-position: right;
-            }
-            &__text{
-                padding-left: 50px;
-                h2{
-                    margin: 11px 0px 8px;
-                }
-                h1{
-                    font-size: 48px;
-                }
-                p{
-                    font-size: 16px;
-                }
-            }
-        }
-        .homepage__companies{
-            h1{
-                margin: 0 0 16px;
-            }
-            &__image{
-                text-align: center;
+                padding-bottom: 22px;
                 &--1{
-                    width: 188px;
-                    height: 24px;
+                    width: 124px;
+                    height: 16px;
                 }
                 &--2{
-                    width: 198px;
-                    height: 64px;
+                    width: 115px;
+                    height: 37px;
                 }
                 &--3{
-                    width: 122px;
-                    height: 24px;
+                    width: 90px;
+                    height: 18px;
                 }
                 &--4{
-                    width: 175px;
-                    height: 64px;
+                    width: 108px;
+                    height: 39px;
                 }
             }
+            
         }
-    }    
-}
-@media screen and (min-width:1025px){ 
-    .groome__homepage{
-        .row{
-            width: 928px;
-        }
-        .homepage__hire{
-            &__text{
-                height: 600px;
-                padding-top: 140px;
-                h1{
-                    font-size: 48px;
-                    text-align: left;
-                }
-                p{
-                    font-size: 32px;
-                    text-align: left;
-                }
+    }
+    }
+    @media screen and (min-width:768px){ 
+        .groome__homepage{
+            .row{
+                width: 710px;
             }
-            &__image{
-                position: relative;
-                img{
-                    width: 414px;
-                    height: 850px;
-                    position: absolute;
-                    left: 40px; 
-                }
-            }
-        }
-        .homepage__analytics{
-            p{
-                margin: 30px 0px 0px;
-                font-size: 16px;
-            }
-            &__plus{
-                h1{
-                    font-size: 48px;
-                }
-            }
-            &__equal{
-                display: flex;
-                align-items: center;
-                h1{
-                    font-size: 48px;
-                }
-            }
-        }
-        .homepage__senario{
-            &__image{
-                margin:30px 0px 0px;
-            }
-            &__text{
-                .row{
-                    width: 100%;
-                    div{
-                        &:nth-child(even){
-                            padding-right: 20px;
-                        }
+            .homepage__hire{
+                &__text{
+                    h1{
+                        font-size: 36px;
+                        width: 447px;
+                        margin: 18px auto;
+                    }
+                    p{
+                        font-size:24px;
+                        width: 447px;
+                        margin: 16px auto 28px;
                     }
                 }
+                &__image{
+                    img{
+                        width: 414px;
+                        height: 781px;
+                    }
+                }
+            }
+            .homepage__analytics{
+                p{
+                    margin: 30px 0px 0px;
+                    font-size: 16px;
+                }
                 h1{
                     font-size: 32px;
+                    margin-top: 6px;
                 }
-                h2{
-                    margin: 25px 0px 16px;
-                    font-size: 16px;
-                }
-                p {
-                    font-size: 16px;
+                &__plus{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    h1{
+                        text-align: center;
+                        margin: 15px 0px;
+                    }
                 }
             }
-        }
-        .homepage__offering{
-            &__image{
-                height: 309px;
-            }
-            &__text{
-                display: flex;
-                justify-content: flex-end;
-                align-items: center;
-                &__inner{
-                    width: 450px;
-                    margin: 0px;
+            .homepage__senario{
+                &__image{
+                    height: 573px;
+                    margin-top: 58px;
+                }
+                &__text{
+                    padding: 30px 0px 34px;
+                    .row{
+                        div{
+                            &:nth-child(odd){
+                                padding-right: 20px;
+                            }
+                        }
+                    }
+                    h1{
+                        font-size: 32px;
+                    }
                     h2{
-                        margin: 0px 0px 8px;
+                        margin: 25px 0px 16px;
+                        font-size: 16px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }
+            .homepage__offering{
+                padding-bottom: 0px;
+                height: 400px;
+                &__image{
+                    height: 250px;
+                    background-position: 0px;
+                    align-self: flex-end;
+                }
+                &__text{
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    &__inner{
+                        width: 342px;
+                        margin: 0px;
+                        h2{
+                            margin: 0px 0px 8px;
+                        }
+                        p{
+                            font-size: 16px;
+                        }
+                        h1{
+                            font-size: 48px;
+                        }
+                    }    
+                }
+            }
+            .homepage__product{
+                &__image{
+                    background-position: right;
+                    margin-top: 34px;
+                }
+                &__text{
+                    padding-left: 50px;
+                    h2{
+                        margin: 11px 0px 8px;
                     }
                     h1{
                         font-size: 48px;
@@ -462,131 +350,273 @@
                     p{
                         font-size: 16px;
                     }
-                }    
-            }
-        }
-        .homepage__product{
-            &__image{
-                height: 321px;
-            }
-            &__text{
-                p{
-                    width: 350px;
-                    font-size:16px;
-                }
-            }
-        }
-        .homepage__companies{
-            h1{
-                font-size: 48px;
-                margin: 0 0 22px;
-            }
-        }
-    }    
-}
-
-@media screen and (min-width:1367px){ 
-    .groome__homepage{
-        .row{
-            width: 1168px;
-        }
-        .homepage__hire{
-            &__text{
-                h1{
-                    font-size:56px;
-                    text-align: left;
-                    width: 598px;
-                }
-                p{
-                    font-size:32px;
-                    text-align: left;
-                    width: 620px;
-                }
-            }
-            &__image{
-                position: relative;
-                img{
-                    width: 434px;
-                    height: 875px;
-                    position: absolute;
-                    left: 134px;
-                }
-            }
-        }
-        .homepage__analytics{
-           
-            h1{
-                font-size:32px;
-                width: 374px;
-            }
-            
-            &__plus{
-                h1{
-                    font-size: 48px;
-                }
-            } 
-        }
-        .homepage__senario{
-            &__text{
-                .row{
-                    width: 100%;
-                    div{
-                        &:nth-child(even){
-                            padding-right: 20px;
-                        }
+                    .comming-soon {
+                     margin-top: 34px;
                     }
                 }
+            }
+            .homepage__companies{
+                height: 335px;
                 h1{
-                    font-size: 48px;
+                    margin: 31px 0 30px;
                 }
-                h2{
-                    margin: 25px 0px 16px;
-                    font-size: 24px;
-                }
-            }
-        }
-        .homepage__offering{
-            &__image{
-                height: 309px;
-            }
-            &__text{
-                display: flex;
-                justify-content: flex-end;
-                align-items: center;
-                &__inner{
-                    width: 450px;
-                    margin: 0px;
-                    h2{
-                        margin: 0px 0px 8px;
+                &__image{
+                    text-align: center;
+                    &--1{
+                        width: 188px;
+                        height: 24px;
                     }
+                    &--2{
+                        width: 198px;
+                        height: 64px;
+                    }
+                    &--3{
+                        width: 122px;
+                        height: 24px;
+                    }
+                    &--4{
+                        width: 175px;
+                        height: 64px;
+                    }
+                }
+            }
+        }    
+    }
+    @media screen and (min-width:1025px){ 
+        .groome__homepage{
+            .row{
+                width: 928px;
+            }
+            .homepage__hire{
+                &__text{
+                    height: 600px;
+                    padding-top:100px;
                     h1{
-                        font-size:48px;
+                        font-size: 48px;
+                        text-align: left;
                     }
                     p{
-                        font-size:16px;
+                        font-size: 32px;
+                        text-align: left;
                     }
-                }    
+                }
+                &__image{
+                    position: relative;
+                    img{
+                        width: 414px;
+                        height: 850px;
+                        position: absolute;
+                        left: 40px; 
+                    }
+                }
             }
-        }
-        .homepage__product{
-            &__image{
-                height: 321px;
-            }
-            &__text{
+            .homepage__analytics{
                 p{
-                    width: 350px;
-                    font-size: 16px;
+                    margin: 30px 0px 27px 0px;
                 }
                 h1{
-                    font-size: 48px;
+                    margin-top: 27px;
+                }
+                &__plus{
+                    h1{
+                        font-size: 48px;
+                        margin-top: 27px;
+                    }
+                }
+                &__equal{
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        font-size: 48px;
+                    }
                 }
             }
-        }
-        .homepage__companies{
-            h1{
-                font-size: 48px;
-                margin: 0 0 22px;
+            .homepage__senario{
+                &__image{
+                    margin:60px 0px 84px 0px;
+                }
+                &__text{
+                    padding: 34px 0px 34px;
+                    .row{
+                        width: 100%;
+                        div{
+                            &:nth-child(even){
+                                padding-right: 20px;
+                            }
+                        }
+                    }
+                    h1{
+                        font-size: 32px;
+                        margin-top:4px;
+                    }
+                    h2{
+                        margin: 33px 0px 16px;
+                        font-size: 16px;
+                    }
+                    p {
+                        font-size: 16px;
+                    }
+                }
             }
-        }
-    }    
-}
+            .homepage__offering{
+                &__image{
+                    height: 309px;
+                }
+                &__text{
+                    &__inner{
+                        width: 450px;
+                        margin: 0px;
+                        h2{
+                            margin: 0px 0px 8px;
+                        }
+                        h1{
+                            font-size: 48px;
+                        }
+                        p{
+                            font-size: 16px;
+                        }
+                    }    
+                }
+            }
+            .homepage__product{
+                &__image{
+                    height: 410px;
+                    margin: 25px 0px 0px;
+                }
+                &__text{
+                    padding-left: 111px;
+                    p{
+                        width: 350px;
+                        font-size:16px;
+                    }
+                    .comming-soon{
+                        margin-top:39px;
+                    }
+                }
+            }
+            .homepage__companies{
+                height: 261px;
+                h1{
+                    font-size: 48px;
+                    margin: 18px 0 30px;
+                }
+            }
+        }    
+    }
+    
+    @media screen and (min-width:1367px){ 
+        .groome__homepage{
+            .row{
+                width: 1168px;
+            }
+            .homepage__hire{
+                height: 801px;
+                &__text{
+                    h1{
+                        font-size:56px;
+                        text-align: left;
+                        width: 598px;
+                        margin-top: 73px;
+                    }
+                    p{
+                        font-size:32px;
+                        text-align: left;
+                        width: 620px;
+                        margin-top: 22px;
+                    }
+                }
+                &__image{
+                    position: relative;
+                    // margin-top: 35px;
+                    img{
+                        width: 434px;
+                        height: 1045px;
+                        position: absolute;
+                        left: 134px;
+                    }
+                }
+            }
+            .homepage__analytics{
+               
+                h1{
+                    font-size:32px;
+                    width: 374px;
+                }
+                
+                &__plus{
+                    h1{
+                        font-size: 48px;
+                    }
+                } 
+            }
+            .homepage__senario{
+                &__text{
+                    padding: 62px 0px 84px;
+                    .row{
+                        width: 100%;
+                        div{
+                            &:nth-child(even){
+                                padding-right: 20px;
+                            }
+                        }
+                    }
+                    h1{
+                        font-size: 48px;
+                    }
+                    h2{
+                        margin: 32px 0px 16px;
+                        font-size: 24px;
+                    }
+                }
+            }
+            .homepage__offering{
+                &__image{
+                    height: 350px;
+                }
+                &__text{
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    &__inner{
+                        width: 450px;
+                        margin: 0px;
+                        h2{
+                            margin: 0px 0px 8px;
+                        }
+                        h1{
+                            font-size:48px;
+                        }
+                        p{
+                            font-size:16px;
+                        }
+                    }    
+                }
+            }
+            .homepage__product{
+                &__image{
+                    height:520px;
+                    margin: 34px 0px 0px;
+                }
+                &__text{
+                    p{
+                        width: 350px;
+                        font-size: 16px;
+                    }
+                    h1{
+                        font-size: 48px;
+                    }
+                    .comming-soon {
+                        margin-top:97px;
+                    }
+                }
+            }
+            .homepage__companies{
+                height: 355px;
+                h1{
+                    font-size: 48px;
+                    margin: 73px 0 22px;
+                }
+            }
+        }    
+    }
+    
