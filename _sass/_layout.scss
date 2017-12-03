@@ -80,8 +80,14 @@ body{
       }
     }
   }
-  
+ 
   @media screen and (min-width:768px){ 
+    .groome-home{
+      padding-left: 39px;
+ }
+ .groome-product{
+   padding-right: 27px;
+ }
     footer{
       padding: 48px 0px 73px;
       .row{
@@ -102,6 +108,12 @@ body{
     }
   }
   @media screen and (min-width:1025px){ 
+    .groome-home{
+     padding-left: 39px;
+}
+.groome-product{
+  padding-right: 34px;
+}
     footer{
       padding: 48px 0px 61px;
       .row{
