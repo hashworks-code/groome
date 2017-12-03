@@ -51,6 +51,7 @@
     }
     &__grey{
         background-color: #f2f2f2;
+        padding-bottom: 40px;
     }
     &__details {
 
@@ -58,9 +59,9 @@
     &__detailsContainer {
         width:280px;
         margin: 0 auto;
-        padding: 40px 15px;
+        padding: 40px 15px 0px 15px;
         &--heading {
-            padding-bottom: 42px;
+            padding-bottom: 16px;
             h1 {
                 margin: 0;
                   font-family: 'latoRegular';
@@ -68,6 +69,7 @@
                   font-weight: 500;
                   text-align: left;
                   color: #2faaba;
+                  width: 275px;
             }
             
         }
@@ -124,7 +126,7 @@
                   text-align: left;
                   color: #f2f2f2;
                   width: 85%;
-                  margin: 15px 0px;
+                  margin: 0px 0px 15px 0px;
             }
         }
         &--actionContent {
@@ -134,7 +136,7 @@
                 text-align: left;
                 color: #f2f2f2;
                 margin: 0;
-                padding:0px 0px 25px 0px;
+                padding:25px 0px 25px 0px;
                 font-weight: 400;
                 width: 85%;
             }
@@ -150,27 +152,12 @@
                  font-size: 18px;
                  text-align: center;
                  color: #f2f2f2;
+                 margin-bottom: 35px;
             }
         }
     }
 }
-@media only screen and (min-width:320px) {
-.expertise{
 
-           h1 {
-               font-family: 'latoRegular';
-               font-size: 24px;  
-           }
-           h2{
-               font-size: 18px;
-           }
-           p{
-               font-size: 12px;
-           }
-        }
-
-            }
-// Media Query for Table begins here //
 @media only screen and (min-width:768px) {
     .expertise {
         &__banner {
@@ -197,27 +184,27 @@
             }
             &--title:nth-child(1) {
                 h1 {
-                    font-size: 32px;
+                    font-size: 28px;
                     margin-left: 100px;
                 }
             }
              &--title:nth-child(3) {
                 h1 {
-                    font-size: 32px;
+                    font-size: 28px;
                     margin-left: 100px;
                 }
             }
             &--title:nth-child(2) {
                 border-left:1px solid #e0e0e0;
                 h1 {
-                    font-size: 32px;
+                    font-size: 28px;
                     margin-left: 47px;
                 }
             }
             &--title:nth-child(4) {
                 border-left:1px solid #e0e0e0;
                 h1 {
-                    font-size: 32px;
+                    font-size: 28px;
                     margin-left: 47px;
                 }
             }
@@ -247,10 +234,10 @@
                     font-size: 32px;
                 }
                 h2{
-                    font-size: 20px;
+                    font-size: 24px;
                 }
                 p {
-                    font-size: 14px;
+                    font-size: 16px;
                 }
             }
         }
@@ -263,14 +250,20 @@
             &--actionContent{
                 h1{
                 font-size: 32px;
+                padding: 18px 0px 16px 0px;
+                width: 379px;
                 }
             }
             &--content {
                 h1 {
-                    margin: 0px 30px 30px 0px;
+                    margin: 5px 30px 46px 0px;
                     font-size: 32px;
                 }
             }
+        }
+        &__grey {
+           
+             padding-bottom:0px;
         }
     }
 }
@@ -298,11 +291,12 @@
                 padding-left: 30px;
             }
              &--title:nth-child(1) {
-                 padding-left: 30px;
+                 padding-left: 46px;
                  border-bottom: none;
                 h1 {
-                    font-size: 32px;
+                    font-size: 28px;
                     margin-left: 0px;
+                    padding: 30px 0px 48px 0px;
                 }
             }
 
@@ -311,37 +305,40 @@
                 border-bottom: none;
                 padding-left: 30px;
                 h1 {
-                    font-size: 32px;
+                    font-size: 28px;
                     margin-left: 0px;
+                    padding: 30px 0px 48px 0px;
                 }
             }
 
              &--title:nth-child(3) {
-                padding-left: 30px;
+                padding-left: 33px;
                 border-left:1px solid #e0e0e0;
                 border-bottom: none;
                 h1 {
-                    font-size: 32px;
+                    font-size: 28px;
                      margin-left: 0px;
+                     padding: 30px 0px 48px 0px;
                 }
             }
             
             &--title:nth-child(4) {
-                padding-left: 30px;
+                padding-left:28px;
                 border-left:1px solid #e0e0e0;
                 border-bottom: none;
                 h1 {
-                    font-size: 32px;
+                    font-size:28px;
                     margin-left: 0px;
+                    padding: 30px 0px 48px 0px;
                 }
             }
         }
         &__detailsContainer {
-            width: 980px;
+            width: 940px;
             margin: 0 auto;
             // padding: 100px 15px;
             &--heading {
-                padding-bottom: 32px;
+                padding: 45px 0px 32px 0px;
             }
            
             &--subDetails {
@@ -365,7 +362,7 @@
             }
         }
          &__action {
-            padding: 82px 50px;
+            padding: 82px 50px 69px 50px;
         }
         &__actionContainer {
             width:937px;
@@ -381,11 +378,16 @@
             &--reverseOrder {
                 border-left: 1px solid #fff;
             }
-            // &--actionContent {
-            //     h1 {
-            //         width:65%;
-            //     }
-            // }
+            &--actionContent {
+                h1 {
+                    margin: 0px 0px 34px 0px;
+                }
+                button{
+                    width: 354px;
+                    margin-bottom: 0px;
+                    font-size: 24px;
+                }
+            }
         }
     }
 }
@@ -411,50 +413,55 @@
                 padding-left:55px;  
             }
              &--title:nth-child(1) {
-                 padding-left: 55px;
+                 padding-left:135px;
                  border-bottom: none;
                 h1 {
-                    font-size: 48px;
+                    font-size: 32px;
                     margin-left: 0px;
+                    padding: 28px 0px;
                 }
             }
 
              &--title:nth-child(2) {
                 border-left:1px solid #e0e0e0;
                 border-bottom: none;
-                padding-left: 55px;
+                padding-left: 63px;
                 h1 {
-                    font-size: 48px;
+                    font-size: 32px;
                     margin-left: 0px;
+                    padding: 28px 0px;
+                    width: 275px;
                 }
             }
 
              &--title:nth-child(3) {
-                padding-left: 55px;
+                padding-left: 65px;
                 border-left:1px solid #e0e0e0;
                 border-bottom: none;
                 h1 {
-                    font-size: 48px;
+                    font-size: 32px;
                      margin-left: 0px;
+                     padding: 28px 0px;
                 }
             }
             
             &--title:nth-child(4) {
-                padding-left: 55px;
+                padding-left: 51px;
                 border-left:1px solid #e0e0e0;
                 border-bottom: none;
                 h1 {
-                    font-size: 48px;
+                    font-size: 32px;
                     margin-left: 0px;
+                    padding: 28px 0px;
                 }
             }
         }
         &__detailsContainer {
             width:1366px;
             margin: 0 auto;
-            padding: 110px 135px;
+            padding: 110px 135px 45px 135px;
             &--heading {
-                padding-bottom: 32px;
+                padding: 0px 0px 32px 0px;
                 h1 {
                     font-size: 48px;
                 }
@@ -467,7 +474,7 @@
             }
         }
          &__action {
-            padding: 130px 75px;
+            padding: 73px 75px 81px 75px;
         }
         &__actionContainer {
             width:1200px;
