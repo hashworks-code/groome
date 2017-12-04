@@ -79,7 +79,7 @@ footer {
       font-family: 'latoBold';
       font-weight: 600;
       color: #4a4a4a;
-      margin: 16px 0px 0px; }
+      margin: 16px 0px 22px; }
       footer .row p a {
         color: #eb6751; }
 
@@ -91,7 +91,7 @@ footer {
     padding-right: 27px; }
 
   footer {
-    padding: 24px 0px 73px; }
+    padding: 24px 0px 45px; }
     footer .row {
       width: 710px; }
       footer .row .footer__image {
@@ -117,6 +117,27 @@ footer {
         background-position: 0px 0px; }
       footer .row h1 {
         margin-top: 10px; } }
+@media screen and (min-width: 1367px) {
+  .groome-home {
+    padding-left: 39px; }
+
+  .groome-product {
+    padding-right: 34px; }
+
+  footer {
+    padding: 48px 0px 61px; }
+    footer .row {
+      width: 1232px; }
+      footer .row .footer__image {
+        background-position: 0px 0px; }
+      footer .row h1 {
+        margin-top: 10px;
+        font-size: 48px;
+        text-align: left;
+        color: #2faaba; }
+      footer .row h2 {
+        font-size: 32px;
+        color: #95989a; } }
 @media screen and (min-width: 320px) {
   .groome__homepage .row {
     width: 286px;
@@ -564,18 +585,17 @@ footer {
     .expertise__headingContainer--title h1 {
       font-family: 'latoRegular';
       margin: 0;
-      padding: 22px 21px;
+      padding: 26px 21px;
       font-size: 28px;
       font-weight: 600;
       line-height: 1.32;
       text-align: left;
       color: #2faaba;
-      width: 225px;
+      width: 270px;
       min-width: 225px;
       max-width: 300px; }
 .expertise__grey {
-  background-color: #f2f2f2;
-  padding-bottom: 40px; }
+  background-color: #f2f2f2; }
 .expertise__detailsContainer {
   width: 280px;
   margin: 0 auto;
@@ -608,7 +628,9 @@ footer {
       text-align: left;
       color: #95989a;
       font-weight: 400;
-      width: 80%; }
+      width: 262px; }
+  .expertise__detailsContainer--left {
+    padding-bottom: 35px; }
   .expertise__detailsContainer--right img {
     width: 280px;
     height: 315px;
@@ -630,7 +652,7 @@ footer {
       text-align: left;
       color: #f2f2f2;
       width: 85%;
-      margin: 0px 0px 15px 0px; }
+      margin: 2px 0px 30px 0px; }
   .expertise__actionContainer--actionContent h1 {
     font-family: 'latoLight';
     font-size: 20px;
@@ -668,28 +690,33 @@ footer {
   .expertise__headingContainer {
     width: 680px;
     margin: 0 auto; }
-    .expertise__headingContainer--title h1 {
-      padding: 22px 0px; }
     .expertise__headingContainer--title:nth-child(1) h1 {
       font-size: 28px;
-      margin-left: 100px; }
+      margin-left: 100px;
+      width: 200px;
+      padding: 29px 0px 30px 0px; }
     .expertise__headingContainer--title:nth-child(3) h1 {
       font-size: 28px;
-      margin-left: 100px; }
+      margin-left: 100px;
+      width: 211px;
+      padding: 22px 0px 34px 0px; }
     .expertise__headingContainer--title:nth-child(2) {
       border-left: 1px solid #e0e0e0; }
       .expertise__headingContainer--title:nth-child(2) h1 {
         font-size: 28px;
-        margin-left: 47px; }
+        margin-left: 47px;
+        padding: 29px 0px 30px 0px; }
     .expertise__headingContainer--title:nth-child(4) {
       border-left: 1px solid #e0e0e0; }
       .expertise__headingContainer--title:nth-child(4) h1 {
         font-size: 28px;
-        margin-left: 47px; }
+        margin-left: 47px;
+        width: 163px;
+        padding: 22px 0px 34px 0px; }
   .expertise__detailsContainer {
     width: 680px;
     margin: 0 auto;
-    padding: 55px 0px; }
+    padding: 50px 15px 0px 15px; }
     .expertise__detailsContainer--reverseOrder.first-xs {
       order: 0; }
     .expertise__detailsContainer--heading {
@@ -702,7 +729,8 @@ footer {
     .expertise__detailsContainer--subDetails h2 {
       font-size: 24px; }
     .expertise__detailsContainer--subDetails p {
-      font-size: 16px; }
+      font-size: 16px;
+      width: 365px; }
   .expertise__action {
     padding: 35px 50px; }
   .expertise__actionContainer {
@@ -712,8 +740,12 @@ footer {
       font-size: 32px;
       padding: 18px 0px 16px 0px;
       width: 379px; }
+    .expertise__actionContainer--actionContent button {
+      width: 354px;
+      font-size: 24px;
+      margin-bottom: 47px; }
     .expertise__actionContainer--content h1 {
-      margin: 5px 30px 46px 0px;
+      margin: 0px 30px 46px 0px;
       font-size: 32px; }
   .expertise__grey {
     padding-bottom: 0px; } }
@@ -766,6 +798,8 @@ footer {
     margin: 0 auto; }
     .expertise__detailsContainer--heading {
       padding: 45px 0px 32px 0px; }
+      .expertise__detailsContainer--heading h1 {
+        width: 503px; }
     .expertise__detailsContainer--subDetails {
       padding-bottom: 32px; }
       .expertise__detailsContainer--subDetails h1 {
@@ -773,7 +807,8 @@ footer {
       .expertise__detailsContainer--subDetails h2 {
         font-size: 24px; }
       .expertise__detailsContainer--subDetails p {
-        font-size: 16px; }
+        font-size: 16px;
+        width: 407px; }
     .expertise__detailsContainer--right img {
       width: 400px;
       height: 460px;
@@ -787,12 +822,15 @@ footer {
       order: 0; }
     .expertise__actionContainer--content {
       border-bottom: none;
-      margin-top: 2rem;
+      margin-top: 15px;
       padding-left: 28px; }
+      .expertise__actionContainer--content h1 {
+        margin: 0px 30px 0px 0px; }
     .expertise__actionContainer--reverseOrder {
       border-left: 1px solid #fff; }
     .expertise__actionContainer--actionContent h1 {
-      margin: 0px 0px 34px 0px; }
+      margin: 0px 0px 34px 0px;
+      padding: 0px; }
     .expertise__actionContainer--actionContent button {
       width: 354px;
       margin-bottom: 0px;
@@ -814,7 +852,7 @@ footer {
       .expertise__headingContainer--title:nth-child(1) h1 {
         font-size: 32px;
         margin-left: 0px;
-        padding: 28px 0px; }
+        padding: 28px 0px 26px 0px; }
     .expertise__headingContainer--title:nth-child(2) {
       border-left: 1px solid #e0e0e0;
       border-bottom: none;
@@ -822,7 +860,7 @@ footer {
       .expertise__headingContainer--title:nth-child(2) h1 {
         font-size: 32px;
         margin-left: 0px;
-        padding: 28px 0px;
+        padding: 28px 0px 26px 0px;
         width: 275px; }
     .expertise__headingContainer--title:nth-child(3) {
       padding-left: 65px;
@@ -831,7 +869,7 @@ footer {
       .expertise__headingContainer--title:nth-child(3) h1 {
         font-size: 32px;
         margin-left: 0px;
-        padding: 28px 0px; }
+        padding: 28px 0px 26px 0px; }
     .expertise__headingContainer--title:nth-child(4) {
       padding-left: 51px;
       border-left: 1px solid #e0e0e0;
@@ -839,19 +877,21 @@ footer {
       .expertise__headingContainer--title:nth-child(4) h1 {
         font-size: 32px;
         margin-left: 0px;
-        padding: 28px 0px; }
+        padding: 28px 0px 26px 0px; }
   .expertise__detailsContainer {
     width: 1366px;
     margin: 0 auto;
     padding: 110px 135px 45px 135px; }
     .expertise__detailsContainer--heading {
-      padding: 0px 0px 32px 0px; }
+      padding: 0px 0px 16px 0px; }
       .expertise__detailsContainer--heading h1 {
-        font-size: 48px; }
+        font-size: 32px;
+        width: 650px; }
     .expertise__detailsContainer--subDetails {
       padding-bottom: 32px; }
     .expertise__detailsContainer h1 {
-      font-size: 48px; }
+      font-size: 32px;
+      width: 500px; }
   .expertise__action {
     padding: 73px 75px 81px 75px; }
   .expertise__actionContainer {
@@ -861,6 +901,8 @@ footer {
       border-bottom: none;
       margin-top: 2rem;
       padding-left: 64px; }
+      .expertise__actionContainer--content h1 {
+        width: 511px; }
     .expertise__actionContainer--reverseOrder {
       border-left: 1px solid #fff; } }
 @media screen and (min-width: 320px) {
