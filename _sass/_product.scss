@@ -4,7 +4,7 @@
       text-align: center;
       .row{
         width: 305px;
-        padding: 20px 0px;
+        padding: 20px 0px 10px 0px;
         margin: 0 auto;
       }
       h1 {
@@ -31,6 +31,7 @@
           font-weight: 600;
           text-align: left;
           color: #4a4a4a;
+          width: 274px;
         }
         p{
           font-family: 'latoRegular';
@@ -39,6 +40,7 @@
           text-align: left;
           color: #95989a;
           margin: 16px 0px;
+          width: 257px;
         }
       section {
           display: none;
@@ -105,7 +107,7 @@
             text-align: left;
             color: #f2f2f2;
             margin: 0;
-             padding:25px 51px 13px 0px;
+             padding:0px 51px 13px 0px;
             font-weight: 400; 
         }
         h2{
@@ -154,23 +156,27 @@
   h1{
     font-size: 36px;
     width: 100%;
-    padding: 30px 0px 40px;
+    padding: 31px 0px 41px;
   }
   h2{
     font-size: 32px;
     margin: 13px 0px 28px 0px;
+    width: 360px;
   }
   h3{
     font-size: 20px;
+    width: 341px;
   }
   p{
     font-size: 14px;
+    width: 341px;
   }
   label{
     width:190px;
     font-size:16px;
     height:39px;
     padding:6px;
+    margin-bottom: 72px;
   }
   input:checked + label {
     padding: 14px 34px 40px 20px;
@@ -179,7 +185,7 @@
   .product__block1{
     embed{
       height: 300px;
-      // margin-left: 100px;
+     margin-top: 100px;
     }
     }
     .product__block3{
@@ -204,7 +210,7 @@
         text-align: left;
         color: #f2f2f2;
         margin: 0;
-        padding:13px 39px 38px 8px;
+        padding:13px 39px 46px 8px;
         font-weight: 400; 
     }
     h2{
@@ -213,17 +219,23 @@
       text-align: left;
       color: #f2f2f2;
       margin: 0;
-      padding:26px 0px 41px 0px;
-      font-weight: 400; 
+      padding: 18px 0px 41px 0px;
+      font-weight: 400;
+      width: 476px;
     }
     input{
       width: 483px;
+      font-size: 24px;
+      padding: 14px 26px 14px;
+      margin-bottom: 16px;
     }
     }
      button {
       width: 354px;
       height: 57px;
       margin-right:330px;
+      font-size: 24px;
+      margin-bottom: 60px;
   }
  
 }
@@ -238,7 +250,7 @@
     h1{
       font-size:48px;
       width: 100%;
-      padding: 30px 0px 40px;
+      padding: 27px 0px 30px;
     }
     h2{
       font-size: 32px;
@@ -261,12 +273,14 @@
       height: 57px;
     }
     .product__block1{
+      padding-bottom: 30px;
       embed{
         height: 410px;
         // margin-left: 100px;
       }
       }
       .product__block3{
+        margin-bottom: 43px;
         embed{
           height: 345px;
           margin-top: 150px;
@@ -275,6 +289,7 @@
         }
       .product__block2{
         background-color: #f2f2f2;
+        padding-bottom: 23px;
         embed{
           height: 295px;
           margin-top: 70px;; 
@@ -287,6 +302,9 @@
           font-size: 32px;
           color: #f2f2f2;
           padding-top:49px;
+      }
+      h2{
+        padding: 21px 0px 41px 0px;
       }
    
       input{
@@ -309,18 +327,21 @@
     h1{
       font-size: 64px;
       width: 100%;
-      padding: 30px 0px 40px;
+      padding: 57px 0px 81px;
     }
     h2{
       font-size: 48px;
-      padding: 12px 0px 0px 0px;
+      padding: 35px 0px 0px 0px;
+      width: 550px;
     }
     h3{
       font-size: 24px;
       margin: 14px 0px;
+      width: 410px;
     }
     p{
       font-size: 16px;
+      width: 466px;
     }
     label{
       width: 315px;
@@ -343,12 +364,14 @@
       font-size: 32px;
     }
     .product__block1{
+      padding-bottom: 80px;
       embed{
         height: 410px;
-        // margin-left: 100px;
+       margin-bottom: 60px;
       }
       }
       .product__block3{
+        margin-bottom: 100px;
         embed{
           height: 345px;
           margin-top: 150px;
@@ -357,6 +380,7 @@
         }
       .product__block2{
         background-color: #f2f2f2;
+        padding-bottom: 165px;
         embed{
           height: 295px;
           margin-top: 70px;; 
@@ -366,6 +390,9 @@
         background-color: #2faaba;
         h1 {
           width:513px;
+      }
+      h2{
+        padding: 32px 0px 41px 0px;
       }
       input{
         display: -webkit-box;
@@ -377,7 +404,7 @@
         height: 57px;
         margin-right:317px;
         font-size: 24px;
-        margin-bottom: 38px;
+        margin-bottom: 58px;
     }
   }
   }
