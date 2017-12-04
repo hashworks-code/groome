@@ -170,7 +170,8 @@ footer {
       line-height: 1.39;
       text-align: center;
       color: #01363c;
-      margin: 8px 0px 48px; }
+      margin: 8px 0px 48px;
+      width: 275px; }
   .groome__homepage .homepage__hire__image {
     text-align: center; }
     .groome__homepage .homepage__hire__image img {
@@ -422,7 +423,8 @@ footer {
     padding-top: 100px; }
     .groome__homepage .homepage__hire__text h1 {
       font-size: 48px;
-      text-align: left; }
+      text-align: left;
+      margin-top: 10px; }
     .groome__homepage .homepage__hire__text p {
       font-size: 32px;
       text-align: left; }
@@ -509,11 +511,13 @@ footer {
         height: 1045px;
         position: absolute;
         left: 134px; }
-  .groome__homepage .homepage__analytics h1 {
-    font-size: 32px;
-    width: 374px; }
-  .groome__homepage .homepage__analytics__plus h1 {
-    font-size: 48px; }
+  .groome__homepage .homepage__analytics {
+    height: 366px; }
+    .groome__homepage .homepage__analytics h1 {
+      font-size: 32px;
+      width: 374px; }
+    .groome__homepage .homepage__analytics__plus h1 {
+      font-size: 48px; }
   .groome__homepage .homepage__senario__text {
     padding: 62px 0px 84px; }
     .groome__homepage .homepage__senario__text .row {
