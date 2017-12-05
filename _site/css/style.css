@@ -82,7 +82,8 @@ footer {
       color: #4a4a4a;
       margin: 16px 0px 22px; }
       footer .row p a {
-        color: #eb6751; }
+        color: #eb6751;
+        cursor: pointer; }
 
 @media screen and (min-width: 320px) {
   #popup {
@@ -110,7 +111,8 @@ footer {
       border-top-right-radius: 31px;
       border-bottom-right-radius: 31px;
       width: 49px;
-      height: 46px; }
+      height: 46px;
+      cursor: pointer; }
     #popup h1 {
       font-family: 'latoRegular';
       font-size: 24px;
@@ -186,6 +188,13 @@ footer {
       footer .row p {
         font-size: 24px; }
 
+  body header .groome-expertise {
+    font-size: 20px;
+    padding-right: 16px; }
+  body header .groome-product {
+    font-size: 20px;
+    padding-left: 16px; }
+
   #popup .modal {
     width: 570px; }
   #popup .row {
@@ -232,6 +241,13 @@ footer {
   .groome-product {
     padding-right: 34px; }
 
+  body header .groome-expertise {
+    font-size: 24px;
+    padding-right: 32px; }
+  body header .groome-product {
+    font-size: 24px;
+    padding-left: 33px; }
+
   footer {
     padding: 48px 0px 61px; }
     footer .row {
@@ -239,7 +255,13 @@ footer {
       footer .row .footer__image {
         background-position: 0px 0px; }
       footer .row h1 {
-        margin-top: 10px; } }
+        margin-top: 10px; }
+
+  .groome-expertise {
+    font-size: 24px; }
+
+  .groome-product {
+    font-size: 24px; } }
 @media screen and (min-width: 1367px) {
   .groome-home {
     padding-left: 39px; }

@@ -77,6 +77,7 @@ body{
         margin: 16px 0px 22px;
         a{
           color: #eb6751;
+          cursor: pointer;
         }
         
       }
@@ -114,6 +115,7 @@ body{
       border-bottom-right-radius: 31px;
       width: 49px;
       height: 46px;
+      cursor: pointer;
 // background-color:#000000 ;
   }
 h1 {
@@ -208,7 +210,19 @@ h1 {
         }
       }
     }
-
+    body{
+      header{
+        .groome-expertise {
+          font-size: 20px;
+          padding-right: 16px;
+        }
+        .groome-product {
+          font-size: 20px;
+          padding-left: 16px;
+        } 
+      }
+    }
+   
     #popup{
 
     .modal{
@@ -272,6 +286,18 @@ padding-left: 10px;
 .groome-product{
   padding-right: 34px;
 }
+body{
+  header{
+    .groome-expertise {
+      font-size: 24px;
+      padding-right: 32px;
+    }
+    .groome-product {
+      font-size: 24px;
+      padding-left: 33px;
+    } 
+  }
+}
     footer{
       padding: 48px 0px 61px;
       .row{
@@ -284,6 +310,12 @@ padding-left: 10px;
         }
       }
     }
+    .groome-expertise {
+      font-size: 24px;
+    }
+    .groome-product {
+      font-size: 24px;
+    } 
     
   }
 
