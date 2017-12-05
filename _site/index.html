@@ -187,6 +187,11 @@
      $("#close_popup").click(function(){
         $("#popup").css("display", "none");
       }); 
+      $(document).click(function(e) {
+     if (!(e.target.id === 'open_popup')) {
+         $("#popup").css("display", "none");                        
+    }
+});
     </script>
 
 </html>
