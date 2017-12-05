@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/groome_static/css/hashGrid.css">
     <link rel="canonical" href="http://localhost:4000/">
     <link rel="alternate" type="application/rss+xml" title="Groome - HR Solution made simples" href="/feed.xml">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
         <header>
@@ -198,14 +199,51 @@
         </section>
         <footer>
     <div class="row">
-        <div class="footer__image col-xs-12 col-sm-12  last-md col-md-7"></div>
-        <div class="col-xs-12 col-sm-12  col-md-5">
+        <div class="footer__image col-xs-12 col-sm-12  last-md col-md-7 col-lg-7"></div>
+        <div class="col-xs-12 col-sm-12  col-md-5 col-lg-5">
             <h1>Groome</h1>
-            <h2>Expertise  |  Product  |  Contact</h2>
+            <h2>Expertise  |  Product  | <a href="#popup" id="open_popup">Contact</a> </h2>
             <p>Product of <a href="https://www.hashworks.co/" target="_blank"> hashwork.co</a></p>
         </div>
     </div>
+    <div  id="popup" >
+        <div class="modal">
+            <div class="row">
+                <div class="close-button" id="close_popup"><p class="x">X</p></div>
+                  <h1>LET’S WORK TOGETHER</h1>
+                    <h2>Forming partnerships will help to create the cult for coffee</h2>
+                     <p>Your name <label>*</label></p>
+                     <input  type="text" />
+                     <p>Your Email <label>*</label></p>
+                     <input  type="email"/>
+                    <p>Your Company <label>*</label></p>
+                     <input  type="text" placeholder="Hashworks" />
+              <button type="button">Submit</button>
+              <div class="row phone">
+               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+                 <img src="/groome_static/assets/images/antique.png"/>
+                 <span>+91 80 64513477</span>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                 <img src="/groome_static/assets/images/email.png"/>
+                 <span>hello@groome.co</span>
+               </div>
+                </div>
+              <!-- <a href="#" id="close_popup">closepopup</a> -->
+            </div>
+        </div>
+          </div>
+
 </footer>
 </body>
+<script>
+        $("#open_popup").click(function(){
+        $("#popup").css("display", "flex");
+      });
+    
+     $("#close_popup").click(function(){
+        $("#popup").css("display", "none");
+      }); 
+    </script>
 
 </html> 
