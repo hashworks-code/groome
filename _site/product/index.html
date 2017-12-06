@@ -264,7 +264,12 @@
         $("#popup").css("display", "none");
       }); 
    
-
+  $('body').click(function(e){
+    // console.log("e",e.target.style[0]);
+    if(e.target.style[0] == "display"){
+      $("#popup").css("display","none");
+    }
+  });
    
     </script>
 
