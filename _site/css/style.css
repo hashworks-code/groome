@@ -661,7 +661,8 @@ footer {
       font-size: 56px;
       text-align: left;
       width: 598px;
-      margin-top: 73px; }
+      margin-top: 73px;
+      margin: 0px; }
     .groome__homepage .homepage__hire__text p {
       font-size: 32px;
       text-align: left;
@@ -670,15 +671,17 @@ footer {
     .groome__homepage .homepage__hire__image {
       position: relative; }
       .groome__homepage .homepage__hire__image img {
-        width: 434px;
-        height: 1045px;
+        width: 473px;
+        height: 1076px;
         position: absolute;
-        left: 134px; }
+        left: 111px; }
   .groome__homepage .homepage__analytics {
     height: 366px; }
     .groome__homepage .homepage__analytics h1 {
       font-size: 32px;
       width: 374px; }
+    .groome__homepage .homepage__analytics p {
+      width: 310px; }
     .groome__homepage .homepage__analytics__plus h1 {
       font-size: 48px; }
   .groome__homepage .homepage__senario__text {
@@ -725,7 +728,7 @@ footer {
 .expertise__banner {
   height: 345px;
   background-image: url(../assets/images/expertise_banner.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat; }
   .expertise__banner--text {
     padding: 0px 14px 40px  18px; }

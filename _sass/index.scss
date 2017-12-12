@@ -519,6 +519,7 @@
                         text-align: left;
                         width: 598px;
                         margin-top: 73px;
+                        margin: 0px;
                     }
                     p{
                         font-size:32px;
@@ -531,10 +532,10 @@
                     position: relative;
                     // margin-top: 35px;
                     img{
-                        width: 434px;
-                        height: 1045px;
+                        width: 473px;
+                        height: 1076px;
                         position: absolute;
-                        left: 134px;
+                        left: 111px;
                     }
                 }
             }
@@ -543,6 +544,9 @@
                 h1{
                     font-size:32px;
                     width: 374px;
+                }
+                p{
+                    width: 310px;
                 }
                 
                 &__plus{
