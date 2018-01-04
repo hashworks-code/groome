@@ -13,8 +13,14 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/hashGrid.css">
     <link rel="canonical" href="http://localhost:4000/">
+    <script type="text/javascript" src="/assets/js/TweenMax.min.js"></script>
+    <script type="text/javascript" src="/assets/js/ScrollMagic.js"></script>
+    <script type="text/javascript" src="/assets/js/animation.gsap.js"></script>
+    <script type="text/javascript" src="/assets/js/debug.addIndicators.js"></script>
+    <link rel="shortcut icon" href="http://scrollmagic.io/img/favicon.ico" type="image/x-icon">
     <link rel="alternate" type="application/rss+xml" title="Groome - HR Solution made simples" href="/feed.xml">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
 </head>
 <body>
         <header>
@@ -46,7 +52,16 @@
                         <p>Gather “<strong>Intelligence</strong>” to Find, Attract and Hire best talents</p>
                     </div>
                     <div class="homepage__hire__image col-xs-12 col-sm-12 col-md-6">
-                        <img src="../assets/images/homepage/group-7 (1).svg" alt="Talent Acquistion">
+                        <!-- <img src="../assets/images/homepage/group-7 (1).svg" alt="Talent Acquistion"> -->
+                        <div class="containerObject">
+                            <div class="spacer s2"></div>
+                            <div class="spacer s0" id="trigger"></div>
+                            <div id="imagesequence" class="project">
+                              <img id="myimg" src= "../assets/images/img/Asset_1.svg", width="300"><br>
+                            </div>
+                            <div class="spacer s2"></div>
+                          </div>
+                    
                     </div>
                 </div>    
             </div>
@@ -140,6 +155,72 @@
                     </div>   
                 </div>
         </section>
+
+        <script>
+            // define images
+            var images = [
+            
+              "../assets/images/img/Asset_1.svg",
+              "../assets/images/img/Asset_11.svg",
+              "../assets/images/img/Asset_21.svg",
+              "../assets/images/img/Asset_2.svg",
+              "../assets/images/img/Asset_21.svg",
+              "../assets/images/img/Asset_31.svg",
+              "../assets/images/img/Asset_3.svg",
+              "../assets/images/img/Asset_31.svg",
+              "../assets/images/img/Asset_41.svg",
+              "../assets/images/img/Asset_4.svg",
+              "../assets/images/img/Asset_41.svg",
+              "../assets/images/img/Asset_51.svg",
+              "../assets/images/img/Asset_5.svg",
+              "../assets/images/img/Asset_51.svg",
+              "../assets/images/img/Asset_61.svg",
+              "../assets/images/img/Asset_6.svg",
+              "../assets/images/img/Asset_61.svg",
+              "../assets/images/img/Asset_71.svg",
+              "../assets/images/img/Asset_7.svg",
+              "../assets/images/img/Asset_71.svg",
+              "../assets/images/img/Asset_81.svg",
+              "../assets/images/img/Asset_8.svg",
+              "../assets/images/img/Asset_81.svg",
+              "../assets/images/img/Asset_91.svg",
+              "../assets/images/img/Asset_9.svg"
+            ];
+          
+            // TweenMax can tween any property of any object. We use this object to cycle through the array
+            var obj = {curImg: 0};
+            
+            // TweenMax.set("#myimg", {autoAlpha:0});
+            // create tween
+            var tween = TweenMax.to(obj, 0.5,
+              {
+                curImg: images.length - 1,	// animate propery curImg to number of images
+                roundProps: "curImg",				// only integers so it can be used as an array index
+                repeat: 0,									// repeat 3 times
+                immediateRender: true,			// load first image automatically
+                // autoAlpha:1,
+                ease: Linear.easeIn,			// show every image the same ammount of time
+                onUpdate: function () {
+                  $("#myimg").attr("src", images[obj.curImg])
+                 
+                }
+              }
+            );
+          
+            // init controller
+            var controller = new ScrollMagic.Controller();
+          
+            // build scene
+            var scene = new ScrollMagic.Scene({duration: 200 })
+                    .setTween(tween)
+                    // .setClassToggle('#imagesequence', 'fade-in')
+                    // .setPin("#imagesequence")
+                    .addTo(controller);
+            // handle form change
+            $("form.move input[name=duration]:radio").change(function () {
+              scene.duration($(this).val());
+            });
+          </script>
         <footer>
     <div class="row">
         <div class="footer__image col-xs-12 col-sm-12  last-md col-md-7 col-lg-7"></div>
