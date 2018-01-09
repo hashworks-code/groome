@@ -19,6 +19,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js" ></script>
+    <!-- <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script> -->
+    <!-- <script src="js/form-validation.js"></script> -->
     
 </head>
 <body>
@@ -219,26 +221,24 @@
                 <div class="close-button" id="close_popup"><p class="x">X</p></div>
                 <h1>LET’S WORK TOGETHER</h1>
                 <h2>Forming partnerships will help to create the cult for coffee</h2>
-                <form id="test-form">
+                <form id="test-form" action="" name="contactus">
                   <div>
                     <p>Your name <label>*</label></p>
-                    <input type="text" name="name" placeholder="Name"/>
+                    <input type="text" name="name" id="name" placeholder="Name"/>
                   </div>
                   <div>
                     <p>Your Email <label>*</label></p>
-                    <input type="text" name="email" placeholder="Email"/>
+                    <input type="email" name="email" id="email" placeholder="Email"/>
                   </div>
                   <div>
                     <p>Your Company <label>*</label></p>
-                    <input type="text" name="company" placeholder="Hashworks" />
+                    <input type="text" name="company" id="company" placeholder="Hashworks" />
                   </div>
                   <div>
-                    <button type="submit"id="submit-form">Submit</button>
+                    <button type="submit" id="submit-form">Submit</button>
                   </div>
                 </form>
                 <div class="success"><h1 id="test">Successfully Submited</h1></div>
-                
-              <!-- <button type="button">Submit</button> -->
               <div class="row phone">
                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
                  <img src="../assets/images/antique.png"/>
@@ -294,6 +294,10 @@ $('#submit-form').on('click', function(e) {
       $("#popup").css("display","none");
     }
   });
+
+  //validation
+
+
    
     </script>
 
