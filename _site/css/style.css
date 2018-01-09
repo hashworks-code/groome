@@ -97,7 +97,7 @@ footer {
         cursor: pointer; }
 
 @media screen and (min-width: 320px) {
-  #popup {
+  #popup, #popup2 {
     position: fixed;
     display: none;
     margin: auto;
@@ -107,15 +107,15 @@ footer {
     align-items: center;
     width: 100%;
     height: 100vh; }
-    #popup .modal {
+    #popup .modal, #popup2 .modal {
       position: relative;
       width: 310px;
       border-radius: 5px;
       background-color: #e0e0e0; }
-    #popup .row {
+    #popup .row, #popup2 .row {
       width: 270px;
       margin: 0 auto; }
-    #popup .close-button {
+    #popup .close-button, #popup2 .close-button {
       position: absolute;
       right: 0px;
       top: 9px;
@@ -124,7 +124,7 @@ footer {
       width: 49px;
       height: 46px;
       cursor: pointer; }
-    #popup h1 {
+    #popup h1, #popup2 h1 {
       font-family: 'latoRegular';
       font-size: 24px;
       text-align: left;
@@ -132,26 +132,26 @@ footer {
       margin: 0;
       padding-top: 45px;
       width: 268px; }
-    #popup h2 {
+    #popup h2, #popup2 h2 {
       font-family: 'latoRegular';
       font-size: 16px;
       text-align: left;
       color: #4a4a4a;
       margin: 0;
       padding: 16px 41px 0px 0px; }
-    #popup p {
+    #popup p, #popup2 p {
       font-family: 'latoRegular';
       font-size: 14px;
       text-align: left;
       color: #4a4a4a;
       padding-bottom: 0px; }
-    #popup .x {
+    #popup .x, #popup2 .x {
       color: #4a4a4a;
       font-size: 21px;
       text-align: center; }
-    #popup label {
+    #popup label, #popup2 label {
       color: #fd7070; }
-    #popup input {
+    #popup input, #popup2 input {
       width: 266px;
       background-color: #9b9b9b;
       font-size: 14px;
@@ -162,7 +162,7 @@ footer {
       border-bottom: 1px solid #9b9b9b;
       font-family: 'latoRegular';
       color: #4a4a4a; }
-    #popup button {
+    #popup button, #popup2 button {
       width: 216px;
       height: 40px;
       border-radius: 2px;
@@ -174,13 +174,13 @@ footer {
       margin-top: 16px;
       border: none;
       cursor: pointer; }
-    #popup span {
+    #popup span, #popup2 span {
       font-size: 14px;
       line-height: 2.36;
       text-align: left;
       color: #1fadc5;
       padding-left: 10px; }
-    #popup .phone {
+    #popup .phone, #popup2 .phone {
       padding: 13px 0px 45px 0px; } }
 @media screen and (min-width: 768px) {
   .groome-home {
@@ -210,34 +210,34 @@ footer {
     font-size: 20px;
     padding-left: 16px; }
 
-  #popup .modal {
+  #popup .modal, #popup2 .modal {
     width: 570px; }
-  #popup .row {
+  #popup .row, #popup2 .row {
     width: 433px;
     margin: 0 auto; }
-  #popup .close-button {
+  #popup .close-button, #popup2 .close-button {
     right: -49px;
     top: 10px;
     background-color: #000000; }
-  #popup h1 {
+  #popup h1, #popup2 h1 {
     padding-top: 50px;
     width: 446px;
     color: #1fadc5; }
-  #popup h2 {
+  #popup h2, #popup2 h2 {
     font-size: 16px;
     margin: 0;
     width: 363px; }
-  #popup .x {
+  #popup .x, #popup2 .x {
     font-size: 18px;
     color: #ffffff;
     margin: 11px 0px 0px -10px; }
-  #popup p {
+  #popup p, #popup2 p {
     font-size: 14px;
     padding: 0px;
     margin: 25px 0px 5px 0px; }
-  #popup input {
+  #popup input, #popup2 input {
     width: 433px; }
-  #popup button {
+  #popup button, #popup2 button {
     width: 216px;
     height: 40px;
     font-size: 16px;
@@ -245,9 +245,9 @@ footer {
     margin-top: 17px;
     margin-left: 111px;
     border: none; }
-  #popup span {
+  #popup span, #popup2 span {
     padding-left: 10px; }
-  #popup .phone {
+  #popup .phone, #popup2 .phone {
     padding: 29px 0px 22px 0px; } }
 @media screen and (min-width: 1025px) {
   .groome-home {
@@ -302,19 +302,19 @@ footer {
       footer .row a {
         color: #95989a; }
 
-  #popup .modal {
+  #popup .modal, #popup2 .modal {
     width: 715px; }
-  #popup .row {
+  #popup .row, #popup2 .row {
     width: 446px;
     margin: 0 auto; }
-  #popup h1 {
+  #popup h1, #popup2 h1 {
     font-size: 32px; }
-  #popup h2 {
+  #popup h2, #popup2 h2 {
     font-size: 24px;
     width: 433px; }
-  #popup button {
+  #popup button, #popup2 button {
     margin-top: 29px; }
-  #popup .phone {
+  #popup .phone, #popup2 .phone {
     padding: 43px 0px 32px 0px; } }
 .wrapper {
   background: #f2f2f2; }
@@ -1150,7 +1150,7 @@ footer {
     position: relative;
     bottom: 40px;
     width: 100%;
-    text-align: center !important;
+    text-align: left !important;
     font-size: 16px !important;
     padding: 0px !important; }
 
@@ -1286,8 +1286,7 @@ footer {
     position: relative;
     bottom: 40px;
     width: 354px !important;
-    right: 50px;
-    text-align: center !important;
+    text-align: left !important;
     font-size: 16px !important;
     padding: 0px !important; }
 
