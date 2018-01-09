@@ -388,7 +388,7 @@ footer {
   .groome__homepage .homepage__senario__image {
     width: 100%;
     height: 345px;
-    background-image: url("../assets/images/homepage/group-22.svg");
+    background-image: url("../assets/images/homepage/Image.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -1244,6 +1244,7 @@ footer {
         border: solid 1px #f2f2f2;
         padding: 20px 50px 15px 26px;
         font-family: 'latoRegular';
+        font-style: normal;
         font-size: 18px; }
     .groome__product button {
       width: 281px;
