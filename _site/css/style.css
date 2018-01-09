@@ -791,7 +791,8 @@ footer {
 .expertise__banner {
   height: 345px;
   background-image: url(../assets/images/expertise_banner.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat; }
   .expertise__banner--text {
     padding: 0px 14px 40px  18px; }
