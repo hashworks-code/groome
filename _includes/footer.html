@@ -11,15 +11,28 @@
         <div class="modal">
             <div class="row">
                 <div class="close-button" id="close_popup"><p class="x">X</p></div>
-                  <h1>LET’S WORK TOGETHER</h1>
-                    <h2>Forming partnerships will help to create the cult for coffee</h2>
-                     <p>Your name <label>*</label></p>
-                     <input  type="text" />
-                     <p>Your Email <label>*</label></p>
-                     <input  type="email"/>
+                <h1>LET’S WORK TOGETHER</h1>
+                <h2>Forming partnerships will help to create the cult for coffee</h2>
+                <form id="test-form">
+                  <div>
+                    <p>Your name <label>*</label></p>
+                    <input type="text" name="name" placeholder="Name"/>
+                  </div>
+                  <div>
+                    <p>Your Email <label>*</label></p>
+                    <input type="text" name="email" placeholder="Email"/>
+                  </div>
+                  <div>
                     <p>Your Company <label>*</label></p>
-                     <input  type="text" placeholder="Hashworks" />
-              <button type="button">Submit</button>
+                    <input type="text" name="company" placeholder="Hashworks" />
+                  </div>
+                  <div>
+                    <button type="submit"id="submit-form">Submit</button>
+                  </div>
+                </form>
+                <div class="success"><h1 id="test">Successfully Submited</h1></div>
+                
+              <!-- <button type="button">Submit</button> -->
               <div class="row phone">
                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
                  <img src="../assets/images/antique.png"/>
@@ -37,6 +50,30 @@
 
 </footer>
 </body>
+<script src="../assets/js/jquery.serialize-object.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#test").hide();
+   
+  var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec'
+
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject(),
+    success: function () {
+      $("#test").show();
+  
+        }
+  })
+})
+});
+
+</script>
 <script>
         $("#open_popup").click(function(){
         $("#popup").css("display", "flex");
