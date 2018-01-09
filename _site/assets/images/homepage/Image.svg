@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="466px" height="594px" viewBox="0 0 466 594" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="466px" height="599px" viewBox="0 0 466 599" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
     <title>Group 22</title>
     <desc>Created with Sketch.</desc>
@@ -20,24 +20,24 @@
         <polygon id="path-27" points="0.287762752 0.030614792 16.6373125 0.030614792 16.6373125 16.8943828 0.287762752 16.8943828 0.287762752 0.030614792"></polygon>
         <polygon id="path-29" points="66.0412246 33.9244992 0.249080282 33.9244992 0.249080282 0.21604114 66.0412246 0.21604114 66.0412246 33.9244992"></polygon>
     </defs>
-    <g id="Desktop-HD-landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-773.000000, -1349.000000)">
-        <g id="Group-22" transform="translate(773.000000, 1345.000000)">
+    <g id="Desktop-HD-landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-773.000000, -1344.000000)">
+        <g id="Group-22" transform="translate(773.000000, 1340.000000)">
             <text id="Sales" font-family="Lato-SemiBold, Lato" font-size="16" font-weight="500" fill="#4A4A4A">
                 <tspan x="215.936" y="16">Sales</tspan>
             </text>
             <text id="Operation-Manager" font-family="Lato-SemiBold, Lato" font-size="16" font-weight="500" fill="#4A4A4A">
-                <tspan x="9.228" y="350">Operation</tspan>
-                <tspan x="14.08" y="369">Manager</tspan>
+                <tspan x="15.228" y="355">Operation</tspan>
+                <tspan x="20.08" y="374">Manager</tspan>
             </text>
-            <text id="Custmer" font-family="Lato-SemiBold, Lato" font-size="16" font-weight="500" fill="#4A4A4A">
-                <tspan x="209.436" y="597">Custmer</tspan>
+            <text id="Customer" font-family="Lato-SemiBold, Lato" font-size="16" font-weight="500" fill="#4A4A4A">
+                <tspan x="204.868" y="602">Customer</tspan>
             </text>
             <text id="Talent-Acquisition-T" font-family="Lato-SemiBold, Lato" font-size="16" font-weight="500" fill="#4A4A4A">
-                <tspan x="396.616" y="356">Talent </tspan>
-                <tspan x="379.116" y="375">Acquisition </tspan>
-                <tspan x="399.324" y="394">Team</tspan>
+                <tspan x="399.616" y="361">Talent </tspan>
+                <tspan x="382.116" y="380">Acquisition </tspan>
+                <tspan x="402.324" y="399">Team</tspan>
             </text>
-            <g id="Page-1" transform="translate(0.000000, 31.000000)">
+            <g id="Page-1" transform="translate(0.000000, 36.000000)">
                 <g id="Group-3" transform="translate(367.549296, 193.587259)">
                     <mask id="mask-2" fill="white">
                         <use xlink:href="#path-1"></use>

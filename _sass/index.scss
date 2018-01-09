@@ -422,6 +422,7 @@
         .image-container img.active {
             z-index:2;
         }
+
         .container1 {
             position: absolute;
         }
@@ -551,10 +552,10 @@
     @media screen and (min-width:1367px){ 
         
         svg{
-            padding:50px 50px 50px 50px;
-            margin-left:0px;
-            width: 567px;
-            height: 980px;
+               padding: 50px 50px 96px 50px;
+                margin-left: 1px;
+                width: 546px;
+                height: 981px;
           }
         
         .image-container img.active {
