@@ -978,7 +978,8 @@ footer {
     .expertise__actionContainer--actionContent button {
       width: 354px;
       font-size: 24px;
-      margin-bottom: 47px; }
+      margin-bottom: 47px;
+      cursor: pointer; }
     .expertise__actionContainer--content h1 {
       margin: 0px 30px 46px 0px;
       font-size: 32px; }
@@ -1072,7 +1073,8 @@ footer {
     .expertise__actionContainer--actionContent button {
       width: 354px;
       margin-bottom: 0px;
-      font-size: 24px; } }
+      font-size: 24px;
+      cursor: pointer; } }
 @media only screen and (min-width: 1367px) {
   .expertise__banner--text {
     padding: 0px 335px 65px  335px; }
