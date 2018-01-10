@@ -617,7 +617,7 @@ footer {
         height: 64px; } }
 @media screen and (min-width: 1025px) {
   svg {
-    padding: 0px 0px 226px 81px;
+    padding: 0px 0px 151px 124px;
     margin: 0px;
     margin-left: 25px;
     width: 465px;
@@ -704,10 +704,10 @@ footer {
       margin: 18px 0 30px; } }
 @media screen and (min-width: 1367px) {
   svg {
-    padding: 50px 50px 96px 50px;
+    padding: 0px 0px 151px 135px;
     margin-left: 1px;
     width: 546px;
-    height: 981px; }
+    height: 1129px; }
 
   .image-container img.active {
     z-index: 2; }
