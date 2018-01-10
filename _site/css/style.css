@@ -162,7 +162,8 @@ footer {
       border-bottom: 1px solid #9b9b9b;
       font-family: 'latoRegular';
       color: #4a4a4a;
-      padding: 0px 0px 11px; }
+      padding: 0px 0px 11px;
+      margin-bottom: 10px; }
     #popup button, #popup2 button {
       width: 216px;
       height: 40px;
