@@ -25,6 +25,8 @@ body {
     text-transform: capitalize; }
   body h2 {
     text-transform: capitalize; }
+  body h3 {
+    text-transform: capitalize; }
   body .success h1 {
     text-align: center !important;
     padding: 10px !important;

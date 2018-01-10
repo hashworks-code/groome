@@ -166,21 +166,24 @@
                                 <form id="test-form2" action="" name="contactus">
                                   <div>
                                     <p>Your name <label>*</label></p>
-                                    <input type="text" name="name" id="name" placeholder="Name"/>
+                                    <input type="text" name="name" id="name1" placeholder="Name"/>
                                   </div>
                                   <div>
                                     <p>Your Email <label>*</label></p>
-                                    <input type="email" name="email" id="email" placeholder="Email"/>
+                                    <input type="email" name="email" id="email1"id="emailVal2" placeholder="Email"/>
                                   </div>
                                   <div>
                                     <p>Your Company <label>*</label></p>
-                                    <input type="text" name="company" id="company" placeholder="Hashworks" />
+                                    <input type="text" name="company" id="company1" placeholder="Hashworks" />
                                   </div>
                                   <div>
-                                    <button type="submit" id="submit-form">Submit</button>
+                                    <button type="submit" id="submit-form3">Submit</button>
                                   </div>
                                 </form>
-                                <div class="success"><h1 id="test3">Successfully Submited</h1></div>
+                                <div class="success">
+                                    <h1 id="test3">Successfully Submited</h1>
+                                    <h1 id="errorMsg2">Filled All Required</h1>
+                                </div>
                               <div class="row phone">
                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
                                  <img src="../assets/images/antique.png"/>
@@ -200,42 +203,68 @@
             </section>    
         </section>
 
-        <script>
-                $(document).ready(function(){
-                  $("#test3").hide();
-                   
-                  var $form = $('form#test-form2'),
-                    url = 'https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec'
-                
-                $('#submit-form').on('click', function(e) {
-                  e.preventDefault();
-                  var jqxhr = $.ajax({
-                    url: url,
-                    method: "GET",
-                    dataType: "json",
-                    data: $form.serializeObject(),
-                    success: function () {
-                      $("#test3").show();
-                  
-                        }
-                  })
-                })
-                });
-                
-                </script>
-                <script>
-                        $("#open_popup2").click(function(){
-                        $("#popup").css("display", "flex");
-                      });
-                    
-                     $("#close_popup2").click(function(){
-                        $("#popup2").css("display", "none");
-                      }); 
-                   
-                  $('body').click(function(e){
-                    if(e.target.style[0] == "display"){
-                      $("#popup2").css("display","none");
+
+<script>
+        //validation
+        $(document).ready(function() {
+                $("#test3").hide();
+                $("#errorMsg2").hide();
+                var $form = $('form#test-form'),
+                url = 'https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec'
+        
+                function isEmail(email) {
+                    var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                    if (regex.test(email) === true) {
+                        console.log('Valid Email');
+                        var jqxhr = $.ajax({
+                            url: url,
+                            method: "GET",
+                            dataType: "json",
+                            data: $form.serializeObject(),
+                            success: function() {
+                                $("#test3").show();
+                                $("#errorMsg2").hide();
+                            }
+                        })
+                    } else {
+                        console.log('Invalid Emial');
+                        $("#errorMsg2").show();
                     }
-                  });
-            </script>
+                }
+                $('#submit-form3').on('click', function(e) {
+                    var email = $("#emailVal2").val();
+                    isEmail(email);
+                    e.preventDefault();
+                })
+                
+        
+            });
+        
+            $('#submit-form').on('click', function() {
+            valid = true;   
+            if ($('#name1').val() == '') {
+                valid = false;
+            }
+        
+            if ($('#company1').val() == '') {
+                 valid = false;
+            }    
+        });
+        
+        </script>
+    <script>
+        $("#open_popup2").click(function(){
+        $("#popup").css("display", "flex");
+        });
+    
+        $("#close_popup2").click(function(){
+        $("#popup2").css("display", "none");
+        }); 
+    
+    $('body').click(function(e){
+    if(e.target.style[0] == "display"){
+        $("#popup2").css("display","none");
+    }
+    });
+</script>
         {% include footer.html %} 
