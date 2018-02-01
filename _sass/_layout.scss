@@ -10,9 +10,7 @@ body{
   h1{
     text-transform: capitalize;
   }
-  h2{
-    text-transform: capitalize;
-  }
+  
   h3{
     text-transform: capitalize;
   }
@@ -43,6 +41,7 @@ body{
       font-family: 'latoBold';
       font-size: 32px;
     }
+    
     .groome-expertise {
       padding-right: 5px;
       border-right: 1px solid #95989a;
@@ -102,7 +101,9 @@ body{
     }
   }
   @media screen and (min-width:320px){ 
-   
+    .groomelogo{
+width: 100px;
+    }
   
     #popup, #popup2{
     
