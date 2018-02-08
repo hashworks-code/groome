@@ -78,7 +78,7 @@
             h2 {
                 margin: 0;
                  font-family: 'latoRegular';
-                 font-size: 18px;
+                 font-size: 16px;
                  font-weight: 600;
                  text-align: left;
                  color: #4a4a4a;
@@ -98,14 +98,7 @@
         &--left {
             padding-bottom: 35px;
         }
-        // &--right {
-           
-        //     img {
-        //         width: 280px;
-        //         height: 315px;
-        //         margin-bottom: 38px;
-        //     }
-        // }
+     
         embed{
             width: 275px;
             height: 315px;
@@ -126,7 +119,7 @@
             h1 {
                   font-family: 'latoLight';
                   font-weight: 400;
-                  font-size: 24px;
+                  font-size: 20px;
                   text-align: left;
                   color: #f2f2f2;
                   width: 85%;
@@ -145,8 +138,8 @@
                 width: 85%;
             }
             button {
-                 width: 260px;
-                 height: 57px;
+                 width:150px;
+                 height:42px;
                  border-radius: 4px;
                  background-color: #f79a3d; 
                  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
@@ -171,7 +164,9 @@
                 padding: 0px 41px 76px  52px;
                 h1 {
                   font-family: 'latoLight';
-                  font-size: 64px;
+                  font-size: 32px;
+                    width: 350px;
+                    margin: 0 auto;
                 }
             }
         }
@@ -191,7 +186,7 @@
             }
             &--title:nth-child(1) {
                 h1 {
-                    font-size: 28px;
+                    font-size: 24px;
                     margin-left: 100px;
                     width: 200px;
                     padding:29px 0px 30px 0px;
@@ -199,7 +194,7 @@
             }
              &--title:nth-child(3) {
                 h1 {
-                    font-size: 28px;
+                    font-size: 24px;
                     margin-left: 100px;
                     width: 211px;
                     padding:22px 0px 34px 0px;
@@ -208,7 +203,7 @@
             &--title:nth-child(2) {
                 border-left:1px solid #e0e0e0;
                 h1 {
-                    font-size: 28px;
+                    font-size: 24px;
                     margin-left: 47px;
                     padding:29px 0px 30px 0px;
                 }
@@ -216,7 +211,7 @@
             &--title:nth-child(4) {
                 border-left:1px solid #e0e0e0;
                 h1 {
-                    font-size: 28px;
+                    font-size: 24px;
                     margin-left: 47px;
                     width: 163px;
                     padding:22px 0px 34px 0px;
@@ -240,18 +235,18 @@
                 padding-bottom: 32px;
                 h1 {
                     width:100%;
-                    font-size: 32px;
+                    font-size: 28px;
                 }  
             }
             &--subDetails {
                 h1 {
-                    font-size: 32px;
+                    font-size: 28px;
                 }
                 h2{
-                    font-size: 24px;
+                    font-size:16px;
                 }
                 p {
-                    font-size: 16px;
+                    font-size: 14px;
                     width: 348px;
                 }
             }
@@ -264,13 +259,13 @@
             margin: 0 auto;
             &--actionContent{
                 h1{
-                font-size: 32px;
+                font-size: 28px;
                 padding: 18px 0px 16px 0px;
                 width: 379px;
                 }
                 button{
-                    width: 354px;
-                    font-size: 24px;
+                    width: 150px;
+                    font-size: 18px;
                     margin-bottom: 47px;
                     cursor: pointer;
                 }
@@ -296,6 +291,10 @@
         &__banner {
             &--text {
                 padding: 0px 97px 76px  157px;
+                h1{
+                    font-size: 36px;
+                    width: 465px;
+                }
             }
         }
         embed {
@@ -316,12 +315,16 @@
                 padding-left: 30px;
             }
              &--title:nth-child(1) {
-                 padding-left: 46px;
+                 
                  border-bottom: none;
+                 text-align: center;
+                 display: flex;
+                 justify-content: center;
                 h1 {
-                    font-size: 28px;
+                    font-size: 24px;
                     margin-left: 0px;
                     padding: 30px 0px 48px 0px;
+                    width: 130px;
                 }
             }
 
@@ -329,8 +332,10 @@
                 border-left:1px solid #e0e0e0;
                 border-bottom: none;
                 padding-left: 30px;
+                display: flex;
+                justify-content: center;
                 h1 {
-                    font-size: 28px;
+                    font-size: 24px;
                     margin-left: 0px;
                     padding: 30px 0px 48px 0px;
                 }
@@ -340,8 +345,10 @@
                 padding-left: 33px;
                 border-left:1px solid #e0e0e0;
                 border-bottom: none;
+                display: flex;
+                justify-content: center;
                 h1 {
-                    font-size: 28px;
+                    font-size: 24px;
                      margin-left: 0px;
                      padding: 30px 0px 48px 0px;
                 }
@@ -351,8 +358,10 @@
                 padding-left:28px;
                 border-left:1px solid #e0e0e0;
                 border-bottom: none;
+                display: flex;
+                justify-content: center;
                 h1 {
-                    font-size:28px;
+                    font-size:24px;
                     margin-left: 0px;
                     padding: 30px 0px 48px 0px;
                 }
@@ -372,10 +381,10 @@
             &--subDetails {
                 padding-bottom: 32px;
                 h1 {
-                    font-size: 32px;
+                    font-size: 28px;
                 }
                 h2{
-                    font-size: 24px;
+                    font-size: 16px;
                 }
                 p {
                     font-size: 16px;
@@ -416,9 +425,9 @@
                     padding: 0px;
                 }
                 button{
-                    width: 354px;
+                    width: 160px;
                     margin-bottom: 0px;
-                    font-size: 24px;
+                    font-size: 18px;
                     cursor: pointer;
                 }
             }
@@ -451,12 +460,12 @@
                 padding-left:55px;  
             }
              &--title:nth-child(1) {
-                 padding-left:135px;
                  border-bottom: none;
                 h1 {
-                    font-size: 32px;
+                    font-size: 28px;
                     margin-left: 0px;
                     padding: 28px 0px 26px 0px;
+                    width: 156px;
                 }
             }
 
@@ -465,7 +474,7 @@
                 border-bottom: none;
                 padding-left: 63px;
                 h1 {
-                    font-size: 32px;
+                    font-size: 28px;
                     margin-left: 0px;
                     padding: 28px 0px 26px 0px;
                     width: 275px;
@@ -477,7 +486,7 @@
                 border-left:1px solid #e0e0e0;
                 border-bottom: none;
                 h1 {
-                    font-size: 32px;
+                    font-size: 28px;
                      margin-left: 0px;
                      padding: 28px 0px 26px 0px;
                 }
@@ -488,7 +497,7 @@
                 border-left:1px solid #e0e0e0;
                 border-bottom: none;
                 h1 {
-                    font-size: 32px;
+                    font-size: 28px;
                     margin-left: 0px;
                     padding: 28px 0px 26px 0px;
                 }
@@ -511,6 +520,9 @@
             h1 {
                 font-size: 32px;
                 width: 500px;
+            }
+            h2{
+                font-size: 18px;
             }
         }
          &__action {

@@ -22,8 +22,8 @@
       h1 {
           padding: 33px 0px 24px;
           font-family: 'latoLight';
-          width: 288px;
-          font-size: 28px;
+          width: 245px;
+          font-size: 24px;
           font-weight: 300;
           text-align: center;
           color: #2faaba;
@@ -31,15 +31,16 @@
         }
         h2{
           font-family: 'latoRegular';
-          font-size: 24px;
+          font-size: 20px;
           font-weight: 500;
           text-align: left;
           color: #2faaba;
           margin: 21px 0px;
+   
         }
         h3{
           font-family: 'latoBold';
-          font-size: 18px;
+          font-size: 14px;
           font-weight: 600;
           text-align: left;
           color: #4a4a4a;
@@ -63,11 +64,11 @@
           display: none;
         }
         label {
-          width: 104px;
-          height: 39px;
+          width: 96px;
+          height: 35px;
           padding: 9px;
           font-family: 'latoRegular';
-          font-size: 14px;
+          font-size: 12px;
           text-align: center;
           color: #4a4a4a;
           display: inline-block;
@@ -88,8 +89,8 @@
           color: #f2f2f2;
           border-radius: 6px;
           background-color: #f79a3d;
-          padding: 10px 22px;
-          height: 39px;
+          padding: 10px 17px;
+          height: 35px;
           margin: 0 -4px;
           position: relative;
           border: none;
@@ -128,7 +129,7 @@
           text-align: left;
           color: #f2f2f2;
           margin: 0;
-           padding:42px 107px 26px 0px;
+           padding:32px 60px 26px 0px;
           font-weight: 400; 
         }
         input{
@@ -138,7 +139,7 @@
           border-radius: 4px;
           background-color: #f2f2f2;
           border: solid 1px #f2f2f2;
-          padding: 20px 50px 15px 26px;
+          padding: 10px 30px 15px 26px;
           font-family: 'latoRegular';
           font-style: normal;
           font-size: 16px;
@@ -147,14 +148,14 @@
         }
          button {
           width: 281px;
-          height: 64px;
+          height: 46px;
           border-radius: 4px;
           background-color: #f79a3d;
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
           border: none;
           outline: none;
           font-family: 'latoRegular';
-          font-size: 18px;
+          font-size: 16px;
           text-align: center;
           color: #f2f2f2;
           margin-bottom: 44px;
@@ -179,17 +180,17 @@
     width: 705px;
   }
   h1{
-    font-size: 36px;
+    font-size: 28px;
     width: 100%;
     padding: 31px 0px 41px;
   }
   h2{
-    font-size: 32px;
+    font-size:28px;
     margin: 13px 0px 28px 0px;
     width: 390px;
   }
   h3{
-    font-size: 20px;
+    font-size: 16px;
     width: 341px;
   }
   p{
@@ -197,15 +198,15 @@
     width: 341px;
   }
   label{
-    width:190px;
-    font-size:16px;
-    height:39px;
-    padding:6px;
+    width: 150px;
+    font-size: 16px;
+    height: 36px;
+    padding: 5px;
     margin-bottom: 72px;
   }
   input:checked + label {
-    padding: 14px 34px 40px 20px;
-    height: 44px;
+    padding: 9px 34px 0px 20px;
+    height: 40px;
   }
   .product__block1{
     embed{
@@ -240,13 +241,13 @@
     }
     h2{
       font-family: 'latoLight';
-      font-size: 32px;
+      font-size: 28px;
       text-align: left;
       color: #f2f2f2;
       margin: 0;
       padding: 18px 0px 41px 0px;
       font-weight: 400;
-      width: 476px;
+      width: 373px;
     }
     input{
       width: 483px;
@@ -256,9 +257,9 @@
     }
      button {
       width: 354px;
-      height: 57px;
+      height: 47px;
       margin-right:330px;
-      font-size: 24px;
+      font-size: 18px;
       margin-bottom: 60px;
   }
  
@@ -273,7 +274,7 @@
       width: 925px;
     }
     h1{
-      font-size:48px;
+      font-size:36px;
       width: 100%;
       padding: 27px 0px 30px;
     }
@@ -283,7 +284,7 @@
       width: 480px;
     }
     h3{
-      font-size: 24px;
+      font-size: 18px;
       width: 450px
     }
     p{
@@ -291,14 +292,14 @@
       width: 450px;
     }
     label{
-      width: 226px;
+      width: 200px;
       font-size: 18px;
-      height:50px;
-      padding:10px;
+      height: 46px;
+      padding: 8px;
     }
     input:checked + label {
-      padding: 15px 34px 40px 20px;
-      height: 57px;
+      padding: 14px 34px 0px 20px;
+      height: 53px;
     }
     .product__block1{
       padding-bottom: 30px;
@@ -356,17 +357,17 @@
       width: 1232px;
     }
     h1{
-      font-size: 64px;
+      font-size:36px;
       width: 100%;
       padding: 57px 0px 81px;
     }
     h2{
-      font-size: 48px;
+      font-size: 32px;
       padding: 35px 0px 0px 0px;
       width: 572px;
     }
     h3{
-      font-size: 24px;
+      font-size: 18px;
       margin: 14px 0px;
       width: 410px;
     }
@@ -375,25 +376,9 @@
       width: 466px;
     }
     label{
-      // width: 315px;
-      // margin-bottom: 72px;
       font-size: 20px;
-      // height: 78px;
-      // color: #4a4a4a;
-      // padding: 21px;
     }
-    // input:checked + label {
-    //   color: #f2f2f2;
-    //   border-radius: 6px;
-    //   background-color: #f79a3d;
-    //   padding: 29px 34px 40px 20px;
-    //   height: 105px;
-    //   margin: 0 -4px 117px -2px;
-    //   position: relative;
-    //   border: none;
-    //   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
-    //   font-size: 32px;
-    // }
+  
     .product__block1{
     
       embed{
@@ -426,6 +411,7 @@
       }
       h2{
         padding: 32px 0px 41px 0px;
+        font-size: 32px;
       }
       input{
         display: -webkit-box;

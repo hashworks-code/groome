@@ -21,6 +21,9 @@ body {
   body a {
     text-decoration: none;
     color: #4a4a4a; }
+  body .groomelogo1 {
+    width: 100px;
+    margin-bottom: 10px; }
   body h3 {
     text-transform: capitalize; }
   body .success h1 {
@@ -875,7 +878,7 @@ footer {
     .expertise__detailsContainer--subDetails h2 {
       margin: 0;
       font-family: 'latoRegular';
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 600;
       text-align: left;
       color: #4a4a4a;
@@ -907,7 +910,7 @@ footer {
     .expertise__actionContainer--content h1 {
       font-family: 'latoLight';
       font-weight: 400;
-      font-size: 24px;
+      font-size: 20px;
       text-align: left;
       color: #f2f2f2;
       width: 85%;
@@ -922,8 +925,8 @@ footer {
     font-weight: 400;
     width: 85%; }
   .expertise__actionContainer--actionContent button {
-    width: 260px;
-    height: 57px;
+    width: 150px;
+    height: 42px;
     border-radius: 4px;
     background-color: #f79a3d;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
@@ -943,7 +946,9 @@ footer {
       padding: 0px 41px 76px  52px; }
       .expertise__banner--text h1 {
         font-family: 'latoLight';
-        font-size: 64px; }
+        font-size: 32px;
+        width: 350px;
+        margin: 0 auto; }
   .expertise embed {
     width: 305px;
     height: 379px; }
@@ -954,25 +959,25 @@ footer {
     width: 680px;
     margin: 0 auto; }
     .expertise__headingContainer--title:nth-child(1) h1 {
-      font-size: 28px;
+      font-size: 24px;
       margin-left: 100px;
       width: 200px;
       padding: 29px 0px 30px 0px; }
     .expertise__headingContainer--title:nth-child(3) h1 {
-      font-size: 28px;
+      font-size: 24px;
       margin-left: 100px;
       width: 211px;
       padding: 22px 0px 34px 0px; }
     .expertise__headingContainer--title:nth-child(2) {
       border-left: 1px solid #e0e0e0; }
       .expertise__headingContainer--title:nth-child(2) h1 {
-        font-size: 28px;
+        font-size: 24px;
         margin-left: 47px;
         padding: 29px 0px 30px 0px; }
     .expertise__headingContainer--title:nth-child(4) {
       border-left: 1px solid #e0e0e0; }
       .expertise__headingContainer--title:nth-child(4) h1 {
-        font-size: 28px;
+        font-size: 24px;
         margin-left: 47px;
         width: 163px;
         padding: 22px 0px 34px 0px; }
@@ -986,13 +991,13 @@ footer {
       padding-bottom: 32px; }
       .expertise__detailsContainer--heading h1 {
         width: 100%;
-        font-size: 32px; }
+        font-size: 28px; }
     .expertise__detailsContainer--subDetails h1 {
-      font-size: 32px; }
+      font-size: 28px; }
     .expertise__detailsContainer--subDetails h2 {
-      font-size: 24px; }
+      font-size: 16px; }
     .expertise__detailsContainer--subDetails p {
-      font-size: 16px;
+      font-size: 14px;
       width: 348px; }
   .expertise__action {
     padding: 35px 50px; }
@@ -1000,12 +1005,12 @@ footer {
     width: 680px;
     margin: 0 auto; }
     .expertise__actionContainer--actionContent h1 {
-      font-size: 32px;
+      font-size: 28px;
       padding: 18px 0px 16px 0px;
       width: 379px; }
     .expertise__actionContainer--actionContent button {
-      width: 354px;
-      font-size: 24px;
+      width: 150px;
+      font-size: 18px;
       margin-bottom: 47px;
       cursor: pointer; }
     .expertise__actionContainer--content h1 {
@@ -1016,6 +1021,9 @@ footer {
 @media only screen and (min-width: 1025px) {
   .expertise__banner--text {
     padding: 0px 97px 76px  157px; }
+    .expertise__banner--text h1 {
+      font-size: 36px;
+      width: 465px; }
   .expertise embed {
     width: 442px;
     height: 465px; }
@@ -1030,34 +1038,43 @@ footer {
     .expertise__headingContainer--title {
       padding-left: 30px; }
     .expertise__headingContainer--title:nth-child(1) {
-      padding-left: 46px;
-      border-bottom: none; }
+      border-bottom: none;
+      text-align: center;
+      display: flex;
+      justify-content: center; }
       .expertise__headingContainer--title:nth-child(1) h1 {
-        font-size: 28px;
+        font-size: 24px;
         margin-left: 0px;
-        padding: 30px 0px 48px 0px; }
+        padding: 30px 0px 48px 0px;
+        width: 130px; }
     .expertise__headingContainer--title:nth-child(2) {
       border-left: 1px solid #e0e0e0;
       border-bottom: none;
-      padding-left: 30px; }
+      padding-left: 30px;
+      display: flex;
+      justify-content: center; }
       .expertise__headingContainer--title:nth-child(2) h1 {
-        font-size: 28px;
+        font-size: 24px;
         margin-left: 0px;
         padding: 30px 0px 48px 0px; }
     .expertise__headingContainer--title:nth-child(3) {
       padding-left: 33px;
       border-left: 1px solid #e0e0e0;
-      border-bottom: none; }
+      border-bottom: none;
+      display: flex;
+      justify-content: center; }
       .expertise__headingContainer--title:nth-child(3) h1 {
-        font-size: 28px;
+        font-size: 24px;
         margin-left: 0px;
         padding: 30px 0px 48px 0px; }
     .expertise__headingContainer--title:nth-child(4) {
       padding-left: 28px;
       border-left: 1px solid #e0e0e0;
-      border-bottom: none; }
+      border-bottom: none;
+      display: flex;
+      justify-content: center; }
       .expertise__headingContainer--title:nth-child(4) h1 {
-        font-size: 28px;
+        font-size: 24px;
         margin-left: 0px;
         padding: 30px 0px 48px 0px; }
   .expertise__detailsContainer {
@@ -1070,9 +1087,9 @@ footer {
     .expertise__detailsContainer--subDetails {
       padding-bottom: 32px; }
       .expertise__detailsContainer--subDetails h1 {
-        font-size: 32px; }
+        font-size: 28px; }
       .expertise__detailsContainer--subDetails h2 {
-        font-size: 24px; }
+        font-size: 16px; }
       .expertise__detailsContainer--subDetails p {
         font-size: 16px;
         width: 407px; }
@@ -1098,9 +1115,9 @@ footer {
       margin: 0px 0px 34px 0px;
       padding: 0px; }
     .expertise__actionContainer--actionContent button {
-      width: 354px;
+      width: 160px;
       margin-bottom: 0px;
-      font-size: 24px;
+      font-size: 18px;
       cursor: pointer; } }
 @media only screen and (min-width: 1367px) {
   .expertise__banner--text {
@@ -1117,18 +1134,18 @@ footer {
     .expertise__headingContainer--title {
       padding-left: 55px; }
     .expertise__headingContainer--title:nth-child(1) {
-      padding-left: 135px;
       border-bottom: none; }
       .expertise__headingContainer--title:nth-child(1) h1 {
-        font-size: 32px;
+        font-size: 28px;
         margin-left: 0px;
-        padding: 28px 0px 26px 0px; }
+        padding: 28px 0px 26px 0px;
+        width: 156px; }
     .expertise__headingContainer--title:nth-child(2) {
       border-left: 1px solid #e0e0e0;
       border-bottom: none;
       padding-left: 63px; }
       .expertise__headingContainer--title:nth-child(2) h1 {
-        font-size: 32px;
+        font-size: 28px;
         margin-left: 0px;
         padding: 28px 0px 26px 0px;
         width: 275px; }
@@ -1137,7 +1154,7 @@ footer {
       border-left: 1px solid #e0e0e0;
       border-bottom: none; }
       .expertise__headingContainer--title:nth-child(3) h1 {
-        font-size: 32px;
+        font-size: 28px;
         margin-left: 0px;
         padding: 28px 0px 26px 0px; }
     .expertise__headingContainer--title:nth-child(4) {
@@ -1145,7 +1162,7 @@ footer {
       border-left: 1px solid #e0e0e0;
       border-bottom: none; }
       .expertise__headingContainer--title:nth-child(4) h1 {
-        font-size: 32px;
+        font-size: 28px;
         margin-left: 0px;
         padding: 28px 0px 26px 0px; }
   .expertise__detailsContainer {
@@ -1162,6 +1179,8 @@ footer {
     .expertise__detailsContainer h1 {
       font-size: 32px;
       width: 500px; }
+    .expertise__detailsContainer h2 {
+      font-size: 18px; }
   .expertise__action {
     padding: 73px 75px 81px 75px; }
   .expertise__actionContainer {
@@ -1192,22 +1211,22 @@ footer {
     .groome__product h1 {
       padding: 33px 0px 24px;
       font-family: 'latoLight';
-      width: 288px;
-      font-size: 28px;
+      width: 245px;
+      font-size: 24px;
       font-weight: 300;
       text-align: center;
       color: #2faaba;
       margin: 0 auto; }
     .groome__product h2 {
       font-family: 'latoRegular';
-      font-size: 24px;
+      font-size: 20px;
       font-weight: 500;
       text-align: left;
       color: #2faaba;
       margin: 21px 0px; }
     .groome__product h3 {
       font-family: 'latoBold';
-      font-size: 18px;
+      font-size: 14px;
       font-weight: 600;
       text-align: left;
       color: #4a4a4a;
@@ -1227,11 +1246,11 @@ footer {
     .groome__product input {
       display: none; }
     .groome__product label {
-      width: 104px;
-      height: 39px;
+      width: 96px;
+      height: 35px;
       padding: 9px;
       font-family: 'latoRegular';
-      font-size: 14px;
+      font-size: 12px;
       text-align: center;
       color: #4a4a4a;
       display: inline-block;
@@ -1249,8 +1268,8 @@ footer {
       color: #f2f2f2;
       border-radius: 6px;
       background-color: #f79a3d;
-      padding: 10px 22px;
-      height: 39px;
+      padding: 10px 17px;
+      height: 35px;
       margin: 0 -4px;
       position: relative;
       border: none;
@@ -1281,7 +1300,7 @@ footer {
         text-align: left;
         color: #f2f2f2;
         margin: 0;
-        padding: 42px 107px 26px 0px;
+        padding: 32px 60px 26px 0px;
         font-weight: 400; }
       .groome__product .product__block4 input {
         display: -webkit-box;
@@ -1290,21 +1309,21 @@ footer {
         border-radius: 4px;
         background-color: #f2f2f2;
         border: solid 1px #f2f2f2;
-        padding: 20px 50px 15px 26px;
+        padding: 10px 30px 15px 26px;
         font-family: 'latoRegular';
         font-style: normal;
         font-size: 16px;
         outline: none; }
     .groome__product button {
       width: 281px;
-      height: 64px;
+      height: 46px;
       border-radius: 4px;
       background-color: #f79a3d;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
       border: none;
       outline: none;
       font-family: 'latoRegular';
-      font-size: 18px;
+      font-size: 16px;
       text-align: center;
       color: #f2f2f2;
       margin-bottom: 44px;
@@ -1322,28 +1341,28 @@ footer {
   .groome__product .row {
     width: 705px; }
   .groome__product h1 {
-    font-size: 36px;
+    font-size: 28px;
     width: 100%;
     padding: 31px 0px 41px; }
   .groome__product h2 {
-    font-size: 32px;
+    font-size: 28px;
     margin: 13px 0px 28px 0px;
     width: 390px; }
   .groome__product h3 {
-    font-size: 20px;
+    font-size: 16px;
     width: 341px; }
   .groome__product p {
     font-size: 14px;
     width: 341px; }
   .groome__product label {
-    width: 190px;
+    width: 150px;
     font-size: 16px;
-    height: 39px;
-    padding: 6px;
+    height: 36px;
+    padding: 5px;
     margin-bottom: 72px; }
   .groome__product input:checked + label {
-    padding: 14px 34px 40px 20px;
-    height: 44px; }
+    padding: 9px 34px 0px 20px;
+    height: 40px; }
   .groome__product .product__block1 embed {
     height: 300px;
     margin-top: 100px; }
@@ -1368,28 +1387,28 @@ footer {
       font-weight: 400; }
     .groome__product .product__block4 h2 {
       font-family: 'latoLight';
-      font-size: 32px;
+      font-size: 28px;
       text-align: left;
       color: #f2f2f2;
       margin: 0;
       padding: 18px 0px 41px 0px;
       font-weight: 400;
-      width: 476px; }
+      width: 373px; }
     .groome__product .product__block4 input {
       width: 483px;
       padding: 14px 26px 14px;
       margin-bottom: 16px; }
   .groome__product button {
     width: 354px;
-    height: 57px;
+    height: 47px;
     margin-right: 330px;
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 60px; } }
 @media only screen and (min-width: 1025px) {
   .groome__product .row {
     width: 925px; }
   .groome__product h1 {
-    font-size: 48px;
+    font-size: 36px;
     width: 100%;
     padding: 27px 0px 30px; }
   .groome__product h2 {
@@ -1397,19 +1416,19 @@ footer {
     padding: 7px 0px 0px 0px;
     width: 480px; }
   .groome__product h3 {
-    font-size: 24px;
+    font-size: 18px;
     width: 450px; }
   .groome__product p {
     font-size: 16px;
     width: 450px; }
   .groome__product label {
-    width: 226px;
+    width: 200px;
     font-size: 18px;
-    height: 50px;
-    padding: 10px; }
+    height: 46px;
+    padding: 8px; }
   .groome__product input:checked + label {
-    padding: 15px 34px 40px 20px;
-    height: 57px; }
+    padding: 14px 34px 0px 20px;
+    height: 53px; }
   .groome__product .product__block1 {
     padding-bottom: 30px; }
     .groome__product .product__block1 embed {
@@ -1445,15 +1464,15 @@ footer {
   .groome__product .row {
     width: 1232px; }
   .groome__product h1 {
-    font-size: 64px;
+    font-size: 36px;
     width: 100%;
     padding: 57px 0px 81px; }
   .groome__product h2 {
-    font-size: 48px;
+    font-size: 32px;
     padding: 35px 0px 0px 0px;
     width: 572px; }
   .groome__product h3 {
-    font-size: 24px;
+    font-size: 18px;
     margin: 14px 0px;
     width: 410px; }
   .groome__product p {
@@ -1482,7 +1501,8 @@ footer {
     .groome__product .product__block4 h1 {
       width: 513px; }
     .groome__product .product__block4 h2 {
-      padding: 32px 0px 41px 0px; }
+      padding: 32px 0px 41px 0px;
+      font-size: 32px; }
     .groome__product .product__block4 input {
       display: -webkit-box;
       width: 483px; }
