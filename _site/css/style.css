@@ -194,7 +194,7 @@ footer {
     padding-right: 27px; }
 
   footer {
-    padding: 24px 0px 45px; }
+    padding: 24px 0px 0px; }
     footer .row {
       width: 710px;
       margin-left: 0 auto; }
@@ -271,7 +271,7 @@ footer {
     padding-left: 33px; }
 
   footer {
-    padding: 48px 0px 61px; }
+    padding: 48px 0px 0px; }
     footer .row {
       width: 925px; }
       footer .row .footer__image {
@@ -296,7 +296,7 @@ footer {
     padding-right: 34px; }
 
   footer {
-    padding: 48px 0px 61px; }
+    padding: 48px 0px 0px; }
     footer .row {
       width: 1232px;
       margin-left: 0 auto; }
