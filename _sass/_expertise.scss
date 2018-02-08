@@ -157,6 +157,7 @@
 }
 
 @media only screen and (min-width:768px) {
+    
     .expertise {
         &__banner {
             height: 461px;
@@ -173,6 +174,7 @@
         embed {
             width: 305px;
             height: 379px;
+            margin: -44px 0px 0px -22px !important;
         }
         &__bannerImage {
             width:720px;
@@ -218,10 +220,13 @@
                 }
             }
         }
+        .experisr3{
+            margin-left: 70px;
+        }
         &__detailsContainer {
-            width:680px;
+            width: 700px;
             margin: 0 auto;
-            padding: 50px 15px 0px 15px;
+            padding: 50px 0px 0px 0px;
             &--right {
                 
             }

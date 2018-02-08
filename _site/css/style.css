@@ -951,7 +951,8 @@ footer {
         margin: 0 auto; }
   .expertise embed {
     width: 305px;
-    height: 379px; }
+    height: 379px;
+    margin: -44px 0px 0px -22px !important; }
   .expertise__bannerImage {
     width: 720px;
     margin: 0 auto; }
@@ -981,10 +982,12 @@ footer {
         margin-left: 47px;
         width: 163px;
         padding: 22px 0px 34px 0px; }
+  .expertise .experisr3 {
+    margin-left: 70px; }
   .expertise__detailsContainer {
-    width: 680px;
+    width: 700px;
     margin: 0 auto;
-    padding: 50px 15px 0px 15px; }
+    padding: 50px 0px 0px 0px; }
     .expertise__detailsContainer--reverseOrder.first-xs {
       order: 0; }
     .expertise__detailsContainer--heading {
