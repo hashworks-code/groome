@@ -1281,12 +1281,16 @@ footer {
     .groome__product #tab2:checked ~ #operation,
     .groome__product #tab3:checked ~ #recruitment {
       display: block; }
-    .groome__product .product__block1 embed, .groome__product .product__block3 embed {
+    .groome__product .product__block1 embed {
       height: 180px; }
+    .groome__product .product__block3 embed {
+      height: 180px;
+      margin-left: -44px; }
     .groome__product .product__block2 {
       background-color: #f2f2f2; }
       .groome__product .product__block2 embed {
-        height: 250px; }
+        height: 250px;
+        margin-left: -66px; }
     .groome__product .product__block4 {
       background-color: #2faaba; }
       .groome__product .product__block4 h1 {

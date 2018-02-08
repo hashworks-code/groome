@@ -101,15 +101,21 @@
         #tab3:checked ~ #recruitment{
           display: block;
         }
-        .product__block1,.product__block3 {
+        .product__block1{
         embed{
           height:180px;
-        }
+        }}
+        .product__block3 {
+          embed{
+            height:180px;
+            margin-left: -44px;
+          }
         }   
         .product__block2{
           background-color: #f2f2f2;
           embed{
             height: 250px;
+            margin-left: -66px;
           }
         }
         .product__block4{
