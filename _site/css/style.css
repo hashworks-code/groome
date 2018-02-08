@@ -66,13 +66,13 @@ footer {
     margin: 0px auto; }
     footer .row .footer__image {
       width: 100%;
-      height: 260px;
+      height: 220px;
       background-image: url("../assets/images/group-4.svg");
       background-repeat: no-repeat;
-      background-size: 33em;
+      background-size: 24em;
       background-position: 10px 0px; }
     footer .row h1 {
-      font-size: 32px;
+      font-size: 28px;
       text-align: left;
       color: #4a4a4a;
       margin: 16px 0px;
@@ -84,7 +84,7 @@ footer {
       font-weight: 400;
       margin: 0px; }
     footer .row p {
-      font-size: 18px;
+      font-size: 16px;
       font-family: 'latoBold';
       font-weight: 600;
       color: #4a4a4a;
@@ -196,13 +196,14 @@ footer {
       width: 710px;
       margin-left: 0 auto; }
       footer .row .footer__image {
-        background-position: 52px 0px; }
+        background-position: 52px 0px;
+        background-position: 10em; }
       footer .row h1 {
-        margin-top: 58px; }
+        margin-top: 30px; }
       footer .row h2 {
-        font-size: 24px; }
+        font-size: 18px; }
       footer .row p {
-        font-size: 24px; }
+        font-size: 16px; }
 
   body header .groome-expertise {
     font-size: 20px;
@@ -274,6 +275,10 @@ footer {
         background-position: 0px 0px; }
       footer .row h1 {
         margin-top: 10px; }
+      footer .row h2 {
+        font-size: 24px; }
+      footer .row p {
+        font-size: 20px; }
 
   .groome-expertise {
     font-size: 24px; }
@@ -296,11 +301,11 @@ footer {
         background-position: 0px 0px; }
       footer .row h1 {
         margin-top: 10px;
-        font-size: 48px;
+        font-size: 36px;
         text-align: left;
         color: #2faaba; }
       footer .row h2 {
-        font-size: 32px;
+        font-size: 25px;
         color: #95989a; }
       footer .row a {
         color: #95989a; }
@@ -341,10 +346,10 @@ footer {
     margin: 0px auto;
     padding: 30px 0px 25px; }
   .groome__homepage button {
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     color: #ffffff;
-    padding: 15px 60px;
+    padding: 12px 30px;
     border-radius: 4px;
     background-color: #f79a3d;
     cursor: pointer;
@@ -355,20 +360,22 @@ footer {
     .groome__homepage .homepage__hire__text h1 {
       font-family: 'latoLight';
       color: #f79a3d;
-      font-size: 28px;
+      font-size: 24px;
       font-weight: 300;
       line-height: 1.36;
       text-align: center;
-      margin: 4px 0px; }
+      margin: 4px 0px;
+      width: 250px;
+      margin: 0 auto; }
     .groome__homepage .homepage__hire__text p {
       font-family: 'latoLight';
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 300;
       line-height: 1.39;
       text-align: center;
       color: #01363c;
-      margin: 8px 0px 48px;
-      width: 250px; }
+      width: 201px;
+      margin: 8px auto 30px; }
   .groome__homepage .homepage__hire__image {
     text-align: center; }
     .groome__homepage .homepage__hire__image img {
@@ -382,13 +389,14 @@ footer {
       padding: 0px;
       margin-bottom: 18px; }
     .groome__homepage .homepage__analytics h1 {
-      font-size: 32px;
+      font-size: 24px;
       text-align: left;
       color: #2faaba;
       margin: 0px;
-      font-weight: 400; }
+      font-weight: 400;
+      width: 292px; }
     .groome__homepage .homepage__analytics p {
-      font-size: 16px;
+      font-size: 14px;
       line-height: 1.44;
       text-align: left;
       color: #4a4a4a;
@@ -401,7 +409,7 @@ footer {
       display: none; }
   .groome__homepage .homepage__senario__image {
     width: 100%;
-    height: 345px;
+    height: 300px;
     background-image: url("../assets/images/homepage/Image.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -427,7 +435,7 @@ footer {
       color: #4a4a4a;
       margin: 16px 0px; }
     .groome__homepage .homepage__senario__text p {
-      font-size: 16px;
+      font-size: 14px;
       line-height: 1.5;
       text-align: left;
       color: #95989a;
@@ -453,13 +461,13 @@ footer {
         font-weight: 400;
         margin: 12px 0px 16px 0px; }
       .groome__homepage .homepage__offering__text__inner h1 {
-        font-size: 36px;
+        font-size: 28px;
         font-weight: 500;
         text-align: left;
         color: #4a4a4a;
         margin: 0px; }
       .groome__homepage .homepage__offering__text__inner p {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.5;
         text-align: left;
         color: #4a4a4a;
@@ -478,22 +486,22 @@ footer {
     font-weight: 400;
     margin: 11px 0px 16px 0px; }
   .groome__homepage .homepage__product__text h1 {
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 500;
     text-align: left;
     color: #4a4a4a;
     margin: 0px; }
   .groome__homepage .homepage__product__text p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.5;
     text-align: left;
     color: #4a4a4a;
     margin: 16px 0px; }
   .groome__homepage .homepage__product__text .comming-soon {
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     color: #37b8ae;
-    padding: 5px 14px;
+    padding: 5px 10px;
     background-color: rgba(55, 184, 174, 0.3);
     cursor: default; }
   .groome__homepage .homepage__companies {
@@ -530,21 +538,21 @@ footer {
   .groome__homepage .row {
     width: 710px; }
   .groome__homepage .homepage__hire__text h1 {
-    font-size: 36px;
-    width: 447px;
+    font-size: 28px;
+    width: 346px;
     margin: 18px auto; }
   .groome__homepage .homepage__hire__text p {
-    font-size: 24px;
-    width: 335px;
-    margin: 16px auto 28px; }
+    font-size: 18px;
+    width: 244px;
+    margin: 16px auto 0px; }
   .groome__homepage .homepage__hire__image img {
     width: 414px;
     height: 781px; }
   .groome__homepage .homepage__analytics p {
     margin: 30px 0px 0px;
-    font-size: 16px; }
+    font-size: 14px; }
   .groome__homepage .homepage__analytics h1 {
-    font-size: 32px;
+    font-size: 24px;
     margin-top: 6px; }
   .groome__homepage .homepage__analytics__plus {
     display: flex;
@@ -554,22 +562,22 @@ footer {
       text-align: center;
       margin: 15px 0px; }
   .groome__homepage .homepage__senario__image {
-    height: 573px;
-    margin-top: 58px; }
+    height: 385px;
+    margin-top: 16px; }
   .groome__homepage .homepage__senario__text {
     padding: 30px 0px 34px; }
     .groome__homepage .homepage__senario__text .row div:nth-child(odd) {
       padding-right: 20px; }
     .groome__homepage .homepage__senario__text h1 {
-      font-size: 32px; }
+      font-size: 28px; }
     .groome__homepage .homepage__senario__text h2 {
       margin: 25px 0px 16px;
       font-size: 16px; }
     .groome__homepage .homepage__senario__text p {
-      font-size: 16px; }
+      font-size: 14px; }
   .groome__homepage .homepage__offering {
     padding-bottom: 0px;
-    height: 400px; }
+    height: 290px; }
     .groome__homepage .homepage__offering__image {
       height: 250px;
       background-position: 0px;
@@ -584,9 +592,9 @@ footer {
         .groome__homepage .homepage__offering__text__inner h2 {
           margin: 0px 0px 8px; }
         .groome__homepage .homepage__offering__text__inner p {
-          font-size: 16px; }
+          font-size: 14px; }
         .groome__homepage .homepage__offering__text__inner h1 {
-          font-size: 48px; }
+          font-size: 32px; }
   .groome__homepage .homepage__product__image {
     background-position: right;
     margin-top: 34px; }
@@ -595,9 +603,9 @@ footer {
     .groome__homepage .homepage__product__text h2 {
       margin: 11px 0px 8px; }
     .groome__homepage .homepage__product__text h1 {
-      font-size: 48px; }
+      font-size: 32px; }
     .groome__homepage .homepage__product__text p {
-      font-size: 16px; }
+      font-size: 14px; }
     .groome__homepage .homepage__product__text .comming-soon {
       margin-top: 34px; }
   .groome__homepage .homepage__companies {
@@ -622,9 +630,9 @@ footer {
   svg {
     padding: 0px 0px 151px 124px;
     margin: 0px;
-    margin-left: 25px;
-    width: 465px;
-    height: 1034px; }
+    margin-left: -31px;
+    width: 469px;
+    height: 730px; }
 
   .image-container img.active {
     z-index: 2; }
@@ -634,17 +642,20 @@ footer {
 
   .groome__homepage .row {
     width: 928px; }
+  .groome__homepage button {
+    font-size: 18px; }
   .groome__homepage .homepage__hire__text {
-    height: 600px;
+    height: 387px;
     padding-top: 100px; }
     .groome__homepage .homepage__hire__text h1 {
-      font-size: 48px;
-      text-align: left;
-      margin-top: 10px; }
-    .groome__homepage .homepage__hire__text p {
       font-size: 32px;
       text-align: left;
-      width: 440px; }
+      margin: 0px 10px; }
+    .groome__homepage .homepage__hire__text p {
+      font-size: 26px;
+      text-align: left;
+      width: 301px;
+      margin: 26px 10px; }
   .groome__homepage .homepage__hire__image {
     position: relative; }
     .groome__homepage .homepage__hire__image img {
@@ -653,19 +664,26 @@ footer {
       position: absolute;
       left: 40px; }
   .groome__homepage .homepage__analytics p {
-    margin: 30px 0px 27px 0px; }
+    margin: 30px 0px 27px 0px;
+    font-size: 16px;
+    width: 246px; }
   .groome__homepage .homepage__analytics h1 {
-    margin-top: 27px; }
+    margin-top: 27px;
+    font-size: 28px; }
+  .groome__homepage .homepage__analytics__da {
+    margin-left: 10px; }
   .groome__homepage .homepage__analytics__plus h1 {
     font-size: 48px;
-    margin-top: 27px; }
+    margin-top: 27px;
+    margin-left: 10px; }
   .groome__homepage .homepage__analytics__equal {
     display: flex;
     align-items: center; }
     .groome__homepage .homepage__analytics__equal h1 {
       font-size: 48px; }
   .groome__homepage .homepage__senario__image {
-    margin: 60px 0px 84px 0px; }
+    margin: 60px 0px 84px 0px;
+    height: 475px; }
   .groome__homepage .homepage__senario__text {
     padding: 34px 0px 34px; }
     .groome__homepage .homepage__senario__text .row {
@@ -673,24 +691,27 @@ footer {
       .groome__homepage .homepage__senario__text .row div:nth-child(even) {
         padding-right: 20px; }
     .groome__homepage .homepage__senario__text h1 {
-      font-size: 32px;
+      font-size: 28px;
       margin-top: 4px; }
     .groome__homepage .homepage__senario__text h2 {
       margin: 33px 0px 16px;
       font-size: 16px; }
     .groome__homepage .homepage__senario__text p {
       font-size: 16px; }
-  .groome__homepage .homepage__offering__image {
-    height: 309px; }
-  .groome__homepage .homepage__offering__text__inner {
-    width: 450px;
-    margin: 0px; }
-    .groome__homepage .homepage__offering__text__inner h2 {
-      margin: 0px 0px 8px; }
-    .groome__homepage .homepage__offering__text__inner h1 {
-      font-size: 48px; }
-    .groome__homepage .homepage__offering__text__inner p {
-      font-size: 16px; }
+  .groome__homepage .homepage__offering {
+    padding-bottom: 0px;
+    height: 370px; }
+    .groome__homepage .homepage__offering__image {
+      height: 309px; }
+    .groome__homepage .homepage__offering__text__inner {
+      width: 450px;
+      margin: 0px; }
+      .groome__homepage .homepage__offering__text__inner h2 {
+        margin: 0px 0px 8px; }
+      .groome__homepage .homepage__offering__text__inner h1 {
+        font-size: 36px; }
+      .groome__homepage .homepage__offering__text__inner p {
+        font-size: 16px; }
   .groome__homepage .homepage__product__image {
     height: 410px;
     margin: 25px 0px 0px; }
@@ -699,6 +720,8 @@ footer {
     .groome__homepage .homepage__product__text p {
       width: 350px;
       font-size: 16px; }
+    .groome__homepage .homepage__product__text h1 {
+      font-size: 36px; }
     .groome__homepage .homepage__product__text .comming-soon {
       margin-top: 39px; }
   .groome__homepage .homepage__companies {
@@ -708,10 +731,11 @@ footer {
       margin: 18px 0 30px; } }
 @media screen and (min-width: 1367px) {
   svg {
-    padding: 0px 0px 151px 135px;
-    margin-left: 1px;
-    width: 546px;
-    height: 1129px; }
+    padding: 0px 0px 151px 124px;
+    margin: 0px;
+    margin-left: 35px;
+    width: 469px;
+    height: 730px; }
 
   .image-container img.active {
     z-index: 2; }
@@ -722,32 +746,30 @@ footer {
 
   .groome__homepage .row {
     width: 1232px; }
-  .groome__homepage .homepage__hire {
-    height: 801px; }
-    .groome__homepage .homepage__hire__text h1 {
-      font-size: 56px;
-      text-align: left;
-      width: 598px;
-      margin-top: 73px;
-      margin: 0px; }
-    .groome__homepage .homepage__hire__text p {
-      font-size: 32px;
-      text-align: left;
-      width: 448px;
-      margin-top: 22px;
-      margin-left: 0px; }
-    .groome__homepage .homepage__hire__image {
-      position: relative; }
-      .groome__homepage .homepage__hire__image img {
-        width: 473px;
-        height: 1076px;
-        position: absolute;
-        left: 111px; }
+  .groome__homepage .homepage__hire__text h1 {
+    font-size: 36px;
+    text-align: left;
+    width: 375px;
+    margin-top: 73px;
+    margin: 0px; }
+  .groome__homepage .homepage__hire__text p {
+    font-size: 28px;
+    text-align: left;
+    width: 448px;
+    margin-top: 22px;
+    margin-left: 0px; }
+  .groome__homepage .homepage__hire__image {
+    position: relative; }
+    .groome__homepage .homepage__hire__image img {
+      width: 473px;
+      height: 1076px;
+      position: absolute;
+      left: 111px; }
   .groome__homepage .homepage__analytics {
-    height: 366px; }
+    height: 330px; }
     .groome__homepage .homepage__analytics h1 {
-      font-size: 32px;
-      width: 374px; }
+      font-size: 28px;
+      width: 343px; }
     .groome__homepage .homepage__analytics p {
       width: 310px; }
     .groome__homepage .homepage__analytics__plus h1 {
@@ -759,33 +781,35 @@ footer {
       .groome__homepage .homepage__senario__text .row div:nth-child(even) {
         padding-right: 20px; }
     .groome__homepage .homepage__senario__text h1 {
-      font-size: 48px; }
+      font-size: 36px; }
     .groome__homepage .homepage__senario__text h2 {
       margin: 32px 0px 16px;
-      font-size: 24px; }
-  .groome__homepage .homepage__offering__image {
-    height: 350px; }
-  .groome__homepage .homepage__offering__text {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center; }
-    .groome__homepage .homepage__offering__text__inner {
-      width: 450px;
-      margin: 0px; }
-      .groome__homepage .homepage__offering__text__inner h2 {
-        margin: 0px 0px 8px; }
-      .groome__homepage .homepage__offering__text__inner h1 {
-        font-size: 48px; }
-      .groome__homepage .homepage__offering__text__inner p {
-        font-size: 16px; }
+      font-size: 18px; }
+  .groome__homepage .homepage__offering {
+    height: 400px; }
+    .groome__homepage .homepage__offering__image {
+      height: 350px; }
+    .groome__homepage .homepage__offering__text {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      .groome__homepage .homepage__offering__text__inner {
+        width: 450px;
+        margin: 0px; }
+        .groome__homepage .homepage__offering__text__inner h2 {
+          margin: 0px 0px 8px; }
+        .groome__homepage .homepage__offering__text__inner h1 {
+          font-size: 36px; }
+        .groome__homepage .homepage__offering__text__inner p {
+          font-size: 16px; }
   .groome__homepage .homepage__product__image {
-    height: 520px;
+    height: 420px;
     margin: 34px 0px 0px; }
   .groome__homepage .homepage__product__text p {
     width: 350px;
     font-size: 16px; }
   .groome__homepage .homepage__product__text h1 {
-    font-size: 48px; }
+    font-size: 36px; }
   .groome__homepage .homepage__product__text .comming-soon {
     margin-top: 97px; }
   .groome__homepage .homepage__companies {
@@ -803,7 +827,7 @@ footer {
     padding: 0px 14px 40px  18px; }
     .expertise__banner--text h1 {
       font-family: 'latoLight';
-      font-size: 36px;
+      font-size: 28px;
       font-weight: 300;
       text-align: center;
       color: #ffffff;
@@ -825,14 +849,12 @@ footer {
       font-family: 'latoRegular';
       margin: 0;
       padding: 26px 21px;
-      font-size: 28px;
+      font-size: 20px;
       font-weight: 600;
       line-height: 1.32;
       text-align: left;
       color: #2faaba;
-      width: 270px;
-      min-width: 225px;
-      max-width: 300px; }
+      width: 200px; }
 .expertise__grey {
   background-color: #f2f2f2; }
 .expertise__detailsContainer {
