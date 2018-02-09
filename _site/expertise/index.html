@@ -228,15 +228,15 @@
                     <form id="test-form2" action="" name="contactus">
                       <div>
                         <p>Your name <label>*</label></p>
-                        <input type="text"  id="name1" placeholder="Name" />
+                        <input type="text" name="name" id="name1" placeholder="Name" />
                       </div>
                       <div>
                         <p>Your Email <label>*</label></p>
-                        <input type="email"  id="emailVal2" placeholder="Email" />
+                        <input type="email" name="email" id="emailVal2" placeholder="Email" />
                       </div>
                       <div>
                         <p>Your Company <label>*</label></p>
-                        <input type="text"  id="company1" placeholder="Hashworks"/>
+                        <input type="text" name="company" id="company1" placeholder="Hashworks"/>
                       </div>
                       <div>
                         <button type="submit" id="submit-form3">Submit</button>
@@ -266,8 +266,8 @@
                 $("#test3").hide();
                 $("#errorMsg2").hide();
                 var $form = $('form#test-form2'),
-                url = 'https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec'
-        
+                // url = 'https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec'
+                url = 'https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec';
                 function isEmail(email) {
                     var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
                     if (regex.test(email) === true) {
