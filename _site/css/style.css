@@ -23,6 +23,8 @@ body {
     color: #4a4a4a; }
   body #errorMsg1 {
     color: red !important; }
+  body #test {
+    color: #2faaba !important; }
   body .groomelogo1 {
     width: 100px;
     margin-bottom: 10px; }
@@ -824,6 +826,9 @@ footer {
       margin: 73px 0 22px; } }
 #errorMsg2 {
   color: red !important; }
+
+#test3 {
+  color: #2faaba !important; }
 
 .expertise__banner {
   height: 345px;

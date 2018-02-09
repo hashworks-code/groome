@@ -216,59 +216,56 @@
                         </div>
                     </div>    
                 </div> 
-                <div  id="popup2" >
-                        <div class="modal">
-                            <div class="row">
-                                <div class="close-button" id="close_popup2"><p class="x">X</p></div>
-                                <h1>LET’S WORK TOGETHER</h1>
-                                <h2>Forming partnerships will help to create the cult for coffee</h2>
-                                <form id="test-form2" action="" name="contactus">
-                                  <div>
-                                    <p>Your name <label>*</label></p>
-                                    <input type="text" name="name" id="name1" placeholder="Name"/>
-                                  </div>
-                                  <div>
-                                    <p>Your Email <label>*</label></p>
-                                    <input type="email" name="email" id="email1"id="emailVal2" placeholder="Email"/>
-                                  </div>
-                                  <div>
-                                    <p>Your Company <label>*</label></p>
-                                    <input type="text" name="company" id="company1" placeholder="Hashworks" />
-                                  </div>
-                                  <div>
-                                    <button type="submit" id="submit-form3">Submit</button>
-                                  </div>
-                                </form>
-                                <div class="success">
-                                    <h1 id="test3">Successfully Submited</h1>
-                                    <h1 id="errorMsg2">Please Fill In All Required Fields*</h1>
-                                </div>
-                              <div class="row phone">
-                               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
-                                 <img src="../assets/images/antique.png"/>
-                                 <span>+91 80 64513477</span>
-                               </div>
-                               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                 <img src="../assets/images/email.png"/>
-                                 <span>hello@groome.co</span>
-                               </div>
-                                </div>
-                              <!-- <a href="#" id="close_popup">closepopup</a> -->
-                            </div>
-                        </div>
-                          </div>
-                
                 </section>
             </section>    
         </section>
-
-
+        <div  id="popup2" >
+            <div class="modal">
+                <div class="row">
+                    <div class="close-button" id="close_popup2"><p class="x">X</p></div>
+                    <h1>LET’S WORK TOGETHER</h1>
+                    <h2>Forming partnerships will help to create the cult for coffee</h2>
+                    <form id="test-form2" action="" name="contactus">
+                      <div>
+                        <p>Your name <label>*</label></p>
+                        <input type="text"  id="name1" placeholder="Name" />
+                      </div>
+                      <div>
+                        <p>Your Email <label>*</label></p>
+                        <input type="email"  id="emailVal2" placeholder="Email" />
+                      </div>
+                      <div>
+                        <p>Your Company <label>*</label></p>
+                        <input type="text"  id="company1" placeholder="Hashworks"/>
+                      </div>
+                      <div>
+                        <button type="submit" id="submit-form3">Submit</button>
+                      </div>
+                    </form>
+                    <div class="success">
+                        <h1 id="test3">Successfully Submited</h1>
+                        <h1 id="errorMsg2">Please Fill In All Required Fields*</h1>
+                    </div>
+                  <div class="row phone">
+                   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+                     <img src="../assets/images/antique.png"/>
+                     <span>+91 80 64513477</span>
+                   </div>
+                   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                     <img src="../assets/images/email.png"/>
+                     <span>hello@groome.co</span>
+                   </div>
+                    </div>
+                  <!-- <a href="#" id="close_popup">closepopup</a> -->
+                </div>
+            </div>
+         </div>
 <script>
         //validation
         $(document).ready(function() {
                 $("#test3").hide();
                 $("#errorMsg2").hide();
-                var $form = $('form#test-form'),
+                var $form = $('form#test-form2'),
                 url = 'https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec'
         
                 function isEmail(email) {
@@ -299,7 +296,7 @@
         
             });
         
-            $('#submit-form').on('click', function() {
+            $('#submit-form3').on('click', function() {
             valid = true;   
             if ($('#name1').val() == '') {
                 valid = false;
@@ -313,7 +310,7 @@
         </script>
     <script>
         $("#open_popup2").click(function(){
-        $("#popup").css("display", "flex");
+        $("#popup2").css("display", "flex");
         });
     
         $("#close_popup2").click(function(){
@@ -353,7 +350,7 @@
                   </div>
                   <div>
                     <p>Your Company <label>*</label></p>
-                    <input type="text" name="company" id="company" placeholder="Hashworks" />
+                    <input type="text" name="company" id="company" placeholder="Hashworks"/>
                   </div>
                   <div>
                     <button type="submit" id="submit-form">Submit</button>
