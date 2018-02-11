@@ -14,7 +14,7 @@
                 <h1>LET’S WORK TOGETHER</h1>
                 <br>
                 <!-- <h2>Forming partnerships will help to create the cult for coffee</h2> -->
-                <form id="test-form" action="" name="contactus">
+                <form id="contactform" action="" name="contactus">
                   <div>
                     <p>Your name <label>*</label></p>
                     <input type="text" name="name" id="name" placeholder="Name"/>
@@ -59,7 +59,7 @@
 $(document).ready(function() {
         $("#test").hide();
         $("#errorMsg1").hide();
-        var $form = $('form#test-form'),
+        var $form = $('form#contactform'),
         url = 'https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec'
 
         function isEmail(email) {
@@ -85,6 +85,7 @@ $(document).ready(function() {
             var email = $("#emailVal1").val();
             isEmail(email);
             e.preventDefault();
+            $("#contactform")[0].reset();
         })
     });
 

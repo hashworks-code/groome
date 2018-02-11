@@ -217,7 +217,7 @@
                     <h2>Be among the first to access the product</h2>
                     <form id="test-form">
                         <input id="emailVal" type="text" name="emailList" placeholder="Please enter email ID">
-                        <button type="submit" id="submit-form1">Subscribe for early access</button>
+                        <button type="submit" id="submit-form1" onclick="">Subscribe for early access</button>
                     </form>
                     <div class="success1">
                         <h1 id="test1">Successfully Submited</h1>
@@ -243,10 +243,7 @@
 
         function isEmail(email) {
             var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-            // debugger
-            // return regex.test(email);
             if (regex.test(email) === true) {
-                // alert('Valid Email')
                 console.log('Valid Email');
                 var jqxhr = $.ajax({
                     url: url,
@@ -268,6 +265,7 @@
             // alert(email)
             isEmail(email);
             e.preventDefault();
+            $("#test-form")[0].reset();
         })
 
     });
@@ -289,7 +287,7 @@
                 <h1>LET’S WORK TOGETHER</h1>
                 <br>
                 <!-- <h2>Forming partnerships will help to create the cult for coffee</h2> -->
-                <form id="test-form" action="" name="contactus">
+                <form id="contactform" action="" name="contactus">
                   <div>
                     <p>Your name <label>*</label></p>
                     <input type="text" name="name" id="name" placeholder="Name"/>
@@ -334,7 +332,7 @@
 $(document).ready(function() {
         $("#test").hide();
         $("#errorMsg1").hide();
-        var $form = $('form#test-form'),
+        var $form = $('form#contactform'),
         url = 'https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec'
 
         function isEmail(email) {
@@ -360,6 +358,7 @@ $(document).ready(function() {
             var email = $("#emailVal1").val();
             isEmail(email);
             e.preventDefault();
+            $("#contactform")[0].reset();
         })
     });
 

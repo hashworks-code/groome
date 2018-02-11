@@ -829,6 +829,9 @@ footer {
 
 #test3 {
   color: #2faaba !important; }
+  #test3 h1 {
+    color: #2faaba !important;
+    padding: 4px !important; }
 
 .expertise__banner {
   height: 345px;
