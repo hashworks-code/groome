@@ -191,9 +191,9 @@
 <script src="../assets/js/jquery.serialize-object.min.js"></script>
 <script>
     $(document).ready(function() {
-        $("#test1").hide();
-        $("#errorMsg").hide();
-        var $form = $('form#test-form'),
+            $("#test1").hide();
+            $("#errorMsg").hide();
+            var $form = $('form#test-form'),
             url = 'https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec'
 
         function isEmail(email) {
@@ -206,23 +206,21 @@
                     dataType: "json",
                     data: $form.serializeObject(),
                     success: function() {
-                        $("#test1").show();
-                        $("#errorMsg").hide();
+                        $("#errorMsg").hide();  
                     }
                 })
+                $("#test1").show();
+                $("#test-form")[0].reset();
             } else {
-                console.log('Invalid Emial');
-                $("#errorMsg").show();
+                    console.log('Invalid Emial');
+                    $("#errorMsg").show();
             }
         }
         $('#submit-form1').on('click', function(e) {
-            var email = $("#emailVal").val();
-            // alert(email)
-            isEmail(email);
-            e.preventDefault();
-            $("#test-form")[0].reset();
+                    var email = $("#emailVal").val();
+                    isEmail(email);
+                    e.preventDefault();
         })
-
     });
 </script>
 
