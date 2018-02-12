@@ -745,11 +745,10 @@
                         <input type="text" name="company" id="company" placeholder="Hashworks"/>
                       </div>
                       <div>
-                        <button type="submit" id="submit-form">Submit</button>
+                        <button type="submit" id="submit-form"><a href="#popup1" id="open_popup1">Submit</a></button>
                       </div>
               </form>
                 <div class="success">
-                  <h1 id="test">Successfully Submited</h1>
                   <h1 id="errorMsg1">Please Fill In All Required Fields*</h1>
                 </div>
               <div class="row phone">
@@ -763,6 +762,16 @@
                </div>
                 </div>
               <!-- <a href="#" id="close_popup">closepopup</a> -->
+            </div>
+        </div>
+          </div>
+
+          <div  id="popup1" >
+        <div class="modal">
+            <div id="test">
+            <div class="close-button" id="close_popup1"><p class="x">X</p></div>
+                  <h1>THANK YOU!</h1>
+                  <h2>We will get back to you soon.</h2>
             </div>
         </div>
           </div>
@@ -791,6 +800,8 @@ $(document).ready(function() {
                         $("#test").show();
                         $("#errorMsg1").hide();
                         $("#contactform")[0].reset();
+                        $("#popup1").css("display", "flex");
+                        $("#popup").css("display","none");
                     }
                 })
             } else {
@@ -799,23 +810,20 @@ $(document).ready(function() {
             }
         }
         $('#submit-form').on('click', function(e) {
+          valid = true;   
+          if ($('#name').val() == '') {
+              valid = false;
+          }
+
+          if ($('#company').val() == '') {
+               valid = false;
+          }    
             var email = $("#emailVal1").val();
             isEmail(email);
-            e.preventDefault();
+            //e.preventDefault();
           
         })
     });
-
-    $('#submit-form').on('click', function() {
-    valid = true;   
-    if ($('#name').val() == '') {
-        valid = false;
-    }
-
-    if ($('#company').val() == '') {
-         valid = false;
-    }    
-});
 
 </script>
 <script>
@@ -826,12 +834,20 @@ $(document).ready(function() {
      $("#close_popup").click(function(){
         $("#popup").css("display", "none");
       }); 
+
+      $("#close_popup1").click(function(){
+        $("#popup1").css("display", "none");
+      }); 
    
   $('body').click(function(e){
     if(e.target.style[0] == "display"){
       $("#popup").css("display","none");
     }
   });
+
+  // $("#open_popup1").click(function(){
+  //      $("#popup").css("display","none");
+  // });
     </script>
 
 </html>
