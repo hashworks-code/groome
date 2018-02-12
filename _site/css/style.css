@@ -23,7 +23,7 @@ body {
     color: #4a4a4a; }
   body #errorMsg1 {
     color: red !important; }
-  body #test {
+  body #successmsg {
     color: #2faaba !important; }
   body .groomelogo1 {
     width: 100px;
@@ -827,9 +827,9 @@ footer {
 #errorMsg2 {
   color: red !important; }
 
-#test3 {
+#successmsg3 {
   color: #2faaba !important; }
-  #test3 h1 {
+  #successmsg3 h1 {
     color: #2faaba !important;
     padding: 4px !important; }
 

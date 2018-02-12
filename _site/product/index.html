@@ -59,7 +59,6 @@
         <div class="product__block1">
             <div class="row">
                 <div class="col-xs-12 col-sm-5 col-md-5 col-lg-6 last-sm">
-                    <!-- <img src="/groome_static/assets/images/homepage/group-7 (1).svg" alt="Talent Acquistion"> -->
                     <embed src="../assets/images/SVG_GROOME_D4 (1)/SALES/1/demo.html" alt="Talent Acquistion">
                 </div>
                 <div class="col-xs-12 col-sm-7 col-md-7 col-lg-6">
@@ -220,7 +219,7 @@
                         <button type="submit" id="submit-form1" onclick="">Subscribe for early access</button>
                     </form>
                     <div class="success1">
-                        <h1 id="test1">Successfully Submited</h1>
+                        <h1 id="successmsg">Successfully Submited</h1>
                         <h1 id="errorMsg">Invalid Email</h1>
                     </div>
                 </div>
@@ -236,7 +235,7 @@
 <script src="../assets/js/jquery.serialize-object.min.js"></script>
 <script>
     $(document).ready(function() {
-            $("#test1").hide();
+            $("#successmsg").hide();
             $("#errorMsg").hide();
             var $form = $('form#test-form'),
             url = 'https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec'
@@ -252,7 +251,7 @@
                     data: $form.serializeObject(),
                     success: function() {
                         $("#errorMsg").hide();  
-                        $("#test1").show();
+                        $("#successmsg").show();
                         $("#test-form")[0].reset();
                     }
                 })
@@ -280,30 +279,28 @@
         </div>
     </div>
     <div id="popup" >
-        <div class="modal">
-            <div class="row">
-                <div class="close-button" id="close_popup"><p class="x">X</p></div>
-                <h1>LET’S WORK TOGETHER</h1>
-                <br>
-                <!-- <h2>Forming partnerships will help to create the cult for coffee</h2> -->
-                <form id="contactform" action="" name="contactus">
-                  <div>
-                    <p>Your name <label>*</label></p>
-                    <input type="text" name="name" id="name" placeholder="Name"/>
-                  </div>
-                  <div>
-                    <p>Your Email <label>*</label></p>
-                    <input id="emailVal1"  type="email" name="email" id="email" placeholder="Email"/>
-                    
-                  </div>
-                  <div>
-                    <p>Your Company <label>*</label></p>
-                    <input type="text" name="company" id="company" placeholder="Hashworks"/>
-                  </div>
-                  <div>
-                    <button type="submit" id="submit-form">Submit</button>
-                  </div>
-                </form>
+      <div class="modal">
+         <div class="row">
+            <div class="close-button" id="close_popup"><p class="x">X</p></div>
+              <h1>LET’S WORK TOGETHER</h1>
+              <br>
+              <form id="contactform" action="" name="contactus">
+                      <div>
+                        <p>Your name <label>*</label></p>
+                        <input type="text" name="name" id="name" placeholder="Name"/>
+                      </div>
+                      <div>
+                        <p>Your Email <label>*</label></p>
+                        <input id="emailVal1"  type="email" name="email" id="email" placeholder="Email"/>
+                      </div>
+                      <div>
+                        <p>Your Company <label>*</label></p>
+                        <input type="text" name="company" id="company" placeholder="Hashworks"/>
+                      </div>
+                      <div>
+                        <button type="submit" id="submit-form">Submit</button>
+                      </div>
+              </form>
                 <div class="success">
                   <h1 id="test">Successfully Submited</h1>
                   <h1 id="errorMsg1">Please Fill In All Required Fields*</h1>
@@ -346,6 +343,7 @@ $(document).ready(function() {
                     success: function() {
                         $("#test").show();
                         $("#errorMsg1").hide();
+                        $("#contactform")[0].reset();
                     }
                 })
             } else {
@@ -357,7 +355,7 @@ $(document).ready(function() {
             var email = $("#emailVal1").val();
             isEmail(email);
             e.preventDefault();
-            $("#contactform")[0].reset();
+          
         })
     });
 
