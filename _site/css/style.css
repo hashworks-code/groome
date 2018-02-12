@@ -161,9 +161,9 @@ footer {
       font-family: 'latoRegular';
       font-size: 24px;
       text-align: left;
-      color: #4a4a4a;
+      color: #1fadc5;
       margin: 0;
-      padding-top: 5px;
+      padding: 40px 0px;
       width: 268px; }
     #popup h2, #popup2 h2 {
       font-family: 'latoRegular';
@@ -1058,19 +1058,21 @@ footer {
   .expertise__banner {
     height: 461px; }
     .expertise__banner--text {
-      padding: 0px 41px 76px  52px; }
+      padding: 0px; }
       .expertise__banner--text h1 {
         font-family: 'latoLight';
         font-size: 32px;
         width: 350px;
-        margin: 0 auto; }
+        margin: 0 auto;
+        text-align: left; }
   .expertise embed {
     width: 305px;
     height: 379px;
     margin: -44px 0px 0px -22px !important; }
   .expertise__bannerImage {
     width: 720px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    height: 461px; }
   .expertise__headingContainer {
     width: 680px;
     margin: 0 auto; }
@@ -1138,7 +1140,7 @@ footer {
     padding-bottom: 0px; } }
 @media only screen and (min-width: 1025px) {
   .expertise__banner--text {
-    padding: 0px 97px 76px  157px; }
+    padding: 0px; }
     .expertise__banner--text h1 {
       font-size: 36px;
       width: 465px; }
@@ -1147,7 +1149,8 @@ footer {
     height: 465px; }
   .expertise__bannerImage {
     width: 960px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    height: 461px; }
   .expertise__headingContainer {
     width: 100%;
     margin: 0 auto; }
