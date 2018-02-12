@@ -13,16 +13,16 @@
                 <section class="expertise__headingContainer">
                 <div class="row">
                 <div class="expertise__headingContainer--title col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <h1>Just In Time Sourcing</h1>
+                  <img src="../assets/images/magnifying.svg" alt="magnifying">  <h1>Just In Time Sourcing</h1>
                 </div>
                 <div class="expertise__headingContainer--title col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <h1>Offer Conversion Rate 85%</h1>
+                <img src="../assets/images/reload.svg" alt="magnifying"> <h1>Offer Conversion Rate 85%</h1>
                 </div>
                 <div class="expertise__headingContainer--title col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <h1>Time To Hire 20 Days</h1>
+                        <img src="../assets/images/timer.svg" alt="magnifying">   <h1>Time To Hire 20 Days</h1>
                 </div>
                 <div class="expertise__headingContainer--title col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <h1>On Demand Hiring</h1>
+                        <img src="../assets/images/arrow-chart.svg" alt="magnifying">   <h1>On Demand Hiring</h1>
                 </div>
                 </div>
                 </section>
@@ -223,8 +223,8 @@
 <script>
         //validation
         $(document).ready(function() {
-                $("#successmsg3").hide();
-                $("#errorMsg2").hide();
+            $("#successmsg3").hide();
+            $("#errorMsg2").hide();
                 var $form = $('form#expertiseform'),
                 url = 'https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec';
                 function isEmail(email) {
@@ -251,33 +251,25 @@
                     var email = $("#emailVal2").val();
                     isEmail(email);
                     e.preventDefault();
-                 
                 })
-                
-        
             });
-        
             $('#submit-form3').on('click', function() {
             valid = true;   
             if ($('#name1').val() == '') {
                 valid = false;
             }
-        
             if ($('#company1').val() == '') {
                  valid = false;
             }    
         });
-        
         </script>
     <script>
         $("#open_popup2").click(function(){
         $("#popup2").css("display", "flex");
         });
-    
         $("#close_popup2").click(function(){
         $("#popup2").css("display", "none");
         }); 
-    
     $('body').click(function(e){
     if(e.target.style[0] == "display"){
         $("#popup2").css("display","none");
