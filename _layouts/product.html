@@ -207,10 +207,11 @@
                     data: $form.serializeObject(),
                     success: function() {
                         $("#errorMsg").hide();  
+                        $("#test1").show();
+                        $("#test-form")[0].reset();
                     }
                 })
-                $("#test1").show();
-                $("#test-form")[0].reset();
+                
             } else {
                     console.log('Invalid Emial');
                     $("#errorMsg").show();
