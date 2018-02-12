@@ -175,12 +175,13 @@
         &__banner {
             height: 461px;
             &--text {
-                padding: 0px 41px 76px  52px;
+                padding: 0px;
                 h1 {
-                  font-family: 'latoLight';
-                  font-size: 32px;
+                    font-family: 'latoLight';
+                    font-size: 32px;
                     width: 350px;
                     margin: 0 auto;
+                    text-align: left;
                 }
             }
         }
@@ -192,6 +193,7 @@
         &__bannerImage {
             width:720px;
             margin: 0 auto;
+            height: 461px;
         }
         &__headingContainer {
             width:680px;
@@ -308,7 +310,7 @@
     .expertise {
         &__banner {
             &--text {
-                padding: 0px 97px 76px  157px;
+                padding: 0px;
                 h1{
                     font-size: 36px;
                     width: 465px;
@@ -322,6 +324,7 @@
         &__bannerImage {
             width:960px;
             margin: 0 auto;
+            height: 461px;
         }
         &__headingContainer {
             width:100%;
