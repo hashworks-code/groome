@@ -781,7 +781,6 @@
 <script>
 //validation
 $(document).ready(function() {
-        $("#test").hide();
         $("#errorMsg1").hide();
         var $form = $('form#contactform'),
         url = 'https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec'
@@ -790,17 +789,19 @@ $(document).ready(function() {
             var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
             if (regex.test(email) === true) {
                 console.log('Valid Email');
+
+                $("#test").show();
+                $("#popup").css("display","none");
+                $("#popup1").css("display", "flex");
+
                 var jqxhr = $.ajax({
                     url: url,
                     method: "GET",
                     dataType: "json",
                     data: $form.serializeObject(),
-                    success: function() {
-                        $("#test").show();
-                        $("#errorMsg1").hide();
-                        $("#contactform")[0].reset();
-                        $("#popup1").css("display", "flex");
-                        $("#popup").css("display","none");
+                    success: function() {                        
+                        $("#contactform")[0].reset();   
+                        $("#errorMsg1").hide();                                            
                     }
                 })
             } else {
@@ -809,17 +810,17 @@ $(document).ready(function() {
             }
         }
         $('#submit-form').on('click', function(e) {
-          valid = true;   
-          if ($('#name').val() == '') {
-              valid = false;
-          }
+            valid = true;   
+            if ($('#name').val() == '') {
+                valid = false;
+            }
 
-          if ($('#company').val() == '') {
-               valid = false;
-          }    
+            if ($('#company').val() == '') {
+                valid = false;
+            }    
             var email = $("#emailVal1").val();
             isEmail(email);
-            //e.preventDefault();
+            e.preventDefault();
           
         })
     });

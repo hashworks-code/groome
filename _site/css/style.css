@@ -305,8 +305,7 @@ footer {
     background-color: #000000; }
 
   #popup .modal, #popup2 .modal {
-    width: 570px;
-    height: 505px; }
+    width: 570px; }
   #popup .row, #popup2 .row {
     width: 433px;
     margin: 0 auto; }
