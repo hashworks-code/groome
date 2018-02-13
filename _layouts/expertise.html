@@ -195,16 +195,16 @@
                         <input type="text" name="company" id="company1" placeholder="Hashworks"/>
                       </div>
                       <div>
-                        <button type="submit" id="submit-form3">Submit</button>
+                        <a href="#popup4" id="open_popup4"><button type="submit" id="submit-form3">Submit</button></a>
                       </div>
                     </form>
                     <div class="success">
                        
-                        <div id="successmsg3" >
+                        <!-- <div id="successmsg3" >
                             <h1>Successfully Submited</h1>
                             <h1>We will get back to you.</h1>
                             <img src="" alt="">
-                        </div>
+                        </div> -->
                         <h1 id="errorMsg2">Please Fill In All Required Fields*</h1>
                     </div>
                   <div class="row phone">
@@ -220,6 +220,17 @@
                 </div>
             </div>
          </div>
+
+         <div  id="popup4" >
+        <div class="modal">
+            <div id="successmsg3">
+            <div class="close-button" id="close_popup4"><p class="x1">X</p></div>
+                  <h1>THANK YOU!</h1>
+                  <h2>We will get back to you soon.</h2>
+            </div>
+        </div>
+          </div>
+
 <script>
         //validation
         $(document).ready(function() {
@@ -240,6 +251,8 @@
                                 $("#successmsg3").show();
                                 $("#errorMsg2").hide();
                                 $("#expertiseform")[0].reset();
+                                 $("#popup4").css("display", "flex");
+                                 $("#popup2").css("display","none");
                             }
                         })
                     } else {
@@ -269,7 +282,10 @@
         });
         $("#close_popup2").click(function(){
         $("#popup2").css("display", "none");
-        }); 
+        });
+        $("#close_popup4").click(function(){
+        $("#popup4").css("display", "none");
+      });  
     $('body').click(function(e){
     if(e.target.style[0] == "display"){
         $("#popup2").css("display","none");
