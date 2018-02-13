@@ -363,23 +363,23 @@ $(document).ready(function() {
             }
         }
         $('#submit-form').on('click', function(e) {
-            valid = true;   
-            if ($('#name').val() == '') {
-                valid = false;
+           
+            if ($('#name').val().length > 0) {
+              if ($('#company').val().length > 0) {
+                  var email = $("#emailVal1").val();
+                  isEmail(email);                            
+              }else{
+                  console.log('Invalid company');
+                  $("#errorMsg1").show();
+              }
+            }else{
+                console.log('Invalid Name');
+                $("#errorMsg1").show();
             }
-
-            if ($('#company').val() == '') {
-                valid = false;
-            }    
-            var email = $("#emailVal1").val();
-            isEmail(email);
             e.preventDefault();
-          
         })
     });
 
-</script>
-<script>
    $("#open_popup").click(function(){
      $("#popup").css("display", "flex");
       });

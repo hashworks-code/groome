@@ -277,49 +277,53 @@
           </div>
 
 <script>
-        //validation
-        $(document).ready(function() {
-            $("#successmsg3").hide();
-            $("#errorMsg2").hide();
+    //validation
+    $(document).ready(function() {
+                $("#errorMsg2").hide();
                 var $form = $('form#expertiseform'),
                 url = 'https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec';
                 function isEmail(email) {
                     var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
                     if (regex.test(email) === true) {
                         console.log('Valid Email');
+
+                        $("#popup2").css("display","none");
+                        $("#popup4").css("display","flex");
+                        $("#successmsg3").show();
+
                         var jqxhr = $.ajax({
                             url: url,
                             method: "GET",
                             dataType: "json",
                             data: $form.serializeObject(),
-                            success: function() {
-                                $("#successmsg3").show();
-                                $("#errorMsg2").hide();
-                                $("#expertiseform")[0].reset();
-                                 $("#popup4").css("display", "flex");
-                                 $("#popup2").css("display","none");
+                            success: function() {                               
+                                $("#expertiseform")[0].reset();    
+                                $("#errorMsg2").hide();                          
                             }
                         })
                     } else {
                         console.log('Invalid Emial');
                         $("#errorMsg2").show();
                     }
-                }
+                } 
                 $('#submit-form3').on('click', function(e) {
-                    var email = $("#emailVal2").val();
-                    isEmail(email);
+                    
+                    if ($('#name1').val().length > 0) {
+                        if ($('#company1').val().length > 0) {
+                            console.log($('#company1').length);
+                            var email = $("#emailVal2").val();
+                            isEmail(email);                            
+                        }else{
+                            console.log('Invalid company');
+                            $("#errorMsg2").show();
+                        }
+                    }else{
+                        console.log('Invalid Name');
+                        $("#errorMsg2").show();
+                    }
                     e.preventDefault();
-                })
+                })               
             });
-            $('#submit-form3').on('click', function() {
-            valid = true;   
-            if ($('#name1').val() == '') {
-                valid = false;
-            }
-            if ($('#company1').val() == '') {
-                 valid = false;
-            }    
-        });
         </script>
     <script>
         $("#open_popup2").click(function(){
@@ -431,23 +435,23 @@ $(document).ready(function() {
             }
         }
         $('#submit-form').on('click', function(e) {
-            valid = true;   
-            if ($('#name').val() == '') {
-                valid = false;
+           
+            if ($('#name').val().length > 0) {
+              if ($('#company').val().length > 0) {
+                  var email = $("#emailVal1").val();
+                  isEmail(email);                            
+              }else{
+                  console.log('Invalid company');
+                  $("#errorMsg1").show();
+              }
+            }else{
+                console.log('Invalid Name');
+                $("#errorMsg1").show();
             }
-
-            if ($('#company').val() == '') {
-                valid = false;
-            }    
-            var email = $("#emailVal1").val();
-            isEmail(email);
             e.preventDefault();
-          
         })
     });
 
-</script>
-<script>
    $("#open_popup").click(function(){
      $("#popup").css("display", "flex");
       });
