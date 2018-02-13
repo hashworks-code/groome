@@ -24,7 +24,8 @@ body {
   body #submit-form a {
     color: white; }
   body #errorMsg1 {
-    color: red !important; }
+    color: red !important;
+    font-style: normal !important; }
   body #successmsg {
     color: #2faaba !important; }
   body .groomelogo1 {
@@ -125,11 +126,18 @@ footer {
       border-radius: 5px;
       background-color: #e0e0e0; }
     #popup1 .x1, #popup4 .x1 {
+<<<<<<< HEAD
       font-size: 18px;
       margin-top: 11px;
       margin-left: 15px; }
     #popup1 .close1, #popup4 .close1 {
       display: none; }
+=======
+      color: #242323;
+      font-size: 18px;
+      margin-top: 11px;
+      margin-left: 15px; }
+>>>>>>> 9784576115288863fae9311bf88dc7a17160e386
     #popup1 h1, #popup4 h1 {
       font-family: 'latoRegular';
       font-size: 24px;
@@ -954,7 +962,8 @@ footer {
       font-size: 48px;
       margin: 73px 0 22px; } }
 #errorMsg2 {
-  color: red !important; }
+  color: red !important;
+  font-style: normal !important; }
 
 #successmsg3 {
   color: #2faaba !important; }
