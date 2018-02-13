@@ -213,6 +213,9 @@ margin-top: 20px;
       cursor: pointer;
 // background-color:#000000 ;
   }
+.close1 {
+    display: none;
+  }
 h1 {
      font-family: 'latoRegular';
      font-size: 24px;
@@ -385,6 +388,12 @@ h2 {
       top: 10px;
       background-color: #000000;
     }
+    .close1 {
+    display: block;
+  }
+  .close2 {
+    display: none;
+  }
   h1 {
     padding-top: 20px;
     width: 446px;
@@ -397,9 +406,7 @@ h2 {
         padding-top: 11px;
     }
   .x {
-    font-size: 18px;
-    color: #ffffff;
-    margin: 11px 0px 0px -10px;
+    margin: 17px 15px 0px;
     }
 p {
 font-size: 14px;

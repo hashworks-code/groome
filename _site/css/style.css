@@ -185,6 +185,8 @@ footer {
       width: 49px;
       height: 46px;
       cursor: pointer; }
+    #popup .close1, #popup2 .close1 {
+      display: none; }
     #popup h1, #popup2 h1 {
       font-family: 'latoRegular';
       font-size: 24px;
@@ -319,6 +321,10 @@ footer {
     right: -49px;
     top: 10px;
     background-color: #000000; }
+  #popup .close1, #popup2 .close1 {
+    display: block; }
+  #popup .close2, #popup2 .close2 {
+    display: none; }
   #popup h1, #popup2 h1 {
     padding-top: 20px;
     width: 446px;
@@ -329,9 +335,7 @@ footer {
     width: 363px;
     padding-top: 11px; }
   #popup .x, #popup2 .x {
-    font-size: 18px;
-    color: #ffffff;
-    margin: 11px 0px 0px -10px; }
+    margin: 17px 15px 0px; }
   #popup p, #popup2 p {
     font-size: 14px;
     padding: 0px;
