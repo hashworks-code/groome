@@ -34,7 +34,7 @@ body{
  
 }
 .x1{
-  color: #242323;
+  color: #fbf9f9;
     font-size: 18px;
     margin-top: 11px;
     margin-left: 15px;
@@ -137,6 +137,12 @@ margin-top: 20px;
         border-radius: 5px;
         background-color: #e0e0e0;
     }
+    .x1{
+  color: #242323;
+    font-size: 18px;
+    margin-top: 11px;
+    margin-left: 15px;
+}
     h1 {
       font-family: 'latoRegular';
       font-size: 24px;
@@ -320,11 +326,7 @@ h1 {
         width:460px;
         height: 245px;
     }
-
-
     h1 {
-  //     width: 160px;
-  // height: 29px;
   font-family: Lato;
   font-size: 24px;
   font-weight: normal;
@@ -355,16 +357,13 @@ h2 {
       top: 10px;
       background-color: #000000;
     }
-    //   .row {
-    //     width: 446px;
-    //     margin: 0 auto;
-    // }
     }
    
     #popup, #popup2{
 
     .modal{
       width: 570px;
+      height: 505px;
   }
     .row {
       width: 433px;
@@ -473,21 +472,14 @@ h2 {
       top: 10px;
       background-color: #000000;
     }
-    //   .row {
-    //     width: 446px;
-    //     margin: 0 auto;
-    // }
     }
-
     .groome-expertise {
       font-size: 24px;
     }
     .groome-product {
       font-size: 24px;
     } 
-    
   }
-
   @media screen and (min-width:1367px){ 
     .groome-home{
      padding-left: 39px;
@@ -523,11 +515,7 @@ h2 {
         width:570px;
         height: 278px;
     }
-
-
     h1 {
-  //     width: 160px;
-  // height: 29px;
   font-family: Lato;
   font-size: 24px;
   font-weight: normal;
@@ -551,10 +539,6 @@ h2 {
   text-align: center;
   color: rgba(60, 60, 60, 0.39);
 }
-    //   .row {
-    //     width: 446px;
-    //     margin: 0 auto;
-    // }
     }
     #popup, #popup2{
       .modal{
@@ -579,4 +563,3 @@ h2 {
     }
     }
   }
-
