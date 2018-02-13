@@ -188,12 +188,12 @@ footer {
       display: none; }
     #popup h1, #popup2 h1 {
       font-family: 'latoRegular';
-      font-size: 24px;
+      font-size: 20px;
       text-align: left;
       color: #1fadc5;
       margin: 0;
       padding: 0px 0px;
-      width: 268px; }
+      width: 220px; }
     #popup h2, #popup2 h2 {
       font-family: 'latoRegular';
       font-size: 16px;
@@ -282,24 +282,11 @@ footer {
   #popup1 h1, #popup4 h1 {
     font-family: Lato;
     font-size: 24px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #1fadc5;
     margin: 94px 0px 10px;
     text-align: center; }
   #popup1 h2, #popup4 h2 {
     font-family: Lato;
     font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
     color: rgba(60, 60, 60, 0.39);
     margin-bottom: 93px; }
   #popup1 .close1, #popup4 .close1 {
@@ -327,7 +314,8 @@ footer {
   #popup h1, #popup2 h1 {
     padding-top: 20px;
     width: 446px;
-    color: #1fadc5; }
+    color: #1fadc5;
+    font-size: 24px; }
   #popup h2, #popup2 h2 {
     font-size: 16px;
     margin: 0;
