@@ -126,10 +126,11 @@ footer {
       border-radius: 5px;
       background-color: #e0e0e0; }
     #popup1 .x1, #popup4 .x1 {
-      color: #242323;
       font-size: 18px;
       margin-top: 11px;
       margin-left: 15px; }
+    #popup1 .close1, #popup4 .close1 {
+      display: none; }
     #popup1 h1, #popup4 h1 {
       font-family: 'latoRegular';
       font-size: 24px;
@@ -300,6 +301,10 @@ footer {
     text-align: center;
     color: rgba(60, 60, 60, 0.39);
     margin-bottom: 93px; }
+  #popup1 .close1, #popup4 .close1 {
+    display: block; }
+  #popup1 .close2, #popup4 .close2 {
+    display: none; }
   #popup1 .close-button, #popup4 .close-button {
     right: -49px;
     top: 10px;
