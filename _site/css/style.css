@@ -39,8 +39,7 @@ body {
     font-size: 15px !important; }
   body .x1 {
     color: #fbf9f9;
-    font-size: 18px;
-    margin-top: 11px;
+    margin-top: 16px;
     margin-left: 15px; }
   body header {
     padding: 0px 16px 0px 13px;
@@ -126,8 +125,7 @@ footer {
       border-radius: 5px;
       background-color: #e0e0e0; }
     #popup1 .x1, #popup4 .x1 {
-      font-size: 18px;
-      margin-top: 11px;
+      margin-top: 16px;
       margin-left: 15px; }
     #popup1 .close1, #popup4 .close1 {
       display: none; }
