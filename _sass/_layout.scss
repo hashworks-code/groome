@@ -119,9 +119,7 @@ margin-top: 20px;
     }
   }
   @media screen and (min-width:320px){ 
-
   #popup1, #popup4{
-    
       position: fixed;
       display: none;
       margin: auto;
@@ -172,13 +170,11 @@ margin-top: 20px;
       width: 49px;
       height: 46px;
       cursor: pointer;
-// background-color:#000000 ;
   }
     }
    
   
     #popup, #popup2{
-    
       position: fixed;
       display: none;
       margin: auto;
@@ -208,7 +204,6 @@ margin-top: 20px;
       width: 49px;
       height: 46px;
       cursor: pointer;
-// background-color:#000000 ;
   }
 .close1 {
     display: none;
@@ -272,8 +267,7 @@ h1 {
       margin-top:16px;
       border: none;
       cursor: pointer;
-
-              }
+    }
         span {
         font-size: 14px;
         line-height: 2.36;
@@ -325,7 +319,6 @@ h1 {
         } 
       }
     }
-
     #popup1, #popup4{
       .modal{
         width:460px;
@@ -363,7 +356,6 @@ h2 {
   .close2 {
     display: none;
   }
-
 .close-button {
       right: -49px;
       top: 10px;
@@ -405,31 +397,31 @@ h2 {
   .x {
     margin: 17px 15px 0px;
     }
-p {
-font-size: 14px;
-padding: 0px;
-margin: 20px 0px 5px 0px;
-}
-input {
-  width: 433px;
-  padding: 0px 0px 11px;
-}
-button {
-width: 216px;
-height: 40px;
-font-size: 16px;
-text-align: center;
-margin-top: 17px;
-margin-left: 111px;
-border: none;
-}
-span {
-padding-left: 10px;
-}
-.phone {
-  padding: 29px 0px 22px 0px;
-}
-}
+        p {
+        font-size: 14px;
+        padding: 0px;
+        margin: 20px 0px 5px 0px;
+        }
+        input {
+          width: 433px;
+          padding: 0px 0px 11px;
+        }
+        button {
+        width: 216px;
+        height: 40px;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 17px;
+        margin-left: 111px;
+        border: none;
+        }
+        span {
+        padding-left: 10px;
+        }
+        .phone {
+          padding: 29px 0px 22px 0px;
+        }
+        }
   }
   @media screen and (min-width:1025px){ 
     .groome-home{
