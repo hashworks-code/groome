@@ -82,7 +82,7 @@ footer {
       background-image: url("../assets/images/group-4.svg");
       background-repeat: no-repeat;
       background-size: 24em;
-      background-position: 10px 0px; }
+      background-position: 0px 0px; }
     footer .row h1 {
       font-size: 28px;
       text-align: left;
@@ -362,7 +362,7 @@ footer {
     footer .row {
       width: 925px; }
       footer .row .footer__image {
-        background-position: 123px 10px;
+        background-position: 0px 10px;
         background-size: 33em; }
       footer .row h1 {
         margin-top: 10px; }
