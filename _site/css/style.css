@@ -344,6 +344,9 @@ footer {
   .groome-home {
     padding-left: 39px; }
 
+  .groomelogo1 {
+    margin-top: 45px; }
+
   .groome-product {
     padding-right: 34px; }
 
@@ -359,7 +362,8 @@ footer {
     footer .row {
       width: 925px; }
       footer .row .footer__image {
-        background-position: 0px 0px; }
+        background-position: 123px 10px;
+        background-size: 33em; }
       footer .row h1 {
         margin-top: 10px; }
       footer .row h2 {
@@ -397,8 +401,6 @@ footer {
     footer .row {
       width: 1232px;
       margin-left: 0 auto; }
-      footer .row .footer__image {
-        background-position: 0px 0px; }
       footer .row h1 {
         margin-top: 10px;
         font-size: 36px;
