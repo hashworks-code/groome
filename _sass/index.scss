@@ -422,11 +422,11 @@
     }
     @media screen and (min-width:1025px){ 
         svg{
-            padding: 0px 0px 151px 124px;
-            margin: 0px;
-            margin-left: -31px;
-            width: 469px;
-            height: 730px;
+     padding: 0px 0px 151px 124px;
+    margin: 0px;
+    margin-left: 40px;
+    width: 354px;
+    height: 730px;
           }
         
         .image-container img.active {
@@ -478,7 +478,7 @@
                 }
                 h1{
                     font-size: 28px;
-                    height: 265px;
+                    height: 165px;
                     text-align: center;
                     margin-top: 16px;
                     width: 176px;
@@ -582,20 +582,18 @@
             }
         }    
     }
-    
     @media screen and (min-width:1367px){ 
         svg{
             padding: 0px 0px 151px 124px;
             margin: 0px;
-            margin-left: 35px;
-            width: 469px;
+            margin-left: 40px;
+            width: 362px;
             height: 730px;
           }
         .image-container img.active {
             z-index:2;
         }
         .container1 {
-        
             position: absolute; 
             margin-left: 100px;
         }
@@ -604,7 +602,6 @@
                 width: 1232px;
             }
             .homepage__hire{
-                
                 &__text{
                     h1{
                         font-size:36px;
@@ -633,7 +630,6 @@
                 }
             }
             .homepage__analytics{
-                height: 330px;
                 h1{
                     font-size: 28px;
                     width: 343px;
@@ -644,7 +640,6 @@
                 p{
                     width: 310px;
                 }
-                
                 &__plus{
                     h1{
                         font-size: 48px;

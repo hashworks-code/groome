@@ -767,8 +767,8 @@ footer {
   svg {
     padding: 0px 0px 151px 124px;
     margin: 0px;
-    margin-left: -31px;
-    width: 469px;
+    margin-left: 40px;
+    width: 354px;
     height: 730px; }
 
   .image-container img.active {
@@ -806,7 +806,7 @@ footer {
     width: 246px; }
   .groome__homepage .homepage__analytics h1 {
     font-size: 28px;
-    height: 265px;
+    height: 165px;
     text-align: center;
     margin-top: 16px;
     width: 176px; }
@@ -875,8 +875,8 @@ footer {
   svg {
     padding: 0px 0px 151px 124px;
     margin: 0px;
-    margin-left: 35px;
-    width: 469px;
+    margin-left: 40px;
+    width: 362px;
     height: 730px; }
 
   .image-container img.active {
@@ -907,17 +907,15 @@ footer {
       height: 1076px;
       position: absolute;
       left: 111px; }
-  .groome__homepage .homepage__analytics {
-    height: 330px; }
-    .groome__homepage .homepage__analytics h1 {
-      font-size: 28px;
-      width: 343px; }
-    .groome__homepage .homepage__analytics .recycle {
-      margin-left: 0px; }
-    .groome__homepage .homepage__analytics p {
-      width: 310px; }
-    .groome__homepage .homepage__analytics__plus h1 {
-      font-size: 48px; }
+  .groome__homepage .homepage__analytics h1 {
+    font-size: 28px;
+    width: 343px; }
+  .groome__homepage .homepage__analytics .recycle {
+    margin-left: 0px; }
+  .groome__homepage .homepage__analytics p {
+    width: 310px; }
+  .groome__homepage .homepage__analytics__plus h1 {
+    font-size: 48px; }
   .groome__homepage .homepage__senario__text {
     padding: 62px 0px 84px; }
     .groome__homepage .homepage__senario__text .row {
