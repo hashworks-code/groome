@@ -518,11 +518,15 @@ footer {
       margin-bottom: 18px; }
     .groome__homepage .homepage__analytics h1 {
       font-size: 24px;
-      text-align: left;
+      text-align: center;
       color: #2faaba;
       margin: 0px;
       font-weight: 400;
       width: 292px; }
+    .groome__homepage .homepage__analytics h4 {
+      font-size: 24px;
+      text-align: center;
+      color: #2faaba; }
     .groome__homepage .homepage__analytics p {
       font-size: 14px;
       line-height: 1.44;
@@ -681,7 +685,12 @@ footer {
     font-size: 14px; }
   .groome__homepage .homepage__analytics h1 {
     font-size: 24px;
-    margin-top: 6px; }
+    margin-top: 0px;
+    text-align: left;
+    width: 118px;
+    display: flex;
+    height: 78px;
+    align-items: center; }
   .groome__homepage .homepage__analytics__plus {
     display: flex;
     align-items: center;
@@ -796,8 +805,15 @@ footer {
     font-size: 16px;
     width: 246px; }
   .groome__homepage .homepage__analytics h1 {
-    margin-top: 27px;
-    font-size: 28px; }
+    font-size: 28px;
+    height: 265px;
+    text-align: center;
+    margin-top: 16px;
+    width: 176px; }
+  .groome__homepage .homepage__analytics .recycle {
+    margin-left: 30px; }
+  .groome__homepage .homepage__analytics h4 {
+    font-size: 32px; }
   .groome__homepage .homepage__analytics__da {
     margin-left: 10px; }
   .groome__homepage .homepage__analytics__plus h1 {
@@ -807,8 +823,6 @@ footer {
   .groome__homepage .homepage__analytics__equal {
     display: flex;
     align-items: center; }
-    .groome__homepage .homepage__analytics__equal h1 {
-      font-size: 48px; }
   .groome__homepage .homepage__senario__image {
     margin: 60px 0px 84px 0px;
     height: 475px; }
@@ -898,6 +912,8 @@ footer {
     .groome__homepage .homepage__analytics h1 {
       font-size: 28px;
       width: 343px; }
+    .groome__homepage .homepage__analytics .recycle {
+      margin-left: 0px; }
     .groome__homepage .homepage__analytics p {
       width: 310px; }
     .groome__homepage .homepage__analytics__plus h1 {
