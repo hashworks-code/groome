@@ -31,8 +31,6 @@ body {
   body .groomelogo1 {
     width: 100px;
     margin-bottom: 10px; }
-  body h3 {
-    text-transform: capitalize; }
   body .success h1 {
     text-align: center !important;
     padding: 10px !important;
