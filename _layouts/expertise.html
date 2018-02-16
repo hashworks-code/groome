@@ -172,11 +172,10 @@
                 <div class="row">
                     <div class="close-button" id="close_popup2">
                         <p class="x">
-                             <img class="close1" src="../assets/images/close-icon .svg"/>
-                <img class="close2" src="../assets/images/close-icon1.svg"/>
-                            </p></div>
+                        <img class="close1" src="../assets/images/close-icon .svg"/>
+                        <img class="close2" src="../assets/images/close-icon1.svg"/></p>
+                    </div>
                     <h1>LET’S WORK TOGETHER</h1>
-                    <br>
                     <form id="expertiseform" action="" name="contactus">
                       <div>
                         <p>Your name <label>*</label></p>
@@ -191,7 +190,7 @@
                         <input type="text" name="company" id="company1" placeholder="Hashworks"/>
                       </div>
                       <div>
-                        <a href="#popup4" id="open_popup4"><button type="submit" id="submit-form3">Submit</button></a>
+                        <a href="#popup4"><button type="submit" id="submit-form3">Submit</button></a>
                       </div>
                     </form>
                     <div class="success">
@@ -269,7 +268,7 @@
                         console.log('Invalid Name');
                         $("#errorMsg2").show();
                     }
-                   
+                   e.preventDefault();
                 })               
             });
         </script>
