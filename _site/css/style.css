@@ -79,7 +79,7 @@ footer {
       height: 220px;
       background-image: url("../assets/images/group-4.svg");
       background-repeat: no-repeat;
-      background-size: 30em;
+      background-size: 25em;
       background-position: 0px 0px; }
     footer .row h1 {
       font-size: 28px;
@@ -361,7 +361,7 @@ footer {
       width: 925px; }
       footer .row .footer__image {
         background-position: 0px 10px;
-        background-size: 33em; }
+        background-size: 25em; }
       footer .row h1 {
         margin-top: 10px; }
       footer .row h2 {
