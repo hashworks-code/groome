@@ -26,8 +26,6 @@ body {
   body #errorMsg1 {
     color: red !important;
     font-style: normal !important; }
-  body #successmsg {
-    color: #2faaba !important; }
   body .groomelogo1 {
     width: 100px;
     margin-bottom: 10px; }
@@ -1346,6 +1344,9 @@ footer {
       border-left: 1px solid #fff; } }
 #errorMsg {
   color: red !important; }
+
+#successmsg {
+  color: white !important; }
 
 @media screen and (min-width: 320px) {
   .success1 h1 {
