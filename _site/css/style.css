@@ -885,7 +885,8 @@ footer {
     margin-left: 100px; }
 
   .groome__homepage .row {
-    width: 1232px; }
+    width: 1232px;
+    padding: 0px; }
   .groome__homepage .homepage__hire__text h1 {
     font-size: 36px;
     text-align: left;
