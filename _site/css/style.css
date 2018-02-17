@@ -1076,7 +1076,7 @@ footer {
       line-height: 1.32;
       text-align: right;
       color: #f2f2f2;
-      width: 200px; }
+      width: 215px; }
 .expertise__grey {
   background-color: #f2f2f2; }
 .expertise__detailsContainer {
@@ -1182,12 +1182,12 @@ footer {
     .expertise__headingContainer--title:nth-child(1) h1 {
       font-size: 18px;
       padding: 29px 0px 30px 0px;
-      width: 166px;
+      width: 192px;
       margin-left: 30px; }
     .expertise__headingContainer--title:nth-child(3) h1 {
       font-size: 18px;
       padding: 22px 0px 34px 0px;
-      width: 140px;
+      width: 150px;
       margin-left: 73px; }
     .expertise__headingContainer--title:nth-child(2) {
       border-left: 1px solid #e0e0e0; }
