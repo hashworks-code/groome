@@ -7,6 +7,27 @@
 @font-face {
   font-family: 'latoLight';
   src: url("../assets/fonts/Lato-Light.ttf"); }
+@font-face {
+  font-family: 'quicksandRegular';
+  src: url("../assets/fonts/quicksandRegular.ttf"); }
+@font-face {
+  font-family: 'quicksandLight';
+  src: url("../assets/fonts/quicksandLight.ttf"); }
+@font-face {
+  font-family: 'quicksandSemibold';
+  src: url("../assets/fonts/quicksandSemibold.ttf"); }
+@font-face {
+  font-family: 'quicksandBold';
+  src: url("../assets/fonts/quicksandBold.ttf"); }
+@font-face {
+  font-family: 'robotoRegular';
+  src: url("../assets/fonts/robotoRegular.ttf"); }
+@font-face {
+  font-family: 'robotoLight';
+  src: url("../assets/fonts/robotoRegular.ttf"); }
+@font-face {
+  font-family: 'robotoBold';
+  src: url("../assets/fonts/robotoRegular.ttf"); }
 .noPadding {
   padding-left: 0px !important;
   padding-right: 0px !important; }
@@ -16,16 +37,18 @@
 
 body {
   margin: 0px;
-  font-family: 'latoRegular';
   padding-top: 72px; }
   body a {
     text-decoration: none;
-    color: #4a4a4a; }
+    color: #4a4a4a;
+    font-family: 'quicksandRegular'; }
   body #submit-form a {
-    color: white; }
+    color: white;
+    font-family: 'quicksandRegular'; }
   body #errorMsg1 {
     color: red !important;
-    font-style: normal !important; }
+    font-style: normal !important;
+    font-family: 'robotoRegular'; }
   body .groomelogo1 {
     width: 100px;
     margin-bottom: 10px; }
@@ -59,11 +82,13 @@ body {
       padding-right: 5px;
       border-right: 1px solid #95989a;
       font-size: 16px;
-      color: #4a4a4a; }
+      color: #4a4a4a;
+      font-family: 'quicksandRegular'; }
     body header .groome-product {
       margin-left: 5px;
       font-size: 16px;
-      color: #4a4a4a; }
+      color: #4a4a4a;
+      font-family: 'quicksandRegular'; }
 
 *, *:before, *:after {
   box-sizing: border-box; }
@@ -95,7 +120,7 @@ footer {
       margin: 0px; }
     footer .row p {
       font-size: 16px;
-      font-family: 'latoBold';
+      font-family: 'robotoRegular';
       font-weight: 600;
       color: #4a4a4a;
       margin: 16px 0px 22px; }
@@ -126,7 +151,7 @@ footer {
     #popup1 .close1, #popup4 .close1 {
       display: none; }
     #popup1 h1, #popup4 h1 {
-      font-family: 'latoRegular';
+      font-family: 'quicksandRegular';
       font-size: 24px;
       text-align: left;
       color: #1fadc5;
@@ -134,7 +159,7 @@ footer {
       text-align: center;
       font-weight: normal; }
     #popup1 h2, #popup4 h2 {
-      font-family: 'latoRegular';
+      font-family: 'quicksandRegular';
       font-size: 16px;
       text-align: left;
       color: rgba(60, 60, 60, 0.39);
@@ -183,7 +208,7 @@ footer {
     #popup .close1, #popup2 .close1 {
       display: none; }
     #popup h1, #popup2 h1 {
-      font-family: 'latoRegular';
+      font-family: 'quicksandRegular';
       font-size: 20px;
       text-align: left;
       color: #1fadc5;
@@ -191,14 +216,14 @@ footer {
       padding: 0px 0px;
       width: 220px; }
     #popup h2, #popup2 h2 {
-      font-family: 'latoRegular';
+      font-family: 'quicksandRegular';
       font-size: 16px;
       text-align: left;
       color: #4a4a4a;
       margin: 0;
       padding: 16px 41px 0px 0px; }
     #popup p, #popup2 p {
-      font-family: 'latoRegular';
+      font-family: 'robotoRegular';
       font-size: 14px;
       text-align: left;
       color: #4a4a4a;
@@ -219,7 +244,7 @@ footer {
       margin: 0;
       background: transparent;
       border-bottom: 1px solid #9b9b9b;
-      font-family: 'latoRegular';
+      font-family: 'robotoRegular';
       color: #4a4a4a;
       padding: 0px 0px 11px;
       margin-bottom: 10px; }
@@ -227,7 +252,7 @@ footer {
       width: 216px;
       height: 40px;
       border-radius: 2px;
-      font-family: 'latoRegular';
+      font-family: 'robotoRegular';
       font-size: 16px;
       text-align: center;
       color: #f2f2f2;
@@ -276,12 +301,12 @@ footer {
     width: 460px;
     height: 245px; }
   #popup1 h1, #popup4 h1 {
-    font-family: Lato;
+    font-family: 'quicksandRegular';
     font-size: 24px;
     margin: 94px 0px 10px;
     text-align: center; }
   #popup1 h2, #popup4 h2 {
-    font-family: Lato;
+    font-family: 'quicksandRegular';
     font-size: 16px;
     color: rgba(60, 60, 60, 0.39);
     margin-bottom: 93px; }
@@ -414,7 +439,6 @@ footer {
     width: 570px;
     height: 278px; }
   #popup1 h1, #popup4 h1 {
-    font-family: Lato;
     font-size: 24px;
     font-weight: normal;
     font-style: normal;
@@ -426,7 +450,6 @@ footer {
     margin: 110px 0px 10px;
     text-align: center; }
   #popup1 h2, #popup4 h2 {
-    font-family: Lato;
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
@@ -484,19 +507,19 @@ footer {
   .groome__homepage .homepage__hire__text {
     padding: 0px; }
     .groome__homepage .homepage__hire__text h1 {
-      font-family: 'latoLight';
+      font-family: 'quicksandSemibold';
       color: #f79a3d;
-      font-size: 24px;
-      font-weight: 300;
+      font-size: 20px;
+      font-weight: 500;
       line-height: 1.36;
       text-align: center;
       margin: 4px 0px;
-      width: 250px;
+      width: 283px;
       margin: 0 auto; }
     .groome__homepage .homepage__hire__text p {
-      font-family: 'latoLight';
-      font-size: 16px;
-      font-weight: 300;
+      font-family: 'robotoLight';
+      font-size: 14px;
+      font-weight: 100;
       line-height: 1.39;
       text-align: center;
       color: #01363c;
@@ -511,6 +534,13 @@ footer {
     background-color: #f3f3f3; }
     .groome__homepage .homepage__analytics__talent {
       padding: 0px; }
+      .groome__homepage .homepage__analytics__talent--icon {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .groome__homepage .homepage__analytics__talent--icon img {
+          width: 30px;
+          margin-right: 10px; }
     .groome__homepage .homepage__analytics__da {
       padding: 0px;
       margin-bottom: 18px; }
@@ -520,7 +550,7 @@ footer {
       color: #2faaba;
       margin: 0px;
       font-weight: 400;
-      width: 292px; }
+      font-family: 'quicksandRegular'; }
     .groome__homepage .homepage__analytics h4 {
       font-size: 24px;
       text-align: center;
@@ -531,10 +561,14 @@ footer {
       text-align: left;
       color: #4a4a4a;
       margin: 16px 0px 0px;
-      font-weight: 400; }
-    .groome__homepage .homepage__analytics__plus h1 {
-      text-align: center;
-      margin: 15px 0px; }
+      font-weight: 400;
+      font-family: "robotoRegular;"; }
+    .groome__homepage .homepage__analytics__plus {
+      width: 300px;
+      padding: 6px 148px; }
+      .groome__homepage .homepage__analytics__plus h1 {
+        text-align: center;
+        margin: 15px 0px; }
     .groome__homepage .homepage__analytics__equal {
       display: none; }
   .groome__homepage .homepage__senario__image {
@@ -556,12 +590,14 @@ footer {
       text-align: left;
       color: #2faaba;
       font-weight: 400;
-      margin: 0px; }
+      margin: 0px;
+      font-family: 'quicksandSemibold'; }
     .groome__homepage .homepage__senario__text h2 {
       font-size: 16px;
-      font-family: 'latoBold';
+      font-family: 'robotoBold';
       font-weight: bold;
       text-align: left;
+      font-weight: 600;
       color: #4a4a4a;
       margin: 16px 0px; }
     .groome__homepage .homepage__senario__text p {
@@ -570,7 +606,8 @@ footer {
       text-align: left;
       color: #95989a;
       font-weight: 400;
-      margin: 0px; }
+      margin: 0px;
+      font-family: 'robotoRegular'; }
   .groome__homepage .homepage__offering {
     width: 100% !important;
     background-color: #f3f3f3; }
@@ -589,19 +626,22 @@ footer {
         text-align: left;
         color: #4a4a4a;
         font-weight: 400;
-        margin: 12px 0px 16px 0px; }
+        margin: 12px 0px 16px 0px;
+        font-family: 'robotoRegular'; }
       .groome__homepage .homepage__offering__text__inner h1 {
         font-size: 28px;
         font-weight: 500;
         text-align: left;
         color: #4a4a4a;
-        margin: 0px; }
+        margin: 0px;
+        font-family: 'quicksandSemibold'; }
       .groome__homepage .homepage__offering__text__inner p {
         font-size: 14px;
         line-height: 1.5;
         text-align: left;
         color: #4a4a4a;
-        margin: 16px 0px; }
+        margin: 16px 0px;
+        font-family: 'robotoRegular'; }
   .groome__homepage .homepage__product__image {
     width: 100%;
     height: 260px;
@@ -614,26 +654,30 @@ footer {
     text-align: left;
     color: #4a4a4a;
     font-weight: 400;
-    margin: 11px 0px 16px 0px; }
+    margin: 11px 0px 16px 0px;
+    font-family: 'robotoBold'; }
   .groome__homepage .homepage__product__text h1 {
     font-size: 28px;
     font-weight: 500;
     text-align: left;
     color: #4a4a4a;
-    margin: 0px; }
+    margin: 0px;
+    font-family: 'quicksandSemibold'; }
   .groome__homepage .homepage__product__text p {
     font-size: 14px;
     line-height: 1.5;
     text-align: left;
     color: #4a4a4a;
-    margin: 16px 0px; }
+    margin: 16px 0px;
+    font-family: 'robotoRegular'; }
   .groome__homepage .homepage__product__text .comming-soon {
     font-size: 14px;
     text-align: center;
     color: #37b8ae;
     padding: 5px 10px;
     background-color: rgba(55, 184, 174, 0.3);
-    cursor: default; }
+    cursor: default;
+    font-family: 'robotoRegular'; }
   .groome__homepage .homepage__companies {
     background-color: #2faaba;
     height: 301px; }
@@ -643,7 +687,8 @@ footer {
       text-align: left;
       color: #ffffff;
       margin: 6px 0 50px;
-      width: 100%; }
+      width: 100%;
+      font-family: 'quicksandSemibold'; }
     .groome__homepage .homepage__companies__image {
       padding-bottom: 22px; }
       .groome__homepage .homepage__companies__image--1 {
@@ -669,7 +714,7 @@ footer {
     width: 710px; }
   .groome__homepage .homepage__hire__text h1 {
     font-size: 28px;
-    width: 346px;
+    width: 416px;
     margin: 18px auto; }
   .groome__homepage .homepage__hire__text p {
     font-size: 18px;
@@ -678,21 +723,27 @@ footer {
   .groome__homepage .homepage__hire__image img {
     width: 414px;
     height: 781px; }
+  .groome__homepage .homepage__analytics__talent--icon img {
+    margin-top: 9px;
+    margin-left: 25px; }
   .groome__homepage .homepage__analytics p {
     margin: 30px 0px 0px;
     font-size: 14px; }
   .groome__homepage .homepage__analytics h1 {
     font-size: 24px;
-    margin-top: 0px;
+    margin-top: 8px;
     text-align: left;
-    width: 118px;
     display: flex;
     height: 78px;
     align-items: center; }
+  .groome__homepage .homepage__analytics h4 {
+    margin-left: 10px; }
   .groome__homepage .homepage__analytics__plus {
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    width: 0px;
+    padding: 0px; }
     .groome__homepage .homepage__analytics__plus h1 {
       text-align: center;
       margin: 15px 0px; }
@@ -765,7 +816,7 @@ footer {
   svg {
     padding: 0px 0px 151px 124px;
     margin: 0px;
-    margin-left: 40px;
+    margin-left: 100px;
     width: 354px;
     height: 730px; }
 
@@ -785,7 +836,8 @@ footer {
     .groome__homepage .homepage__hire__text h1 {
       font-size: 32px;
       text-align: left;
-      margin: 0px 10px; }
+      margin: 0px 10px;
+      width: 464px; }
     .groome__homepage .homepage__hire__text p {
       font-size: 26px;
       text-align: left;
@@ -798,6 +850,8 @@ footer {
       height: 850px;
       position: absolute;
       left: 40px; }
+  .groome__homepage .homepage__analytics__talent--talentt {
+    margin-left: 41px; }
   .groome__homepage .homepage__analytics p {
     margin: 30px 0px 27px 0px;
     font-size: 16px;
@@ -806,14 +860,10 @@ footer {
     font-size: 28px;
     height: 165px;
     text-align: center;
-    margin-top: 16px;
-    width: 176px; }
-  .groome__homepage .homepage__analytics .recycle {
-    margin-left: 30px; }
+    margin-top: 16px; }
   .groome__homepage .homepage__analytics h4 {
-    font-size: 32px; }
-  .groome__homepage .homepage__analytics__da {
-    margin-left: 10px; }
+    font-size: 32px;
+    margin-left: 50px; }
   .groome__homepage .homepage__analytics__plus h1 {
     font-size: 48px;
     margin-top: 27px;
@@ -821,6 +871,8 @@ footer {
   .groome__homepage .homepage__analytics__equal {
     display: flex;
     align-items: center; }
+    .groome__homepage .homepage__analytics__equal h4 {
+      margin: 0px; }
   .groome__homepage .homepage__senario__image {
     margin: 60px 0px 84px 0px;
     height: 475px; }
@@ -890,7 +942,7 @@ footer {
   .groome__homepage .homepage__hire__text h1 {
     font-size: 36px;
     text-align: left;
-    width: 375px;
+    width: 510px;
     margin-top: 73px;
     margin: 0px; }
   .groome__homepage .homepage__hire__text p {
@@ -906,15 +958,29 @@ footer {
       height: 1076px;
       position: absolute;
       left: 111px; }
+  .groome__homepage .homepage__analytics__talent--talentt {
+    margin-left: 41px; }
+  .groome__homepage .homepage__analytics p {
+    margin: 30px 0px 27px 0px;
+    font-size: 16px;
+    width: 246px; }
   .groome__homepage .homepage__analytics h1 {
     font-size: 28px;
-    width: 343px; }
-  .groome__homepage .homepage__analytics .recycle {
-    margin-left: 0px; }
-  .groome__homepage .homepage__analytics p {
-    width: 310px; }
+    height: 245px;
+    text-align: center;
+    margin-top: 16px; }
+  .groome__homepage .homepage__analytics h4 {
+    font-size: 32px;
+    margin-left: 50px; }
   .groome__homepage .homepage__analytics__plus h1 {
-    font-size: 48px; }
+    font-size: 48px;
+    margin-top: 27px;
+    margin-left: 10px; }
+  .groome__homepage .homepage__analytics__equal {
+    display: flex;
+    align-items: center; }
+    .groome__homepage .homepage__analytics__equal h4 {
+      margin: 0px; }
   .groome__homepage .homepage__senario__text {
     padding: 62px 0px 84px; }
     .groome__homepage .homepage__senario__text .row {
@@ -977,7 +1043,7 @@ footer {
   .expertise__banner--text {
     padding: 0px 14px 40px  18px; }
     .expertise__banner--text h1 {
-      font-family: 'latoLight';
+      font-family: 'quicksandSemibold';
       font-size: 28px;
       font-weight: 300;
       text-align: center;
@@ -1002,7 +1068,7 @@ footer {
     display: flex;
     justify-content: center; }
     .expertise__headingContainer--title h1 {
-      font-family: 'latoRegular';
+      font-family: 'quicksandSemibold';
       margin: 0;
       padding: 26px 21px;
       font-size: 20px;
@@ -1020,7 +1086,7 @@ footer {
     padding-bottom: 16px; }
     .expertise__detailsContainer--heading h1 {
       margin: 0;
-      font-family: 'latoRegular';
+      font-family: 'quicksandSemibold';
       font-size: 24px;
       font-weight: 500;
       text-align: left;
@@ -1030,7 +1096,7 @@ footer {
     padding-bottom: 15px; }
     .expertise__detailsContainer--subDetails h2 {
       margin: 0;
-      font-family: 'latoRegular';
+      font-family: 'robotoBold';
       font-size: 16px;
       font-weight: 600;
       text-align: left;
@@ -1038,7 +1104,7 @@ footer {
       margin-bottom: 16px; }
     .expertise__detailsContainer--subDetails p {
       margin: 0;
-      font-family: 'latoRegular';
+      font-family: 'robotoRegular';
       font-size: 12px;
       line-height: 1.5;
       text-align: left;
@@ -1061,7 +1127,7 @@ footer {
   .expertise__actionContainer--content {
     border-bottom: 1px solid #fff; }
     .expertise__actionContainer--content h1 {
-      font-family: 'latoLight';
+      font-family: 'quicksandRegular';
       font-weight: 400;
       font-size: 20px;
       text-align: left;
@@ -1069,7 +1135,7 @@ footer {
       width: 85%;
       margin: 2px 0px 30px 0px; }
   .expertise__actionContainer--actionContent h1 {
-    font-family: 'latoLight';
+    font-family: 'quicksandRegular';
     font-size: 20px;
     text-align: left;
     color: #f2f2f2;
@@ -1084,7 +1150,7 @@ footer {
     background-color: #f79a3d;
     border: none;
     outline: none;
-    font-family: 'latoRegular';
+    font-family: 'robotoRegular';
     font-size: 18px;
     text-align: center;
     color: #f2f2f2;
@@ -1097,7 +1163,7 @@ footer {
     .expertise__banner--text {
       padding: 0px; }
       .expertise__banner--text h1 {
-        font-family: 'latoLight';
+        font-family: 'quicksandRegular';
         font-size: 32px;
         width: 350px;
         margin: 0 auto;
@@ -1274,7 +1340,7 @@ footer {
       cursor: pointer; } }
 @media only screen and (min-width: 1367px) {
   .expertise__banner--text {
-    padding: 0px 335px 65px  335px; }
+    padding: 0px 335px 65px  125px; }
   .expertise embed {
     width: 504px;
     height: 385px; }
@@ -1366,7 +1432,7 @@ footer {
       margin: 0 auto; }
     .groome__product h1 {
       padding: 33px 0px 24px;
-      font-family: 'latoLight';
+      font-family: 'quicksandRegular';
       width: 245px;
       font-size: 24px;
       font-weight: 300;
@@ -1374,21 +1440,21 @@ footer {
       color: #2faaba;
       margin: 0 auto; }
     .groome__product h2 {
-      font-family: 'latoRegular';
+      font-family: 'quicksandRegular';
       font-size: 20px;
       font-weight: 500;
       text-align: left;
       color: #2faaba;
       margin: 21px 0px; }
     .groome__product h3 {
-      font-family: 'latoBold';
+      font-family: 'robotoBold';
       font-size: 14px;
       font-weight: 600;
       text-align: left;
       color: #4a4a4a;
       width: 274px; }
     .groome__product p {
-      font-family: 'latoRegular';
+      font-family: 'robotoRegular';
       font-size: 12px;
       line-height: 1.5;
       text-align: left;
@@ -1405,7 +1471,7 @@ footer {
       width: 96px;
       height: 35px;
       padding: 9px;
-      font-family: 'latoRegular';
+      font-family: 'quicksandRegular';
       font-size: 12px;
       text-align: center;
       color: #4a4a4a;
@@ -1447,7 +1513,7 @@ footer {
     .groome__product .product__block4 {
       background-color: #2faaba; }
       .groome__product .product__block4 h1 {
-        font-family: 'latoRegular';
+        font-family: 'robotoRegular';
         font-size: 24px;
         text-align: left;
         color: #f2f2f2;
@@ -1455,7 +1521,7 @@ footer {
         padding: 0px 51px 13px 0px;
         font-weight: 400; }
       .groome__product .product__block4 h2 {
-        font-family: 'latoRegular';
+        font-family: 'quicksandRegular';
         font-size: 20px;
         text-align: left;
         color: #f2f2f2;
@@ -1470,7 +1536,7 @@ footer {
         background-color: #f2f2f2;
         border: solid 1px #f2f2f2;
         padding: 10px 30px 15px 26px;
-        font-family: 'latoRegular';
+        font-family: 'robotoRegular';
         font-style: normal;
         font-size: 16px;
         outline: none; }
@@ -1482,7 +1548,7 @@ footer {
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
       border: none;
       outline: none;
-      font-family: 'latoRegular';
+      font-family: 'robotoRegular';
       font-size: 16px;
       text-align: center;
       color: #f2f2f2;
@@ -1538,7 +1604,7 @@ footer {
   .groome__product .product__block4 {
     background-color: #2faaba; }
     .groome__product .product__block4 h1 {
-      font-family: 'latoLight';
+      font-family: 'robotoRegular';
       font-size: 32px;
       text-align: left;
       color: #f2f2f2;
@@ -1546,7 +1612,7 @@ footer {
       padding: 13px 39px 46px 8px;
       font-weight: 400; }
     .groome__product .product__block4 h2 {
-      font-family: 'latoLight';
+      font-family: 'quicksandRegular';
       font-size: 28px;
       text-align: left;
       color: #f2f2f2;

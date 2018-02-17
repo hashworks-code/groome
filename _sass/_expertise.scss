@@ -19,7 +19,7 @@
           &--text {
               padding: 0px 14px 40px  18px;
               h1 {
-                font-family: 'latoLight'; 
+                font-family: 'quicksandSemibold'; 
                 font-size: 28px;
                 font-weight: 300;
                 text-align: center;
@@ -53,7 +53,7 @@
             display: flex;
             justify-content: center;
             h1 {
-                font-family: 'latoRegular';
+                font-family: 'quicksandSemibold';
                 margin: 0;
                 padding: 26px 21px;
                 font-size: 20px;
@@ -75,7 +75,7 @@
             padding-bottom: 16px;
             h1 {
                 margin: 0;
-                  font-family: 'latoRegular';
+                  font-family: 'quicksandSemibold';
                   font-size: 24px;
                   font-weight: 500;
                   text-align: left;
@@ -87,7 +87,7 @@
             padding-bottom: 15px;
             h2 {
                 margin: 0;
-                 font-family: 'latoRegular';
+                 font-family: 'robotoBold';
                  font-size: 16px;
                  font-weight: 600;
                  text-align: left;
@@ -96,7 +96,7 @@
             }
             p {
                 margin: 0;
-                 font-family: 'latoRegular';
+                 font-family: 'robotoRegular';
                  font-size: 12px;
                  line-height: 1.5;
                  text-align: left;
@@ -127,7 +127,7 @@
         &--content {
             border-bottom: 1px solid #fff;
             h1 {
-                  font-family: 'latoLight';
+                  font-family: 'quicksandRegular';
                   font-weight: 400;
                   font-size: 20px;
                   text-align: left;
@@ -138,7 +138,7 @@
         }
         &--actionContent {
             h1 {
-                font-family: 'latoLight';
+                font-family: 'quicksandRegular';
                 font-size: 20px;
                 text-align: left;
                 color: #f2f2f2;
@@ -154,7 +154,7 @@
                  background-color: #f79a3d; 
                  border: none;
                  outline: none;
-                 font-family: 'latoRegular';
+                 font-family: 'robotoRegular';
                  font-size: 18px;
                  text-align: center;
                  color: #f2f2f2;
@@ -172,7 +172,7 @@
             &--text {
                 padding: 0px;
                 h1 {
-                    font-family: 'latoLight';
+                    font-family: 'quicksandRegular';
                     font-size: 32px;
                     width: 350px;
                     margin: 0 auto;
@@ -444,7 +444,7 @@
      .expertise {
         &__banner {
             &--text {
-                padding: 0px 335px 65px  335px;
+                padding: 0px 335px 65px  125px;
             }
         }
         embed {
