@@ -814,10 +814,10 @@ footer {
         height: 64px; } }
 @media screen and (min-width: 1025px) {
   svg {
-    padding: 0px 0px 151px 124px;
+    padding: 1px 45px 221px 71px;
     margin: 0px;
     margin-left: 100px;
-    width: 354px;
+    width: 478px;
     height: 730px; }
 
   .image-container img.active {
