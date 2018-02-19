@@ -436,10 +436,7 @@
         }
     }
 }
-// Media Query for Desktop Ends here //
 
-
-// Media Query for Large Screen begins here //
 @media only screen and (min-width:1367px) {
      .expertise {
         &__banner {
@@ -537,7 +534,7 @@
                 border-bottom: none;
                 padding-left: 64px;
                 h1 {
-                    width:484px;
+                    width:282px;
                 }
             }
             &--reverseOrder {
