@@ -120,7 +120,7 @@ footer {
       margin: 0px; }
     footer .row p {
       font-size: 16px;
-      font-family: 'robotoRegular';
+      font-family: 'quicksandRegular';
       font-weight: 600;
       color: #4a4a4a;
       margin: 16px 0px 22px; }
@@ -291,10 +291,10 @@ footer {
         font-size: 16px; }
 
   body header .groome-expertise {
-    font-size: 20px;
+    font-size: 16px;
     padding-right: 16px; }
   body header .groome-product {
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 16px; }
 
   #popup1 .modal, #popup4 .modal {
@@ -374,10 +374,10 @@ footer {
     padding-right: 34px; }
 
   body header .groome-expertise {
-    font-size: 24px;
+    font-size: 16px;
     padding-right: 32px; }
   body header .groome-product {
-    font-size: 24px;
+    font-size: 16px;
     padding-left: 33px; }
 
   footer {
@@ -390,9 +390,9 @@ footer {
       footer .row h1 {
         margin-top: 10px; }
       footer .row h2 {
-        font-size: 24px; }
+        font-size: 16px; }
       footer .row p {
-        font-size: 20px; }
+        font-size: 16px; }
 
   #popup1 .modal, #popup4 .modal {
     width: 570px;
@@ -408,10 +408,10 @@ footer {
     background-color: #000000; }
 
   .groome-expertise {
-    font-size: 24px; }
+    font-size: 16px; }
 
   .groome-product {
-    font-size: 24px; } }
+    font-size: 16px; } }
 @media screen and (min-width: 1367px) {
   .groome-home {
     padding-left: 39px; }
@@ -430,7 +430,7 @@ footer {
         text-align: left;
         color: #2faaba; }
       footer .row h2 {
-        font-size: 25px;
+        font-size: 16px;
         color: #95989a; }
       footer .row a {
         color: #95989a; }
@@ -507,7 +507,7 @@ footer {
   .groome__homepage .homepage__hire__text {
     padding: 0px; }
     .groome__homepage .homepage__hire__text h1 {
-      font-family: 'quicksandSemibold';
+      font-family: 'quicksandRegular';
       color: #f79a3d;
       font-size: 20px;
       font-weight: 500;
@@ -517,7 +517,7 @@ footer {
       width: 283px;
       margin: 0 auto; }
     .groome__homepage .homepage__hire__text p {
-      font-family: 'robotoLight';
+      font-family: 'quicksandLight';
       font-size: 14px;
       font-weight: 100;
       line-height: 1.39;
@@ -591,7 +591,7 @@ footer {
       color: #2faaba;
       font-weight: 400;
       margin: 0px;
-      font-family: 'quicksandSemibold'; }
+      font-family: 'quicksandRegular'; }
     .groome__homepage .homepage__senario__text h2 {
       font-size: 16px;
       font-family: 'robotoBold';
@@ -634,7 +634,7 @@ footer {
         text-align: left;
         color: #4a4a4a;
         margin: 0px;
-        font-family: 'quicksandSemibold'; }
+        font-family: 'quicksandRegular'; }
       .groome__homepage .homepage__offering__text__inner p {
         font-size: 14px;
         line-height: 1.5;
@@ -662,7 +662,7 @@ footer {
     text-align: left;
     color: #4a4a4a;
     margin: 0px;
-    font-family: 'quicksandSemibold'; }
+    font-family: 'quicksandRegular'; }
   .groome__homepage .homepage__product__text p {
     font-size: 14px;
     line-height: 1.5;
@@ -688,7 +688,7 @@ footer {
       color: #ffffff;
       margin: 6px 0 50px;
       width: 100%;
-      font-family: 'quicksandSemibold'; }
+      font-family: 'quicksandRegular'; }
     .groome__homepage .homepage__companies__image {
       padding-bottom: 22px; }
       .groome__homepage .homepage__companies__image--1 {
@@ -1043,7 +1043,7 @@ footer {
   .expertise__banner--text {
     padding: 0px 14px 40px  18px; }
     .expertise__banner--text h1 {
-      font-family: 'quicksandSemibold';
+      font-family: 'quicksandRegular';
       font-size: 28px;
       font-weight: 300;
       text-align: center;
@@ -1068,7 +1068,7 @@ footer {
     display: flex;
     justify-content: center; }
     .expertise__headingContainer--title h1 {
-      font-family: 'quicksandSemibold';
+      font-family: 'quicksandRegular';
       margin: 0;
       padding: 26px 21px;
       font-size: 20px;
@@ -1086,7 +1086,7 @@ footer {
     padding-bottom: 16px; }
     .expertise__detailsContainer--heading h1 {
       margin: 0;
-      font-family: 'quicksandSemibold';
+      font-family: 'quicksandRegular';
       font-size: 24px;
       font-weight: 500;
       text-align: left;
