@@ -242,37 +242,9 @@
 <script src="../assets/js/jquery.serialize-object.min.js"></script>
 <script>
     $(document).ready(function() {
-            $("#successmsg").hide();
-            $("#errorMsg").hide();
-            var $form = $('form#test-form'),
-            url = 'https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec'
-
-        function isEmail(email) {
-            var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-            if (regex.test(email) === true) {
-                console.log('Valid Email');
-                var jqxhr = $.ajax({
-                    url: url,
-                    method: "GET",
-                    dataType: "json",
-                    data: $form.serializeObject(),
-                    success: function() {
-                        $("#errorMsg").hide();  
-                        $("#successmsg").show();
-                        $("#test-form")[0].reset();
-                    }
-                })
-                
-            } else {
-                    console.log('Invalid Emial');
-                    $("#errorMsg").show();
-            }
-        }
-        $('#submit-form1').on('click', function(e) {
-                    var email = $("#emailVal").val();
-                    isEmail(email);
-                    e.preventDefault();
-        })
+        $("#successmsg").hide();$("#errorMsg").hide();var $form=$('form#test-form'),url='https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec'
+function isEmail(email){var regex=/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;if(regex.test(email)===!0){console.log('Valid Email');var jqxhr=$.ajax({url:url,method:"GET",dataType:"json",data:$form.serializeObject(),success:function(){$("#errorMsg").hide();$("#successmsg").show();$("#test-form")[0].reset()}})}else{console.log('Invalid Emial');$("#errorMsg").show()}}
+$('#submit-form1').on('click',function(e){var email=$("#emailVal").val();isEmail(email);e.preventDefault()})
     });
 </script>
 
@@ -349,68 +321,10 @@
 <script>
 //validation
 $(document).ready(function() {
-        $("#errorMsg1").hide();
-        var $form = $('form#contactform'),
-        url = 'https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec'
-
-        function isEmail(email) {
-            var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-            if (regex.test(email) === true) {
-                console.log('Valid Email');
-
-                $("#test").show();
-                $("#popup").css("display","none");
-                $("#popup1").css("display", "flex");
-
-                var jqxhr = $.ajax({
-                    url: url,
-                    method: "GET",
-                    dataType: "json",
-                    data: $form.serializeObject(),
-                    success: function() {                        
-                        $("#contactform")[0].reset();   
-                        $("#errorMsg1").hide();                                            
-                    }
-                })
-            } else {
-                console.log('Invalid Emial');
-                $("#errorMsg1").show();
-            }
-        }
-        $('#submit-form').on('click', function(e) {
-           
-            if ($('#name').val().length > 0) {
-              if ($('#company').val().length > 0) {
-                  var email = $("#emailVal1").val();
-                  isEmail(email);                            
-              }else{
-                  console.log('Invalid company');
-                  $("#errorMsg1").show();
-              }
-            }else{
-                console.log('Invalid Name');
-                $("#errorMsg1").show();
-            }
-            e.preventDefault();
-        })
-    });
-
-   $("#open_popup").click(function(){
-     $("#popup").css("display", "flex");
-      });
-    
-     $("#close_popup").click(function(){
-        $("#popup").css("display", "none");
-      }); 
-
-      $("#close_popup1").click(function(){
-        $("#popup1").css("display", "none");
-      }); 
-   
-  $('body').click(function(e){
-    if(e.target.style[0] == "display"){
-      $("#popup").css("display","none");
-    }
+  $("#errorMsg1").hide();var $form=$('form#contactform'),url='https://script.google.com/macros/s/AKfycbym0D9ijAOnr5vE91Gmt8IHIHXq-gwYcKU8P8eiLR4PzWp_3QY/exec'
+function isEmail(email){var regex=/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;if(regex.test(email)===!0){console.log('Valid Email');$("#test").show();$("#popup").css("display","none");$("#popup1").css("display","flex");var jqxhr=$.ajax({url:url,method:"GET",dataType:"json",data:$form.serializeObject(),success:function(){$("#contactform")[0].reset();$("#errorMsg1").hide()}})}else{console.log('Invalid Emial');$("#errorMsg1").show()}}
+$('#submit-form').on('click',function(e){if($('#name').val().length>0){if($('#company').val().length>0){var email=$("#emailVal1").val();isEmail(email)}else{console.log('Invalid company');$("#errorMsg1").show()}}else{console.log('Invalid Name');$("#errorMsg1").show()}
+e.preventDefault()})});$("#open_popup").click(function(){$("#popup").css("display","flex")});$("#close_popup").click(function(){$("#popup").css("display","none")});$("#close_popup1").click(function(){$("#popup1").css("display","none")});$('body').click(function(e){if(e.target.style[0]=="display"){$("#popup").css("display","none")}
   });
 
 
