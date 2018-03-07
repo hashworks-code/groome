@@ -1,6 +1,8 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: index
+title: Groome - HR and Recruitment solution
+permalink: /
+description: Groome,the AI-enabled HR Management Solution to find,hire,manage and retain best talents.Increase the recruiter productivity and gather insights. Request for a free demo of our Talent CRM and Application Tracking System now!
+keywords: Human Recourse Management system, Hiring solution, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
+
 ---

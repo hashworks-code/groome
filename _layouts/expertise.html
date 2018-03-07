@@ -1,30 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Expertise - Take help from our hiring experts | Groome</title>
-    <link rel="icon" type="ico" href="../assets/images/favicon.ico">
-    <meta name="title" content="Expertise - Take the help from our hiring experts | Groome ">    
-    <meta name="description" content="Your company's greatest assest are your people. Take help our hiring experts to recruit the best desired talents.">
-    <meta name="keywords" content="Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India">
-    <meta name="Robots" content="index,follow">
-    <meta property="og:title" content=" Groome - HR and Staffing solution">
-    <meta property="og:image" content="http://groome.co">
-    <meta property="og:description" content="Your company's greatest assest are your people. Take help our hiring experts to recruit the best desired talents.">
-    <meta property="og:url" content="http://groome.co">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/hashGrid.css">
-    <link rel="canonical" href="http://localhost:4000/">
-    <link rel="alternate" type="application/rss+xml" title="Expertise - Take the help from our hiring experts | Groome" href="/feed.xml">
-    <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js" ></script>
-
-</head>
+{% include head.html %}
     <header>
         <a class="groome-home" href="/"><img class="groomelogo" src="../assets/images/Groome_Logo-02.svg"/ alt="Hiring solution"></a>
-        
         <div>
             <a class="groome-expertise" href="/expertise">Expertise</a>
             <a class="groome-product" href="/product">Product</a>
@@ -262,4 +238,4 @@ $('#submit-form3').on('click',function(e){if($('#name1').val().length>0){if($('#
 e.preventDefault()})
 $("#open_popup2").click(function(){$("#popup2").css("display","flex")});$("#close_popup2").click(function(){$("#popup2").css("display","none")});$("#close_popup4").click(function(){$("#popup4").css("display","none")});$('body').click(function(e){if(e.target.style[0]=="display"){$("#popup2").css("display","none")}})})
 </script>
-        {% include footer.html %} 
+  {% include footer.html %} 
